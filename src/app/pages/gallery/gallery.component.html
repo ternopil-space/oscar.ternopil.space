@@ -1,24 +1,5 @@
 <main class="mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
-	@if (isLoading()) {
-		<section
-			class="rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center sm:px-6 sm:py-14"
-			aria-busy="true"
-			aria-live="polite"
-		>
-			<div
-				class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
-			>
-				<span class="material-symbols-outlined animate-pulse text-[28px]" aria-hidden="true">
-					photo_library
-				</span>
-			</div>
-
-			<p class="mt-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
-				<span [translate]="'Gallery'">{{ 'Gallery' }}</span>
-			</p>
-			<p class="mt-2 text-sm text-[var(--c-text-muted)]"><span [translate]="'Loading gallery...'">{{ 'Loading gallery...' }}</span></p>
-		</section>
-	} @else if (exhibits().length) {
+	@if (galleryImages.length) {
 		<section
 			class="overflow-hidden rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
 		>
@@ -34,14 +15,15 @@
 			</div>
 
 			<div class="grid gap-3 p-3 sm:grid-cols-2 sm:p-4 lg:grid-cols-3">
-				@for (exhibit of exhibits(); track exhibit.slug) {
+				@for (image of galleryImages; track image.id) {
 					<figure
-						class="overflow-hidden rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)]"
+						class="gallery-card overflow-hidden rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)]"
 					>
 						<app-image
 							imageClass="h-72 w-full object-cover sm:h-80"
-							[src]="exhibit.src"
-							translate [translate]="{ alt: exhibit.alt }"
+							[src]="image.src"
+							[alt]="image.alt"
+							translate [translate]="{ alt: image.alt }"
 							[openLabel]="'Open photo in full screen'"
 							[closeLabel]="'Close full screen photo'"
 						/>

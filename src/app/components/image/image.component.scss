@@ -1,17 +1,43 @@
 :host {
 	display: block;
+	position: relative;
 }
 
 .image-trigger {
 	background: transparent;
 	border: 0;
+	border-radius: inherit;
+	overflow: hidden;
 	padding: 0;
+	position: relative;
+	isolation: isolate;
+}
+
+.image-trigger::before {
+	position: absolute;
+	inset: 0;
+	z-index: 0;
+	content: '';
+	background:
+		linear-gradient(
+			110deg,
+			transparent 0%,
+			color-mix(in srgb, var(--c-text-muted) 14%, transparent) 45%,
+			transparent 70%
+		),
+		var(--c-bg-tertiary);
+	background-size: 220% 100%;
+	animation: image-skeleton 1200ms var(--easing) infinite;
 }
 
 .image-photo {
+	position: relative;
+	z-index: 1;
+	display: block;
 	transition:
 		transform 200ms ease,
-		filter 200ms ease;
+		filter 200ms ease,
+		opacity 200ms ease;
 }
 
 :host:hover .image-photo {
@@ -28,6 +54,18 @@
 .fullscreen-photo {
 	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
 	animation: zoom-in 180ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.image-trigger::before,
+	.fullscreen-backdrop,
+	.fullscreen-photo {
+		animation: none;
+	}
+
+	.image-photo {
+		transition: none;
+	}
 }
 
 @keyframes fade-in {
@@ -49,5 +87,15 @@
 	to {
 		opacity: 1;
 		transform: scale(1);
+	}
+}
+
+@keyframes image-skeleton {
+	from {
+		background-position: 180% 0;
+	}
+
+	to {
+		background-position: -80% 0;
 	}
 }

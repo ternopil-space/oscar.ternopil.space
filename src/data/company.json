@@ -45,12 +45,12 @@
 			"title": "Навігація по сайту | Oscar",
 			"description": "Швидкий доступ до всіх основних сторінок сайту ресторану Oscar у Тернополі.",
 			"robots": "noindex, follow",
-			"image": "/gallery/demo-2.webp"
+			"image": "/gallery/oscar-main-hall.jpg"
 		},
 		"/gallery": {
 			"title": "Галерея ресторану | Oscar",
 			"description": "Фото інтер'єру, страв, подачі та атмосфери ресторану Oscar у Тернополі.",
-			"image": "/gallery/demo-1.webp"
+			"image": "/gallery/oscar-facade.jpg"
 		},
 		"/dish": {
 			"title": "Сторінка страви | Oscar",
@@ -59,42 +59,42 @@
 		"/discounts": {
 			"title": "Акції та спеціальні пропозиції | Oscar",
 			"description": "Сезонні акції, знижки та спеціальні пропозиції ресторану Oscar у Тернополі.",
-			"image": "/gallery/demo-3.webp"
+			"image": "/gallery/oscar-banquet-hall.jpg"
 		},
 		"/loyalty": {
 			"title": "Програма лояльності | Oscar",
 			"description": "Вигідні умови для постійних гостей ресторану Oscar: бонуси, знижки та особливі пропозиції.",
-			"image": "/gallery/demo-3.webp"
+			"image": "/gallery/oscar-banquet-hall.jpg"
 		},
 		"/articles": {
 			"title": "Новини та статті | Oscar",
 			"description": "Новини ресторану, історії команди, сезонні оновлення меню та корисні статті для гостей Oscar.",
-			"image": "/gallery/demo-2.webp"
+			"image": "/gallery/oscar-main-hall.jpg"
 		},
 		"/quests": {
 			"title": "Квести та активності | Oscar",
 			"description": "Квести, розваги та тематичні активності у ресторані Oscar у Тернополі.",
-			"image": "/gallery/demo-3.webp"
+			"image": "/gallery/oscar-banquet-hall.jpg"
 		},
 		"/questions": {
 			"title": "Поширені запитання | Oscar",
 			"description": "Відповіді на поширені запитання гостей ресторану Oscar: бронювання, години роботи, доставка, меню, події.",
-			"image": "/gallery/demo-2.webp"
+			"image": "/gallery/oscar-main-hall.jpg"
 		},
 		"/rules": {
 			"title": "Правила закладу | Oscar",
 			"description": "Правила відвідування ресторану Oscar: безпека, бронювання, події та загальні умови.",
-			"image": "/gallery/demo-2.webp"
+			"image": "/gallery/oscar-main-hall.jpg"
 		},
 		"/reviews": {
 			"title": "Відгуки гостей | Oscar",
 			"description": "Відгуки та враження гостей ресторану Oscar у Тернополі.",
-			"image": "/gallery/demo-1.webp"
+			"image": "/gallery/oscar-facade.jpg"
 		},
 		"/events": {
 			"title": "Події та святкування | Oscar",
 			"description": "Афіша подій ресторану Oscar: жива музика, банкети, дегустації та приватні святкування у Тернополі.",
-			"image": "/gallery/demo-3.webp"
+			"image": "/gallery/oscar-banquet-hall.jpg"
 		},
 		"/products": {
 			"title": "Товари та подарунки | Oscar",
@@ -109,7 +109,7 @@
 		"/team": {
 			"title": "Команда ресторану | Oscar",
 			"description": "Познайомтеся з командою ресторану Oscar: шеф-кухар, адміністратори та сервісна команда.",
-			"image": "/gallery/demo-1.webp"
+			"image": "/gallery/oscar-facade.jpg"
 		},
 		"/socials": {
 			"title": "Контакти та соціальні мережі | Oscar",

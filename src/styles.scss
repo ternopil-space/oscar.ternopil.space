@@ -18,7 +18,17 @@
 			border-color var(--motion),
 			color var(--motion),
 			box-shadow var(--motion),
+			transform var(--motion-fast) var(--easing),
 			opacity var(--motion);
+	}
+
+	.ui-btn:hover {
+		transform: translateY(-1px);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.ui-btn:active {
+		transform: translateY(0);
 	}
 
 	.ui-btn:focus-visible {
@@ -45,6 +55,135 @@
 		border-color: var(--c-secondary);
 		background: var(--c-bg-tertiary);
 		color: var(--c-secondary);
+	}
+}
+
+@layer base {
+	@media (prefers-reduced-motion: no-preference) {
+		main {
+			animation: page-fade-in 220ms var(--easing) both;
+		}
+
+		main > section,
+		app-menu-categories,
+		app-menu-dishes > section > section,
+		app-menu-dish,
+		app-menu-dish article,
+		app-image,
+		.gallery-card,
+		.article-card,
+		.jobs-card,
+		.room-card,
+		.contact-card,
+		.social-card {
+			animation: section-fade-up 240ms var(--easing) both;
+		}
+
+		app-menu-dish,
+		.gallery-card,
+		.article-card,
+		.jobs-card,
+		.room-card,
+		.contact-card,
+		.social-card {
+			animation-duration: 200ms;
+		}
+	}
+}
+
+@layer components {
+	app-menu-dish article,
+	.gallery-card,
+	.article-card,
+	.jobs-card,
+	.room-card,
+	.contact-card,
+	.social-card,
+	a[class*='rounded-[1rem]'],
+	button[class*='rounded-[1rem]'] {
+		transition:
+			transform var(--motion-fast) var(--easing),
+			border-color var(--motion) var(--easing),
+			background-color var(--motion) var(--easing),
+			box-shadow var(--motion) var(--easing),
+			opacity var(--motion-fast) var(--easing);
+	}
+
+	app-menu-dish article:hover,
+	.gallery-card:hover,
+	.article-card:hover,
+	.jobs-card:hover,
+	.room-card:hover,
+	.contact-card:hover,
+	.social-card:hover {
+		transform: translateY(-2px);
+		box-shadow: var(--shadow-sm);
+	}
+
+	app-menu-dish article:active,
+	.gallery-card:active,
+	.article-card:active,
+	.jobs-card:active,
+	.room-card:active,
+	.contact-card:active,
+	.social-card:active {
+		transform: translateY(0);
+	}
+
+	app-menu-categories button,
+	nav a,
+	nav button {
+		transition:
+			background-color var(--motion) var(--easing),
+			border-color var(--motion) var(--easing),
+			color var(--motion) var(--easing),
+			transform var(--motion-fast) var(--easing),
+			box-shadow var(--motion) var(--easing);
+	}
+
+	app-menu-categories button:hover,
+	nav a:hover,
+	nav button:hover {
+		transform: translateY(-1px);
+	}
+
+	app-menu-categories button:active,
+	nav a:active,
+	nav button:active {
+		transform: translateY(0);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 1ms !important;
+		animation-iteration-count: 1 !important;
+		scroll-behavior: auto !important;
+		transition-duration: 1ms !important;
+	}
+}
+
+@keyframes page-fade-in {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes section-fade-up {
+	from {
+		opacity: 0;
+		transform: translateY(8px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
 	}
 }
 

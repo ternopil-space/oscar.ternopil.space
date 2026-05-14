@@ -1,7 +1,14 @@
-import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { TranslateDirective } from '@wawjs/ngx-translate';
 import { ImageComponent } from '../../components/image/image.component';
-import { ExhibitService } from '../../feature/exhibit/exhibit.service';
+
+interface GalleryImage {
+	id: string;
+	src: string;
+	alt: string;
+	category: string;
+	title: string;
+}
 
 @Component({
 	imports: [ImageComponent, TranslateDirective],
@@ -10,8 +17,111 @@ import { ExhibitService } from '../../feature/exhibit/exhibit.service';
 	changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class GalleryComponent {
-	private readonly _exhibitService = inject(ExhibitService);
-
-	protected readonly exhibits = this._exhibitService.exhibits;
-	protected readonly isLoading = this._exhibitService.isLoading;
+	protected readonly galleryImages: GalleryImage[] = [
+		{
+			id: 'oscar-facade',
+			src: '/gallery/oscar-facade.jpg',
+			alt: 'Вхід до ресторану Oscar у Тернополі',
+			category: 'Заклад',
+			title: 'Вхід до ресторану',
+		},
+		{
+			id: 'oscar-main-hall',
+			src: '/gallery/oscar-main-hall.jpg',
+			alt: 'Основна зала ресторану Oscar з балконом і колонами',
+			category: 'Інтер’єр',
+			title: 'Основна зала',
+		},
+		{
+			id: 'oscar-banquet-hall',
+			src: '/gallery/oscar-banquet-hall.jpg',
+			alt: 'Банкетна зала ресторану Oscar зі сценою',
+			category: 'Інтер’єр',
+			title: 'Банкетна зала',
+		},
+		{
+			id: 'borshch-z-rebrom',
+			src: '/gallery/borshch-z-rebrom.webp',
+			alt: 'Борщ з ребром у ресторані Oscar',
+			category: 'Перші страви',
+			title: 'Борщ з ребром',
+		},
+		{
+			id: 'brusketa-z-lososem',
+			src: '/gallery/brusketa-z-lososem.webp',
+			alt: 'Брускета з лососем з меню ресторану Oscar',
+			category: 'Закуски',
+			title: 'Брускета з лососем',
+		},
+		{
+			id: 'myasna-tarilka-hryl',
+			src: '/gallery/myasna-tarilka-hryl.webp',
+			alt: 'М’ясна тарілка гриль у ресторані Oscar',
+			category: 'Гриль',
+			title: 'М’ясна тарілка гриль',
+		},
+		{
+			id: 'salat-z-proshutto-i-burratoyu',
+			src: '/gallery/salat-z-proshutto-i-burratoyu.webp',
+			alt: 'Салат із прошуто і буратою з меню Oscar',
+			category: 'Салати',
+			title: 'Салат із прошуто і буратою',
+		},
+		{
+			id: 'tsezar-z-kurkoyu',
+			src: '/gallery/tsezar-z-kurkoyu.webp',
+			alt: 'Салат Цезар з куркою у ресторані Oscar',
+			category: 'Салати',
+			title: 'Цезар з куркою',
+		},
+		{
+			id: 'losos-u-vershkovomu-sousi',
+			src: '/gallery/losos-u-vershkovomu-sousi.webp',
+			alt: 'Лосось у вершковому соусі з меню Oscar',
+			category: 'Риба',
+			title: 'Лосось у вершковому соусі',
+		},
+		{
+			id: 'steyk-tomahavk',
+			src: '/gallery/steyk-tomahavk.webp',
+			alt: 'Стейк томагавк у ресторані Oscar',
+			category: 'Стейки',
+			title: 'Стейк томагавк',
+		},
+		{
+			id: 'shashlyk-svynynyi',
+			src: '/gallery/shashlyk-svynynyi.webp',
+			alt: 'Свинний шашлик з меню ресторану Oscar',
+			category: 'Гриль',
+			title: 'Свинний шашлик',
+		},
+		{
+			id: 'pyvna-doshka',
+			src: '/gallery/pyvna-doshka.webp',
+			alt: 'Пивна дошка для компанії у ресторані Oscar',
+			category: 'Закуски',
+			title: 'Пивна дошка',
+		},
+		{
+			id: 'syrnyky-z-smetanoyu',
+			src: '/gallery/syrnyky-z-smetanoyu.webp',
+			alt: 'Сирники зі сметаною з меню Oscar',
+			category: 'Десерти',
+			title: 'Сирники зі сметаною',
+		},
+		{
+			id: 'aperol-spritz',
+			src: '/gallery/aperol-spritz.webp',
+			alt: 'Коктейль Aperol Spritz у ресторані Oscar',
+			category: 'Напої',
+			title: 'Aperol Spritz',
+		},
+		{
+			id: 'kapreze',
+			src: '/gallery/kapreze.webp',
+			alt: 'Капрезе з меню ресторану Oscar',
+			category: 'Закуски',
+			title: 'Капрезе',
+		},
+	];
 }

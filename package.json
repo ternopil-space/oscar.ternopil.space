@@ -3,6 +3,7 @@
 	"version": "0.0.0",
 	"scripts": {
 		"start": "ng serve",
+		"dev": "ng serve",
 		"build": "ng build --configuration=production && node tools/seo/generate-static-seo.mjs",
 		"parse:menu": "node tools/parse-menu.mjs",
 		"parse:menu:js": "node tools/parse-menu.mjs --render=js",

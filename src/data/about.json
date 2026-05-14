@@ -1,71 +1,71 @@
 {
 	"eyebrow": "About us",
-	"title": "Hotel, restaurant, and cafe complex",
-	"description": "A comfortable place for stays, meals, meetings, and family celebrations with friendly service and practical guest facilities.",
+	"title": "Oscar — restaurant in Ternopil",
+	"description": "A modern restaurant with European and Ukrainian cuisine, live music, and a cozy atmosphere in the heart of Ternopil. Ideal for dinners, celebrations, and meetings with friends.",
 	"tags": [
-		"Family and friends rest",
-		"Weddings, banquets, and birthdays",
-		"Conferences and business meetings"
+		"European & Ukrainian cuisine",
+		"Live music evenings",
+		"Banquets and private events"
 	],
 	"intro": {
-		"title": "Everything guests need in one place",
-		"text": "Our complex combines hospitality, food, events, and relaxation in one convenient location. Guests can come for a quiet meal, book a room, celebrate an important date, or organize a business meeting with support from our team.",
+		"title": "Where taste meets atmosphere",
+		"text": "Oscar combines a refined menu, warm interior, and genuine hospitality. Every evening here is a small celebration — whether it's a romantic dinner, a family gathering, or a business lunch. Our team creates an atmosphere where you want to return.",
 		"image": "assets/images/about/intro.jpg"
 	},
 	"sections": [
 		{
-			"icon": "hotel",
-			"title": "Hotel",
-			"items": [
-				"Comfortable rooms for short and long stays",
-				"Wi-Fi, air conditioning, and essential room facilities",
-				"Secure parking for guests",
-				"Easy check-in and guest support"
-			]
-		},
-		{
 			"icon": "restaurant",
-			"title": "Restaurant",
+			"title": "Cuisine",
 			"items": [
-				"Daily service for breakfast, lunch, and dinner",
-				"Local and European-style cuisine",
-				"Seasonal dishes and drinks",
-				"Room service may be available for hotel guests"
+				"Author's dishes of European and Ukrainian cuisine",
+				"Seasonal menu from local products",
+				"Wide selection of wines and cocktails",
+				"Desserts from our pastry chef"
 			]
 		},
 		{
 			"icon": "celebration",
-			"title": "Banquet halls",
+			"title": "Banquets & Events",
 			"items": [
-				"Spaces for weddings, birthdays, and family events",
-				"Group menu and banquet options",
-				"Support with seating plan and timing",
-				"Atmosphere suitable for private celebrations"
+				"Banquet hall for up to 60 guests",
+				"Weddings, birthdays, corporate events",
+				"Personalized menu and event planning",
+				"Live music and entertainment program"
 			]
 		},
 		{
-			"icon": "groups",
-			"title": "Events and conferences",
+			"icon": "music_note",
+			"title": "Live Music",
 			"items": [
-				"Space for business meetings and presentations",
-				"Coffee breaks, lunches, and dinners on request",
-				"Equipment options may be available",
-				"Flexible format for small and medium groups"
+				"Live music evenings on weekends",
+				"Jazz, acoustic, and piano performances",
+				"Seasonal themed parties",
+				"Comfortable lounge zone"
 			]
 		},
 		{
-			"icon": "spa",
-			"title": "Relax zone",
+			"icon": "outdoor_garden",
+			"title": "Summer Terrace",
 			"items": [
-				"Relaxation areas for guests",
-				"Sauna, pool, terrace, or outdoor spaces may be available",
-				"Suitable for quiet rest after work or travel",
-				"Family-friendly leisure options"
+				"Cozy outdoor terrace in warm season",
+				"Barbecue and grill menu",
+				"Perfect for evening relaxation",
+				"Family-friendly atmosphere"
+			]
+		},
+		{
+			"icon": "local_bar",
+			"title": "Bar",
+			"items": [
+				"Signature cocktails and long drinks",
+				"Quality wine list from around the world",
+				"Relaxed lounge area",
+				"Happy hours and special offers"
 			]
 		}
 	],
 	"service": {
 		"title": "Our service",
-		"text": "Our team helps guests plan their stay, meal, celebration, or meeting with attention to comfort, timing, and important details."
+		"text": "The Oscar team helps guests plan their dinner, celebration, or meeting with attention to comfort, timing, and every important detail."
 	}
 }

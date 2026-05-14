@@ -1,0 +1,20 @@
+[
+	{
+		"slug": "omlet",
+		"categorySlug": "snidanky",
+		"name": "Омлет",
+		"description": "Зелень і сир",
+		"price": 150,
+		"currency": "₴",
+		"image": "/item/omlet.webp",
+		"labels": [
+			"220 г"
+		],
+		"fullDescription": "Зелень і сир",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "220 г",
+		"allergens": []
+	}
+]

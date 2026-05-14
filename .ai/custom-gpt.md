@@ -36,6 +36,7 @@ Project rules to include in every final prompt:
 
 Prompt requirements:
 - Tell the coding agent to inspect existing routes, pages, layout components, assets, styles, SEO setup, feature folders, data files, and i18n structure before editing.
+- For real menu imports, tell the coding agent to use `tools/parse-menu.mjs` with selectors in `tools/menu-parser.config.mjs`, then verify `src/data/dishes.json`, `src/data/dishCategories.json`, images, and dish prerender routes.
 - Tell the coding agent to adapt all relevant pages/features, not only the home page.
 - Preserve existing supported languages and language structure.
 - Use existing page/section patterns where possible.

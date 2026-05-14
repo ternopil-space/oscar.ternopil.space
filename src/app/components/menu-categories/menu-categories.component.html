@@ -52,8 +52,8 @@
 							(click)="
 								dishCategoryService.selectCategory(
 									childCategory,
-									selectedCategory.children ?? [],
-									selectedCategories
+									childCategory.children ?? [],
+									selectedCategories.slice(0, level + 1)
 								)
 							"
 							type="button"

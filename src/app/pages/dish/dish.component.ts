@@ -25,6 +25,8 @@ interface DishSuggestion {
 	description: string;
 	hasDescription: boolean;
 	price: number | null;
+	currency: string;
+	image: string;
 }
 
 interface DishViewModel {
@@ -38,6 +40,8 @@ interface DishViewModel {
 	hasFullDescription: boolean;
 	labels: string[];
 	price: number | null;
+	currency: string;
+	image: string;
 	facts: DishFact[];
 	suggestions: DishSuggestion[];
 }
@@ -88,7 +92,7 @@ export class DishComponent {
 			this._metaService.applyMeta({
 				title: translatedTitle,
 				description,
-				image: buildAbsoluteUrl(`/item/${dish.slug}.webp`),
+				image: buildAbsoluteUrl(dish.image),
 			});
 			this._canonicalService.setCanonicalUrl(`/dish/${dish.slug}`);
 		});
@@ -104,13 +108,15 @@ function _buildDishViewModel(category: DishCategory | null, item: Dish): DishVie
 		id: item.slug,
 		slug: item.slug,
 		name: item.name,
-		description: item.description,
-		fullDescription: item.fullDescription,
+		description: item.description ?? '',
+		fullDescription: item.fullDescription ?? '',
 		categoryName: category?.name ?? item.categorySlug,
 		hasDescription: Boolean(item.description?.trim()),
 		hasFullDescription: Boolean(item.fullDescription?.trim()),
 		labels: item.labels,
 		price: item.price,
+		currency: item.currency || '₴',
+		image: item.image || `/item/${item.slug}.webp`,
 		facts: _buildFacts(item, category),
 		suggestions: _buildSuggestions(item),
 	};
@@ -167,9 +173,11 @@ function _buildSuggestions(currentItem: Dish): DishSuggestion[] {
 		.map((item) => ({
 			slug: item.slug,
 			name: item.name,
-			description: item.description,
+			description: item.description ?? '',
 			hasDescription: Boolean(item.description?.trim()),
 			price: item.price,
+			currency: item.currency || '₴',
+			image: item.image || `/item/${item.slug}.webp`,
 		}));
 }
 

@@ -10,14 +10,16 @@ export interface Dish {
 	slug: string;
 	categorySlug: string;
 	name: string;
-	description: string;
-	price: number;
+	description: string | null;
+	price: number | null;
+	currency: string;
+	image: string;
 	labels: string[];
-	fullDescription: string;
+	fullDescription: string | null;
 	suggested: string[];
-	cookTimeMinutes: number;
-	caloriesKcal: number;
-	portion: string;
+	cookTimeMinutes: number | null;
+	caloriesKcal: number | null;
+	portion: string | null;
 	allergens: string[];
 }
 
@@ -27,6 +29,7 @@ export interface DishCard {
 	name: string;
 	price: number | null;
 	description: string | null;
+	currency: string;
 	labels: string[];
 	image: string;
 	imageAlt: string;

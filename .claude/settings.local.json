@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.tripadvisor.com)",
+      "WebFetch(domain:www.google.com)",
+      "WebFetch(domain:www.instagram.com)",
+      "WebFetch(domain:oscar.ternopil.space)",
+      "Bash(sed -i \"48s/.*/\\\\t\\\\t\\\\t'Browse the menu, book a table, read reviews, and find contact details — all in one place.',/\" src/app/pages/home/home.component.ts)",
+      "Bash(sed -i \"49s/.*/\\\\t\\\\t\\\\t'Enjoy a modern interior, live music evenings, seasonal terrace, and attentive service that makes every visit special.',/\" src/app/pages/home/home.component.ts)",
+      "Bash(sed -i '25s/#ffffff/#faf7f2/' src/index.html)",
+      "Bash(sed -i '26s/#0f172a/#181410/' src/index.html)",
+      "Bash(node -e \"try { require.resolve\\('sharp'\\); console.log\\('sharp available'\\); } catch\\(e\\) { console.log\\('sharp not available'\\); }\")",
+      "Bash(npm install *)",
+      "Bash(node -e ' *)",
+      "Bash(xargs -0 sed -i 's/Horeca/Oscar/g')",
+      "Bash(npx ng *)",
+      "Bash(npm uninstall *)",
+      "WebFetch(domain:www.facebook.com)",
+      "WebFetch(domain:restaurantguru.com)",
+      "WebFetch(domain:ua.otzyv.com)",
+      "WebFetch(domain:travel.ternopil.ua)",
+      "Bash(sed -i '219s/@oscar.ternopil/@oscar.restaurantt/' src/app/pages/socials/socials.component.html)",
+      "Bash(sed -i '251s/@oscar.ternopil/@oskar.restaurant/' src/app/pages/socials/socials.component.html)",
+      "Bash(sed -i 's/\"Photos of dishes, interior, events, and behind the scenes of Oscar restaurant\"/\"Фото страв, інтер'\\\\''єру, подій та закулісся ресторану Oscar\"/g' src/i18n/interface/ua.json)",
+      "Bash(sed -i 's/\"Short videos from the kitchen, cocktail preparation, live music moments and guest vibes\"/\"Короткі відео з кухні, приготування коктейлів, жива музика та атмосфера гостей\"/g' src/i18n/interface/ua.json)",
+      "Bash(sed -i 's/\"Photos of dishes, interior, events, and behind the scenes of Oscar restaurant\"/\"Fotos von Gerichten, Interieur, Events und hinter den Kulissen des Restaurants Oscar\"/g' src/i18n/interface/de.json)",
+      "Bash(sed -i 's/\"Short videos from the kitchen, cocktail preparation, live music moments and guest vibes\"/\"Kurze Videos aus der Küche, Cocktailzubereitung, Live-Musik-Momente und Gästestimmen\"/g' src/i18n/interface/de.json)"
+    ]
+  }
+}

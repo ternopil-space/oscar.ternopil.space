@@ -1,30 +1,4926 @@
 [
 	{
-		"slug": "homemade-syrnyky-with-sour-cream",
-		"categorySlug": "breakfasts",
-		"name": "Homemade syrnyky with sour cream",
-		"description": "Golden cottage cheese pancakes served with sour cream.",
-		"price": 140,
-		"labels": ["200 g"],
-		"fullDescription": "Golden cottage cheese pancakes served with sour cream. Ingredients: cottage cheese, eggs, flour, sugar, and sour cream.",
-		"suggested": ["cappuccino"],
-		"cookTimeMinutes": 20,
-		"caloriesKcal": 420,
-		"portion": "200 g",
-		"allergens": ["milk"]
+		"slug": "borshch-z-rebrom",
+		"categorySlug": "pershi-stravy",
+		"name": "Борщ з ребром",
+		"description": "Подається з хлібом, салом та цибулею",
+		"price": 145,
+		"currency": "₴",
+		"image": "/item/borshch-z-rebrom.webp",
+		"labels": [
+			"320г"
+		],
+		"fullDescription": "Подається з хлібом, салом та цибулею",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "320г",
+		"allergens": []
 	},
 	{
-		"slug": "cappuccino",
-		"categorySlug": "coffee",
-		"name": "Cappuccino",
-		"description": "Espresso with steamed milk and foam.",
+		"slug": "borshch",
+		"categorySlug": "pershi-stravy",
+		"name": "Борщ",
+		"description": null,
+		"price": 88,
+		"currency": "₴",
+		"image": "/item/borshch.webp",
+		"labels": [
+			"220г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "220г",
+		"allergens": []
+	},
+	{
+		"slug": "syrnyy-sup",
+		"categorySlug": "pershi-stravy",
+		"name": "Сирний суп",
+		"description": "Суп норвезький з беконом",
+		"price": 138,
+		"currency": "₴",
+		"image": "/item/syrnyy-sup.webp",
+		"labels": [
+			"250г"
+		],
+		"fullDescription": "Суп норвезький з беконом",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250г",
+		"allergens": []
+	},
+	{
+		"slug": "shpynatnyy-sup-z-parmezanom",
+		"categorySlug": "pershi-stravy",
+		"name": "Шпинатний суп з пармезаном",
+		"description": null,
+		"price": 138,
+		"currency": "₴",
+		"image": "/item/shpynatnyy-sup-z-parmezanom.webp",
+		"labels": [
+			"200г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200г",
+		"allergens": []
+	},
+	{
+		"slug": "tomatnyy-sup-z-moreproduktamy",
+		"categorySlug": "pershi-stravy",
+		"name": "Томатний суп з морепродуктами",
+		"description": "З креветками, мідіями, кальмаром і лососем",
+		"price": 232,
+		"currency": "₴",
+		"image": "/item/tomatnyy-sup-z-moreproduktamy.webp",
+		"labels": [
+			"250г"
+		],
+		"fullDescription": "З креветками, мідіями, кальмаром і лососем",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250г",
+		"allergens": []
+	},
+	{
+		"slug": "hrybnyy-krem-sup-z-tryufel-noyu-oliyeyu",
+		"categorySlug": "pershi-stravy",
+		"name": "Грибний крем-суп з трюфельною олією",
+		"description": null,
+		"price": 158,
+		"currency": "₴",
+		"image": "/item/hrybnyy-krem-sup-z-tryufel-noyu-oliyeyu.webp",
+		"labels": [
+			"250г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250г",
+		"allergens": []
+	},
+	{
+		"slug": "hrets-kyy",
+		"categorySlug": "salaty",
+		"name": "Грецький",
+		"description": "Овочі, сир Фета, мікс салату, оливки, маслини, оливкова олія, настояна на травах",
+		"price": 198,
+		"currency": "₴",
+		"image": "/item/hrets-kyy.webp",
+		"labels": [
+			"180г"
+		],
+		"fullDescription": "Овочі, сир Фета, мікс салату, оливки, маслини, оливкова олія, настояна на травах",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180г",
+		"allergens": []
+	},
+	{
+		"slug": "fyuzhyn",
+		"categorySlug": "salaty",
+		"name": "Фюжин",
+		"description": "Сир Адигейський, Фета, помідори Черрі, в‘ялений помідор, авокадо, карамелізований грецький горіх, мікс салату, кунжутів заправка",
+		"price": 202,
+		"currency": "₴",
+		"image": "/item/fyuzhyn.webp",
+		"labels": [
+			"180г"
+		],
+		"fullDescription": "Сир Адигейський, Фета, помідори Черрі, в‘ялений помідор, авокадо, карамелізований грецький горіх, мікс салату, кунжутів заправка",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180г",
+		"allergens": []
+	},
+	{
+		"slug": "kapreze",
+		"categorySlug": "salaty",
+		"name": "Капрезе",
+		"description": "Моцарелла, помідор, горіх кедровий, соус Песто",
+		"price": 202,
+		"currency": "₴",
+		"image": "/item/kapreze.webp",
+		"labels": [
+			"180г"
+		],
+		"fullDescription": "Моцарелла, помідор, горіх кедровий, соус Песто",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180г",
+		"allergens": []
+	},
+	{
+		"slug": "proshutto",
+		"categorySlug": "salaty",
+		"name": "Прошутто",
+		"description": "Прошутто, пармезан, помідор, груша, мікс салату, кислосолодкий соус",
+		"price": 222,
+		"currency": "₴",
+		"image": "/item/proshutto.webp",
+		"labels": [
+			"180г"
+		],
+		"fullDescription": "Прошутто, пармезан, помідор, груша, мікс салату, кислосолодкий соус",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180г",
+		"allergens": []
+	},
+	{
+		"slug": "iz-karamelizovanoyu-pechinkoyu-ta-yablukamy",
+		"categorySlug": "salaty",
+		"name": "Із карамелізованою печінкою та яблуками",
+		"description": "Печінка куряча, карамелізовані яблука , шампіньйони, Хамон, помідори, мікс салату, соус Французький",
+		"price": 218,
+		"currency": "₴",
+		"image": "/item/iz-karamelizovanoyu-pechinkoyu-ta-yablukamy.webp",
+		"labels": [
+			"190г"
+		],
+		"fullDescription": "Печінка куряча, карамелізовані яблука , шампіньйони, Хамон, помідори, мікс салату, соус Французький",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "190г",
+		"allergens": []
+	},
+	{
+		"slug": "z-telyatynoyu",
+		"categorySlug": "salaty",
+		"name": "З телятиною",
+		"description": "Телятина, авокадо, броколі, помідор, мікс салату, соус горіховий",
+		"price": 240,
+		"currency": "₴",
+		"image": "/item/z-telyatynoyu.webp",
+		"labels": [
+			"180г"
+		],
+		"fullDescription": "Телятина, авокадо, броколі, помідор, мікс салату, соус горіховий",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180г",
+		"allergens": []
+	},
+	{
+		"slug": "tsezar-z-kurkoyu",
+		"categorySlug": "salaty",
+		"name": "Цезар з куркою",
+		"description": "Куряче філе, запечене у травах, бекон «Хамон», перепелине яйце, пармезан, помідор, мікс салату, соус Цезар",
+		"price": 224,
+		"currency": "₴",
+		"image": "/item/tsezar-z-kurkoyu.webp",
+		"labels": [
+			"180г"
+		],
+		"fullDescription": "Куряче філе, запечене у травах, бекон «Хамон», перепелине яйце, пармезан, помідор, мікс салату, соус Цезар",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180г",
+		"allergens": []
+	},
+	{
+		"slug": "myslyvs-kyy",
+		"categorySlug": "salaty",
+		"name": "Мисливський",
+		"description": "Свинина, запечена у травах, перець болгарський, сир голландський, шампіньйони, мікс салату, лаваш, кунжут,заправка провансаль",
+		"price": 224,
+		"currency": "₴",
+		"image": "/item/myslyvs-kyy.webp",
+		"labels": [
+			"190г"
+		],
+		"fullDescription": "Свинина, запечена у травах, перець болгарський, сир голландський, шампіньйони, мікс салату, лаваш, кунжут,заправка провансаль",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "190г",
+		"allergens": []
+	},
+	{
+		"slug": "z-zapechenym-lososem",
+		"categorySlug": "salaty",
+		"name": "З запеченим лососем",
+		"description": "Запечений лосось, авокадо, пармезан, помідорки Черрі, мікс салату, соус Цезар",
+		"price": 278,
+		"currency": "₴",
+		"image": "/item/z-zapechenym-lososem.webp",
+		"labels": [
+			"180г"
+		],
+		"fullDescription": "Запечений лосось, авокадо, пармезан, помідорки Черрі, мікс салату, соус Цезар",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180г",
+		"allergens": []
+	},
+	{
+		"slug": "lahuna",
+		"categorySlug": "salaty",
+		"name": "Лагуна",
+		"description": "Креветка королівська, креветка коктейльна, вугор, помідор, авокадо, мікс салату, кунжут, соус кунжутний",
+		"price": 282,
+		"currency": "₴",
+		"image": "/item/lahuna.webp",
+		"labels": [
+			"180г"
+		],
+		"fullDescription": "Креветка королівська, креветка коктейльна, вугор, помідор, авокадо, мікс салату, кунжут, соус кунжутний",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180г",
+		"allergens": []
+	},
+	{
+		"slug": "teplyy-salat-z-baklazhana-tempura",
+		"categorySlug": "salaty",
+		"name": "Теплий салат з Баклажана Темпура",
+		"description": "Печені баклажани, помідори черрі, крем-сир",
+		"price": 230,
+		"currency": "₴",
+		"image": "/item/teplyy-salat-z-baklazhana-tempura.webp",
+		"labels": [
+			"250г"
+		],
+		"fullDescription": "Печені баклажани, помідори черрі, крем-сир",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250г",
+		"allergens": []
+	},
+	{
+		"slug": "z-tuntsem",
+		"categorySlug": "salaty",
+		"name": "З тунцем",
+		"description": null,
+		"price": 222,
+		"currency": "₴",
+		"image": "/item/z-tuntsem.webp",
+		"labels": [
+			"170г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "170г",
+		"allergens": []
+	},
+	{
+		"slug": "venetsiya",
+		"categorySlug": "salaty",
+		"name": "Венеція",
+		"description": null,
+		"price": 226,
+		"currency": "₴",
+		"image": "/item/venetsiya.webp",
+		"labels": [
+			"220г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "220г",
+		"allergens": []
+	},
+	{
+		"slug": "salat-iz-proshutto-i-burratoyu",
+		"categorySlug": "salaty",
+		"name": "Салат із прошутто і бурратою",
+		"description": "Прошутто, буррата, печений гарбуз, мікс салату, помідорки черрі",
+		"price": 310,
+		"currency": "₴",
+		"image": "/item/salat-iz-proshutto-i-burratoyu.webp",
+		"labels": [
+			"300г"
+		],
+		"fullDescription": "Прошутто, буррата, печений гарбуз, мікс салату, помідорки черрі",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "300г",
+		"allergens": []
+	},
+	{
+		"slug": "pashtet-z-tuntsya-z-ovochevoyu-sal-soyu",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Паштет з тунця з овочевою сальсою",
+		"description": null,
+		"price": 236,
+		"currency": "₴",
+		"image": "/item/pashtet-z-tuntsya-z-ovochevoyu-sal-soyu.webp",
+		"labels": [
+			"210/60г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "210/60г",
+		"allergens": []
+	},
+	{
+		"slug": "pechinkovyy-pashtet-z-brusketamy-i-karamelizovanym-buryakom",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Печінковий паштет з брускетами і карамелізованим буряком",
+		"description": null,
+		"price": 194,
+		"currency": "₴",
+		"image": "/item/pechinkovyy-pashtet-z-brusketamy-i-karamelizovanym-buryakom.webp",
+		"labels": [
+			"150 / 180 / 30г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "150 / 180 / 30г",
+		"allergens": []
+	},
+	{
+		"slug": "brusketa-z-proshutto",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Брускета з Прошутто",
+		"description": null,
+		"price": 78,
+		"currency": "₴",
+		"image": "/item/brusketa-z-proshutto.webp",
+		"labels": [
+			"55г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "55г",
+		"allergens": []
+	},
+	{
+		"slug": "brusketa-z-lososem",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Брускета з лососем",
+		"description": null,
+		"price": 82,
+		"currency": "₴",
+		"image": "/item/brusketa-z-lososem.webp",
+		"labels": [
+			"55г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "55г",
+		"allergens": []
+	},
+	{
+		"slug": "brusketa-z-chervonoyu-ikroyu",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Брускета з червоною ікрою",
+		"description": null,
+		"price": 88,
+		"currency": "₴",
+		"image": "/item/brusketa-z-chervonoyu-ikroyu.webp",
+		"labels": [
+			"55г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "55г",
+		"allergens": []
+	},
+	{
+		"slug": "brusketa-z-tuntsem",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Брускета з тунцем",
+		"description": null,
+		"price": 76,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"55г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "55г",
+		"allergens": []
+	},
+	{
+		"slug": "brusketa-z-salyami",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Брускета з салямі",
+		"description": null,
+		"price": 62,
+		"currency": "₴",
+		"image": "/item/brusketa-z-salyami.webp",
+		"labels": [
+			"55г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "55г",
+		"allergens": []
+	},
+	{
+		"slug": "brusketa-z-shynkoyu-ta-syrom",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Брускета з шинкою та сиром",
+		"description": null,
+		"price": 72,
+		"currency": "₴",
+		"image": "/item/brusketa-z-shynkoyu-ta-syrom.webp",
+		"labels": [
+			"55г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "55г",
+		"allergens": []
+	},
+	{
+		"slug": "salo-z-chasnykom",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Сало з часником",
+		"description": null,
+		"price": 45,
+		"currency": "₴",
+		"image": "/item/salo-z-chasnykom.webp",
+		"labels": [
+			"30г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "30г",
+		"allergens": []
+	},
+	{
+		"slug": "tar-tar-z-lososya-z-hrinkamy",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Тар-тар з лосося з грінками",
+		"description": null,
+		"price": 360,
+		"currency": "₴",
+		"image": "/item/tar-tar-z-lososya-z-hrinkamy.webp",
+		"labels": [
+			"180 / 60г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180 / 60г",
+		"allergens": []
+	},
+	{
+		"slug": "karpachcho-z-s-s-lososya-v-apel-synovomu-sousi",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Карпаччо з с/с лосося в апельсиновому соусі",
+		"description": null,
+		"price": 230,
+		"currency": "₴",
+		"image": "/item/karpachcho-z-s-s-lososya-v-apel-synovomu-sousi.webp",
+		"labels": [
+			"110г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "110г",
+		"allergens": []
+	},
+	{
+		"slug": "syrne-plato",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Сирне плато",
+		"description": "Сири: Брі, Королівський, Фета, Голландський, виноград, карамелізований грецький горіх, палички з пісочного тіста, ягідний соус на вині",
+		"price": 360,
+		"currency": "₴",
+		"image": "/item/syrne-plato.webp",
+		"labels": [
+			"330г"
+		],
+		"fullDescription": "Сири: Брі, Королівський, Фета, Голландський, виноград, карамелізований грецький горіх, палички з пісочного тіста, ягідний соус на вині",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "330г",
+		"allergens": []
+	},
+	{
+		"slug": "ovocheve-plato",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Овочеве плато",
+		"description": "Свіжі овочі, огірок, помідор, перець, зелень",
+		"price": 198,
+		"currency": "₴",
+		"image": "/item/ovocheve-plato.webp",
+		"labels": [
+			"260г"
+		],
+		"fullDescription": "Свіжі овочі, огірок, помідор, перець, зелень",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "260г",
+		"allergens": []
+	},
+	{
+		"slug": "zakuska-pepper",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Закуска Pepper",
+		"description": "Болгарський перець, Фета, соус Тайський",
+		"price": 182,
+		"currency": "₴",
+		"image": "/item/zakuska-pepper.webp",
+		"labels": [
+			"200г"
+		],
+		"fullDescription": "Болгарський перець, Фета, соус Тайський",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200г",
+		"allergens": []
+	},
+	{
+		"slug": "file-oseledtsya",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Філе оселедця",
+		"description": "Подається із маринованою цибулею",
+		"price": 182,
+		"currency": "₴",
+		"image": "/item/file-oseledtsya.webp",
+		"labels": [
+			"130г"
+		],
+		"fullDescription": "Подається із маринованою цибулею",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "130г",
+		"allergens": []
+	},
+	{
+		"slug": "solinnya-vlasnoho-pryhotuvannya",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Соління власного приготування",
+		"description": null,
+		"price": 68,
+		"currency": "₴",
+		"image": "/item/solinnya-vlasnoho-pryhotuvannya.webp",
+		"labels": [
+			"За 100г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "За 100г",
+		"allergens": []
+	},
+	{
+		"slug": "shynka-farshyrovana-syrom-filadel-fiya",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Шинка фарширована сиром Філадельфія",
+		"description": null,
+		"price": 178,
+		"currency": "₴",
+		"image": "/item/shynka-farshyrovana-syrom-filadel-fiya.webp",
+		"labels": [
+			"180г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180г",
+		"allergens": []
+	},
+	{
+		"slug": "shpynatni-mlyntsi-z-lososem",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Шпинатні млинці з лососем",
+		"description": null,
+		"price": 192,
+		"currency": "₴",
+		"image": "/item/shpynatni-mlyntsi-z-lososem.webp",
+		"labels": [
+			"130г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "130г",
+		"allergens": []
+	},
+	{
+		"slug": "karpachcho-z-yazyka-pid-yapons-kym-sousom",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Карпаччо з язика під японським соусом",
+		"description": null,
+		"price": 216,
+		"currency": "₴",
+		"image": "/item/karpachcho-z-yazyka-pid-yapons-kym-sousom.webp",
+		"labels": [
+			"120г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "120г",
+		"allergens": []
+	},
+	{
+		"slug": "karpachcho-z-sala",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Карпаччо з сала",
+		"description": null,
+		"price": 168,
+		"currency": "₴",
+		"image": "/item/karpachcho-z-sala.webp",
+		"labels": [
+			"100г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "100г",
+		"allergens": []
+	},
+	{
+		"slug": "miks-plato",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Мікс Плато",
+		"description": null,
+		"price": 418,
+		"currency": "₴",
+		"image": "/item/miks-plato.webp",
+		"labels": [
+			"270г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "270г",
+		"allergens": []
+	},
+	{
+		"slug": "m-yasne-plato",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Мʼясне Плато",
+		"description": null,
+		"price": 365,
+		"currency": "₴",
+		"image": "/item/m-yasne-plato.webp",
+		"labels": [
+			"280г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "280г",
+		"allergens": []
+	},
+	{
+		"slug": "rybne-plato",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Рибне плато",
+		"description": "Лосось с/с, риба масляна копчена, маслини, оливки, лимон",
+		"price": 478,
+		"currency": "₴",
+		"image": "/item/rybne-plato.webp",
+		"labels": [
+			"250г"
+		],
+		"fullDescription": "Лосось с/с, риба масляна копчена, маслини, оливки, лимон",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250г",
+		"allergens": []
+	},
+	{
+		"slug": "set-zakusok-do-pyva",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Сет закусок до пива",
+		"description": "М’ясні чіпси:курячі 40,свині 40,яловичі 40,ковбаса чорізо 40,ковбаса з перцем 40,чіпси 50,соус 30",
+		"price": 188,
+		"currency": "₴",
+		"image": "/item/set-zakusok-do-pyva.webp",
+		"labels": [
+			"250/30г"
+		],
+		"fullDescription": "М’ясні чіпси:курячі 40,свині 40,яловичі 40,ковбаса чорізо 40,ковбаса з перцем 40,чіпси 50,соус 30",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250/30г",
+		"allergens": []
+	},
+	{
+		"slug": "file-oseledtsya-zi-smazhenoyu-kartopleyu",
+		"categorySlug": "kholodni-zakusky",
+		"name": "Філе оселедця зі смаженою картоплею",
+		"description": null,
+		"price": 220,
+		"currency": "₴",
+		"image": "/item/file-oseledtsya-zi-smazhenoyu-kartopleyu.webp",
+		"labels": [
+			"100/100/30г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "100/100/30г",
+		"allergens": []
+	},
+	{
+		"slug": "lavash-hryl-z-syrom-motsarella",
+		"categorySlug": "haryachi-zakusky",
+		"name": "Лаваш-гриль з сиром Моцарелла",
+		"description": null,
+		"price": 146,
+		"currency": "₴",
+		"image": "/item/lavash-hryl-z-syrom-motsarella.webp",
+		"labels": [
+			"160г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "160г",
+		"allergens": []
+	},
+	{
+		"slug": "buritos-zi-svynynoyu",
+		"categorySlug": "haryachi-zakusky",
+		"name": "Бурітос зі свининою",
+		"description": "свинний бурітос із овочевою сальсою, сиром Моцарелла, подається із двома видами соусів: часниковий та червоний овочевий",
+		"price": 220,
+		"currency": "₴",
+		"image": "/item/buritos-zi-svynynoyu.webp",
+		"labels": [
+			"275/30/30г"
+		],
+		"fullDescription": "свинний бурітос із овочевою сальсою, сиром Моцарелла, подається із двома видами соусів: часниковий та червоний овочевий",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "275/30/30г",
+		"allergens": []
+	},
+	{
+		"slug": "kutaby-z-tvorohom-ta-shpynatom",
+		"categorySlug": "haryachi-zakusky",
+		"name": "Кутаби з творогом та шпинатом",
+		"description": null,
+		"price": 178,
+		"currency": "₴",
+		"image": "/item/kutaby-z-tvorohom-ta-shpynatom.webp",
+		"labels": [
+			"130г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "130г",
+		"allergens": []
+	},
+	{
+		"slug": "kutaby-z-m-yasom",
+		"categorySlug": "haryachi-zakusky",
+		"name": "Кутаби з мʼясом",
+		"description": null,
+		"price": 188,
+		"currency": "₴",
+		"image": "/item/kutaby-z-m-yasom.webp",
+		"labels": [
+			"130г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "130г",
+		"allergens": []
+	},
+	{
+		"slug": "kuryachi-nahetsy",
+		"categorySlug": "haryachi-zakusky",
+		"name": "Курячі нагетси",
+		"description": null,
+		"price": 124,
+		"currency": "₴",
+		"image": "/item/kuryachi-nahetsy.webp",
+		"labels": [
+			"150/30г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "150/30г",
+		"allergens": []
+	},
+	{
+		"slug": "syr-fri",
+		"categorySlug": "haryachi-zakusky",
+		"name": "Сир фрі",
+		"description": "Сир моцарела запечена в фритюрі подається з журавлиним соусом",
+		"price": 256,
+		"currency": "₴",
+		"image": "/item/syr-fri.webp",
+		"labels": [
+			"250/30г"
+		],
+		"fullDescription": "Сир моцарела запечена в фритюрі подається з журавлиним соусом",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250/30г",
+		"allergens": []
+	},
+	{
+		"slug": "benedykt",
+		"categorySlug": "haryachi-zakusky",
+		"name": "Бенедикт",
+		"description": "яйце Бенедикт на картопляно-шпинатній подушці з беконом",
+		"price": 188,
+		"currency": "₴",
+		"image": "/item/benedykt.webp",
+		"labels": [
+			"250г"
+		],
+		"fullDescription": "яйце Бенедикт на картопляно-шпинатній подушці з беконом",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250г",
+		"allergens": []
+	},
+	{
+		"slug": "burher-bbq",
+		"categorySlug": "osnovni-stravy",
+		"name": "Бургер BBQ",
+		"description": null,
+		"price": 220,
+		"currency": "₴",
+		"image": "/item/burher-bbq.webp",
+		"labels": [
+			"400 / 50 / 150г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "400 / 50 / 150г",
+		"allergens": []
+	},
+	{
+		"slug": "bolon-yeze",
+		"categorySlug": "osnovni-stravy",
+		"name": "Болоньєзе",
+		"description": null,
+		"price": 178,
+		"currency": "₴",
+		"image": "/item/bolon-yeze.webp",
+		"labels": [
+			"250г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250г",
+		"allergens": []
+	},
+	{
+		"slug": "pasta-z-telyatynoyu-v-sousi-teriyaki",
+		"categorySlug": "osnovni-stravy",
+		"name": "Паста з телятиною в соусі теріякі",
+		"description": "Локшина, телятина, перець, морква, соус теріякі",
+		"price": 285,
+		"currency": "₴",
+		"image": "/item/pasta-z-telyatynoyu-v-sousi-teriyaki.webp",
+		"labels": [
+			"400г"
+		],
+		"fullDescription": "Локшина, телятина, перець, морква, соус теріякі",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "400г",
+		"allergens": []
+	},
+	{
+		"slug": "fazhyta-myasna",
+		"categorySlug": "osnovni-stravy",
+		"name": "Фажита м'ясна",
+		"description": "Свинина, куряче філе, шампіньйони, перець болгарський, морква, цибуля ріпчата",
+		"price": 198,
+		"currency": "₴",
+		"image": "/item/fazhyta-myasna.webp",
+		"labels": [
+			"200г"
+		],
+		"fullDescription": "Свинина, куряче філе, шампіньйони, перець болгарський, морква, цибуля ріпчата",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200г",
+		"allergens": []
+	},
+	{
+		"slug": "svizhyna-po-domashn-omu",
+		"categorySlug": "osnovni-stravy",
+		"name": "Свіжина по-домашньому",
+		"description": "Свинина, печінка теляча, цибуля ріпчата",
+		"price": 198,
+		"currency": "₴",
+		"image": "/item/svizhyna-po-domashn-omu.webp",
+		"labels": [
+			"220г"
+		],
+		"fullDescription": "Свинина, печінка теляча, цибуля ріпчата",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "220г",
+		"allergens": []
+	},
+	{
+		"slug": "pechinka-z-ovochamy",
+		"categorySlug": "osnovni-stravy",
+		"name": "Печінка з овочами",
+		"description": "Печінка теляча, перець болгарський, морква, шампіньйони, соус Унагі",
+		"price": 192,
+		"currency": "₴",
+		"image": "/item/pechinka-z-ovochamy.webp",
+		"labels": [
+			"220г"
+		],
+		"fullDescription": "Печінка теляча, перець болгарський, морква, шампіньйони, соус Унагі",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "220г",
+		"allergens": []
+	},
+	{
+		"slug": "tertyukhy",
+		"categorySlug": "osnovni-stravy",
+		"name": "Тертюхи",
+		"description": "Подаються із грибною підливою або сметаною",
+		"price": 145,
+		"currency": "₴",
+		"image": "/item/tertyukhy.webp",
+		"labels": [
+			"250 / 60 г"
+		],
+		"fullDescription": "Подаються із грибною підливою або сметаною",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250 / 60 г",
+		"allergens": []
+	},
+	{
+		"slug": "krokety-z-sousom-zhul-yen",
+		"categorySlug": "osnovni-stravy",
+		"name": "Крокети з соусом Жульєн",
+		"description": null,
+		"price": 220,
+		"currency": "₴",
+		"image": "/item/krokety-z-sousom-zhul-yen.webp",
+		"labels": [
+			"320г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "320г",
+		"allergens": []
+	},
+	{
+		"slug": "kurka-v-bekoni-pid-vershkovo-syrnym-sousom",
+		"categorySlug": "osnovni-stravy",
+		"name": "Курка в беконі під вершково-сирним соусом",
+		"description": null,
+		"price": 222,
+		"currency": "₴",
+		"image": "/item/kurka-v-bekoni-pid-vershkovo-syrnym-sousom.webp",
+		"labels": [
+			"180г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180г",
+		"allergens": []
+	},
+	{
+		"slug": "deruny-z-harbuza",
+		"categorySlug": "osnovni-stravy",
+		"name": "Деруни з гарбуза",
+		"description": null,
+		"price": 158,
+		"currency": "₴",
+		"image": "/item/deruny-z-harbuza.webp",
+		"labels": [
+			"180/30г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180/30г",
+		"allergens": []
+	},
+	{
+		"slug": "shashlyk-kurka-v-bekoni-z-kartopleyu-fri",
+		"categorySlug": "osnovni-stravy",
+		"name": "Шашлик курка в беконі з картоплею фрі",
+		"description": null,
+		"price": 280,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"290 грмг"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "290 грмг",
+		"allergens": []
+	},
+	{
+		"slug": "shashlyk-kuryachyy",
+		"categorySlug": "myaso-z-hrylya",
+		"name": "Шашлик курячий",
+		"description": null,
+		"price": 198,
+		"currency": "₴",
+		"image": "/item/shashlyk-kuryachyy.webp",
+		"labels": [
+			"180г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180г",
+		"allergens": []
+	},
+	{
+		"slug": "shashlyk-svynnyy",
+		"categorySlug": "myaso-z-hrylya",
+		"name": "Шашлик свинний",
+		"description": null,
+		"price": 202,
+		"currency": "₴",
+		"image": "/item/shashlyk-svynnyy.webp",
+		"labels": [
+			"180г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180г",
+		"allergens": []
+	},
+	{
+		"slug": "stey-k-kuryachyy",
+		"categorySlug": "myaso-z-hrylya",
+		"name": "Стейк курячий",
+		"description": null,
+		"price": 185,
+		"currency": "₴",
+		"image": "/item/stey-k-kuryachyy.webp",
+		"labels": [
+			"150 / 30г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "150 / 30г",
+		"allergens": []
+	},
+	{
+		"slug": "stey-k-zi-svynyny",
+		"categorySlug": "myaso-z-hrylya",
+		"name": "Стейк зі свинини",
+		"description": "Стейк зі свинини під соусом Барбекю",
+		"price": 118,
+		"currency": "₴",
+		"image": "/item/stey-k-zi-svynyny.webp",
+		"labels": [
+			"100/30г"
+		],
+		"fullDescription": "Стейк зі свинини під соусом Барбекю",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "100/30г",
+		"allergens": []
+	},
+	{
+		"slug": "rebra-svynni",
+		"categorySlug": "myaso-z-hrylya",
+		"name": "Ребра свинні",
+		"description": null,
+		"price": 135,
+		"currency": "₴",
+		"image": "/item/rebra-svynni.webp",
+		"labels": [
+			"За 100г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "За 100г",
+		"allergens": []
+	},
+	{
+		"slug": "kuryachi-kryl-tsya-bbq",
+		"categorySlug": "myaso-z-hrylya",
+		"name": "Курячі крильця BBQ",
+		"description": "Подаються у медовому соусі",
+		"price": 98,
+		"currency": "₴",
+		"image": "/item/kuryachi-kryl-tsya-bbq.webp",
+		"labels": [
+			"За 100г"
+		],
+		"fullDescription": "Подаються у медовому соусі",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "За 100г",
+		"allergens": []
+	},
+	{
+		"slug": "kovbasky-hryl-z-kryzhalkoyu",
+		"categorySlug": "myaso-z-hrylya",
+		"name": "Ковбаски гриль з крижалкою",
+		"description": null,
+		"price": 118,
+		"currency": "₴",
+		"image": "/item/kovbasky-hryl-z-kryzhalkoyu.webp",
+		"labels": [
+			"За 100г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "За 100г",
+		"allergens": []
+	},
+	{
+		"slug": "myasna-tarilka-hryl",
+		"categorySlug": "myaso-z-hrylya",
+		"name": "М'ясна тарілка [гриль]",
+		"description": "1. Шашлик свинний 2. Шашлик курячий 3. На вибір: - Курячі крильця - Ковбаски гриль 2 вида соусівПоказати більше",
+		"price": 1,
+		"currency": "₴",
+		"image": "/item/myasna-tarilka-hryl.webp",
+		"labels": [
+			"700/100г"
+		],
+		"fullDescription": "1. Шашлик свинний 2. Шашлик курячий 3. На вибір: - Курячі крильця - Ковбаски гриль 2 вида соусівПоказати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "700/100г",
+		"allergens": []
+	},
+	{
+		"slug": "stey-k-n-yu-y-ork",
+		"categorySlug": "myaso-z-hrylya",
+		"name": "Стейк Нью-Йорк",
+		"description": "Це Вагова страва. Ціна залежить від ваги стейка до приготування. Точну вартість підкаже офіціант.",
+		"price": 122,
+		"currency": "₴",
+		"image": "/item/stey-k-n-yu-y-ork.webp",
+		"labels": [
+			"За 100г"
+		],
+		"fullDescription": "Це Вагова страва. Ціна залежить від ваги стейка до приготування. Точну вартість підкаже офіціант.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "За 100г",
+		"allergens": []
+	},
+	{
+		"slug": "stey-k-ti-bon",
+		"categorySlug": "myaso-z-hrylya",
+		"name": "Стейк Ті-Бон",
+		"description": "Це Вагова страва. Ціна залежить від ваги стейка до приготування. Точну вартість підкаже офіціант.",
+		"price": 146,
+		"currency": "₴",
+		"image": "/item/stey-k-ti-bon.webp",
+		"labels": [
+			"За 100г"
+		],
+		"fullDescription": "Це Вагова страва. Ціна залежить від ваги стейка до приготування. Точну вартість підкаже офіціант.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "За 100г",
+		"allergens": []
+	},
+	{
+		"slug": "stey-k-tomahavk",
+		"categorySlug": "myaso-z-hrylya",
+		"name": "Стейк Томагавк",
+		"description": "Це Вагова страва. Ціна залежить від ваги стейка до приготування. Точну вартість підкаже офіціант.",
+		"price": 122,
+		"currency": "₴",
+		"image": "/item/stey-k-tomahavk.webp",
+		"labels": [
+			"За 100г"
+		],
+		"fullDescription": "Це Вагова страва. Ціна залежить від ваги стейка до приготування. Точну вартість підкаже офіціант.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "За 100г",
+		"allergens": []
+	},
+	{
+		"slug": "file-dorado",
+		"categorySlug": "ryba",
+		"name": "Філе дорадо",
+		"description": "Дорадо з овочевим гарніром та печеною картоплею",
+		"price": 310,
+		"currency": "₴",
+		"image": "/item/file-dorado.webp",
+		"labels": [
+			"110/220г"
+		],
+		"fullDescription": "Дорадо з овочевим гарніром та печеною картоплею",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "110/220г",
+		"allergens": []
+	},
+	{
+		"slug": "losos-z-sousom-tom-yam",
+		"categorySlug": "ryba",
+		"name": "Лосось з соусом Том-ям",
+		"description": null,
+		"price": 325,
+		"currency": "₴",
+		"image": "/item/losos-z-sousom-tom-yam.webp",
+		"labels": [
+			"210г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "210г",
+		"allergens": []
+	},
+	{
+		"slug": "file-koropa-khosper",
+		"categorySlug": "ryba",
+		"name": "Філе коропа [хоспер]",
+		"description": null,
+		"price": 98,
+		"currency": "₴",
+		"image": "/item/file-koropa-khosper.webp",
+		"labels": [
+			"За 100г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "За 100г",
+		"allergens": []
+	},
+	{
+		"slug": "file-biloi-ryby-z-brokoli-ta-cherri",
+		"categorySlug": "ryba",
+		"name": "Філе білої риби з броколі та черрі",
+		"description": "Подається у вершковому соусі",
+		"price": 288,
+		"currency": "₴",
+		"image": "/item/file-biloi-ryby-z-brokoli-ta-cherri.webp",
+		"labels": [
+			"270г"
+		],
+		"fullDescription": "Подається у вершковому соусі",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "270г",
+		"allergens": []
+	},
+	{
+		"slug": "losos-u-vershkovomu-sousi",
+		"categorySlug": "ryba",
+		"name": "Лосось у вершковому соусі",
+		"description": null,
+		"price": 315,
+		"currency": "₴",
+		"image": "/item/losos-u-vershkovomu-sousi.webp",
+		"labels": [
+			"180гг"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180гг",
+		"allergens": []
+	},
+	{
+		"slug": "kal-mar-tom-yam",
+		"categorySlug": "ryba",
+		"name": "Кальмар том ям",
+		"description": "Кальмар з підливою том ям та помідорками черрі",
+		"price": 245,
+		"currency": "₴",
+		"image": "/item/kal-mar-tom-yam.webp",
+		"labels": [
+			"250г"
+		],
+		"fullDescription": "Кальмар з підливою том ям та помідорками черрі",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250г",
+		"allergens": []
+	},
+	{
+		"slug": "kartoplya-pechena",
+		"categorySlug": "harniry",
+		"name": "Картопля печена",
+		"description": null,
+		"price": 92,
+		"currency": "₴",
+		"image": "/item/kartoplya-pechena.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "kartoplya-pechena-zi-shkvarkamy",
+		"categorySlug": "harniry",
+		"name": "Картопля печена зі шкварками",
+		"description": null,
+		"price": 106,
+		"currency": "₴",
+		"image": "/item/kartoplya-pechena-zi-shkvarkamy.webp",
+		"labels": [
+			"250/50г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250/50г",
+		"allergens": []
+	},
+	{
+		"slug": "kartoplya-fri",
+		"categorySlug": "harniry",
+		"name": "Картопля фрі",
+		"description": null,
+		"price": 102,
+		"currency": "₴",
+		"image": "/item/kartoplya-fri.webp",
+		"labels": [
+			"150г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "150г",
+		"allergens": []
+	},
+	{
+		"slug": "kartoplyane-pyure-z-shpynatom",
+		"categorySlug": "harniry",
+		"name": "Картопляне пюре з шпинатом",
+		"description": null,
+		"price": 102,
+		"currency": "₴",
+		"image": "/item/kartoplyane-pyure-z-shpynatom.webp",
+		"labels": [
+			"200г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200г",
+		"allergens": []
+	},
+	{
+		"slug": "rys-z-bilymy-hrybamy-i-parmezanom-z-tryufel-noyu-oliyeyu",
+		"categorySlug": "harniry",
+		"name": "Рис з білими грибами і пармезаном з трюфельною олією",
+		"description": null,
+		"price": 128,
+		"currency": "₴",
+		"image": "/item/rys-z-bilymy-hrybamy-i-parmezanom-z-tryufel-noyu-oliyeyu.webp",
+		"labels": [
+			"150г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "150г",
+		"allergens": []
+	},
+	{
+		"slug": "rys-z-ovochamy",
+		"categorySlug": "harniry",
+		"name": "Рис з овочами",
+		"description": null,
+		"price": 98,
+		"currency": "₴",
+		"image": "/item/rys-z-ovochamy.webp",
+		"labels": [
+			"150г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "150г",
+		"allergens": []
+	},
+	{
+		"slug": "ovochi-hryl",
+		"categorySlug": "harniry",
+		"name": "Овочі гриль",
+		"description": null,
+		"price": 132,
+		"currency": "₴",
+		"image": "/item/ovochi-hryl.webp",
+		"labels": [
+			"180мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180мл",
+		"allergens": []
+	},
+	{
+		"slug": "pitsa-duet",
+		"categorySlug": "pitsa",
+		"name": "Піца Дует",
+		"description": "Сирно-мʼясна піца",
+		"price": 255,
+		"currency": "₴",
+		"image": "/item/pitsa-duet.webp",
+		"labels": [
+			"600г"
+		],
+		"fullDescription": "Сирно-мʼясна піца",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "600г",
+		"allergens": []
+	},
+	{
+		"slug": "myasoi-dy",
+		"categorySlug": "pitsa",
+		"name": "М'ясоїди",
+		"description": "Шинка, салямі, куряче філе, сир Моцарелла, соус томатний",
+		"price": 268,
+		"currency": "₴",
+		"image": "/item/myasoi-dy.webp",
+		"labels": [
+			"600г"
+		],
+		"fullDescription": "Шинка, салямі, куряче філе, сир Моцарелла, соус томатний",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "600г",
+		"allergens": []
+	},
+	{
+		"slug": "4-syry",
+		"categorySlug": "pitsa",
+		"name": "4 сири",
+		"description": "Моцарелла, пармезан, адигейський сир, дор блю, карамелізована груша, карамелізований горіх, соус вершковий",
+		"price": 260,
+		"currency": "₴",
+		"image": "/item/4-syry.webp",
+		"labels": [
+			"600г"
+		],
+		"fullDescription": "Моцарелла, пармезан, адигейський сир, дор блю, карамелізована груша, карамелізований горіх, соус вершковий",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "600г",
+		"allergens": []
+	},
+	{
+		"slug": "tsezar",
+		"categorySlug": "pitsa",
+		"name": "Цезар",
+		"description": "Куряче філе, бекон, пармезан, Моцарелла, айсберг, соус Цезар",
+		"price": 268,
+		"currency": "₴",
+		"image": "/item/tsezar.webp",
+		"labels": [
+			"600г"
+		],
+		"fullDescription": "Куряче філе, бекон, пармезан, Моцарелла, айсберг, соус Цезар",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "600г",
+		"allergens": []
+	},
+	{
+		"slug": "salyami",
+		"categorySlug": "pitsa",
+		"name": "Салямі",
+		"description": "Салямі, Моцарелла, соус сирний, помідорки Черрі",
+		"price": 230,
+		"currency": "₴",
+		"image": "/item/salyami.webp",
+		"labels": [
+			"550г"
+		],
+		"fullDescription": "Салямі, Моцарелла, соус сирний, помідорки Черрі",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "550г",
+		"allergens": []
+	},
+	{
+		"slug": "z-proshutto-i-buratoyu",
+		"categorySlug": "pitsa",
+		"name": "З прошутто і буратою",
+		"description": "Парма, моцарелла, пармезан, рукола",
+		"price": 450,
+		"currency": "₴",
+		"image": "/item/z-proshutto-i-buratoyu.webp",
+		"labels": [
+			"750г"
+		],
+		"fullDescription": "Парма, моцарелла, пармезан, рукола",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "750г",
+		"allergens": []
+	},
+	{
+		"slug": "pitsa-z-tuntsem",
+		"categorySlug": "pitsa",
+		"name": "З тунцем",
+		"description": "Тунець, моцарелла, цибуля, рукола",
+		"price": 248,
+		"currency": "₴",
+		"image": "/item/pitsa-z-tuntsem.webp",
+		"labels": [],
+		"fullDescription": "Тунець, моцарелла, цибуля, рукола",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": null,
+		"allergens": []
+	},
+	{
+		"slug": "havay-s-ka",
+		"categorySlug": "pitsa",
+		"name": "Гавайська",
+		"description": "Куряче філе, Моцарелла, кукурудза, ананас",
+		"price": 248,
+		"currency": "₴",
+		"image": "/item/havay-s-ka.webp",
+		"labels": [
+			"600г"
+		],
+		"fullDescription": "Куряче філе, Моцарелла, кукурудза, ананас",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "600г",
+		"allergens": []
+	},
+	{
+		"slug": "antypasto-small",
+		"categorySlug": "na-kompaniyu",
+		"name": "Антипасто small",
+		"description": "Закусочна тарілка: 1. В'ялена ковбаска 2. Мисливська ковбаска 3. Ковбаски гриль 4. Чорісо 5. Сир косичка 6. Сир з базиліком 7. Сир з томатами 8. Чипси 9. Крекер 10. Мариновані огірки 11. Оливки 12. 2 соусиПоказати більше",
+		"price": 270,
+		"currency": "₴",
+		"image": "/item/antypasto-small.webp",
+		"labels": [
+			"300г"
+		],
+		"fullDescription": "Закусочна тарілка: 1. В'ялена ковбаска 2. Мисливська ковбаска 3. Ковбаски гриль 4. Чорісо 5. Сир косичка 6. Сир з базиліком 7. Сир з томатами 8. Чипси 9. Крекер 10. Мариновані огірки 11. Оливки 12. 2 соусиПоказати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "300г",
+		"allergens": []
+	},
+	{
+		"slug": "antypasto-large",
+		"categorySlug": "na-kompaniyu",
+		"name": "Антипасто large",
+		"description": "Закусочна тарілка: 1. В'ялена ковбаска 2. Мисливська ковбаска 3. Ковбаски гриль 4. Чорісо 5. Сир косичка 6. Сир з базиліком 7. Сир з томатами 8. Чипси 9. Крекер 10. Мариновані огірки 11. Оливки 12. 2 соуси Показати більше",
+		"price": 470,
+		"currency": "₴",
+		"image": "/item/antypasto-large.webp",
+		"labels": [
+			"600г"
+		],
+		"fullDescription": "Закусочна тарілка: 1. В'ялена ковбаска 2. Мисливська ковбаска 3. Ковбаски гриль 4. Чорісо 5. Сир косичка 6. Сир з базиліком 7. Сир з томатами 8. Чипси 9. Крекер 10. Мариновані огірки 11. Оливки 12. 2 соуси Показати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "600г",
+		"allergens": []
+	},
+	{
+		"slug": "pyvna-doshka",
+		"categorySlug": "na-kompaniyu",
+		"name": "Пивна дошка",
+		"description": "Прошутто, м‘ясні чипси, кабаноси, ковбаска гриль, цибулеві кільця, картопля фрі, чипси з лаваша, соус синний та часниковий",
+		"price": 298,
+		"currency": "₴",
+		"image": "/item/pyvna-doshka.webp",
+		"labels": [
+			"500 / 60г"
+		],
+		"fullDescription": "Прошутто, м‘ясні чипси, кабаноси, ковбаска гриль, цибулеві кільця, картопля фрі, чипси з лаваша, соус синний та часниковий",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "500 / 60г",
+		"allergens": []
+	},
+	{
+		"slug": "set-zakusok-iz-salom",
+		"categorySlug": "na-kompaniyu",
+		"name": "Сет закусок із салом",
+		"description": null,
+		"price": 184,
+		"currency": "₴",
+		"image": "/item/set-zakusok-iz-salom.webp",
+		"labels": [
+			"300г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "300г",
+		"allergens": []
+	},
+	{
+		"slug": "sik-0-2l",
+		"categorySlug": "bezalkohol-ni-napoi",
+		"name": "Сік 0.2л",
+		"description": "В асортименті",
+		"price": 40,
+		"currency": "₴",
+		"image": "/item/sik-0-2l.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": "В асортименті",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "sik-1l",
+		"categorySlug": "bezalkohol-ni-napoi",
+		"name": "Сік 1л",
+		"description": "В асортименті",
+		"price": 200,
+		"currency": "₴",
+		"image": "/item/sik-1l.webp",
+		"labels": [
+			"1л"
+		],
+		"fullDescription": "В асортименті",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "1л",
+		"allergens": []
+	},
+	{
+		"slug": "mykulynets-ka-0-5l",
+		"categorySlug": "bezalkohol-ni-napoi",
+		"name": "Микулинецька 0.5л",
+		"description": "Скло",
+		"price": 60,
+		"currency": "₴",
+		"image": "/item/mykulynets-ka-0-5l.webp",
+		"labels": [
+			"500мл"
+		],
+		"fullDescription": "Скло",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "500мл",
+		"allergens": []
+	},
+	{
+		"slug": "morshyns-ka-0-33l",
+		"categorySlug": "bezalkohol-ni-napoi",
+		"name": "Моршинська 0.33л",
+		"description": "Скло Слабогазована або негазована",
+		"price": 55,
+		"currency": "₴",
+		"image": "/item/morshyns-ka-0-33l.webp",
+		"labels": [
+			"300мл"
+		],
+		"fullDescription": "Скло Слабогазована або негазована",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "300мл",
+		"allergens": []
+	},
+	{
+		"slug": "mykulynets-ka-1l",
+		"categorySlug": "bezalkohol-ni-napoi",
+		"name": "Микулинецька 1л",
+		"description": "Пластик",
+		"price": 60,
+		"currency": "₴",
+		"image": "/item/mykulynets-ka-1l.webp",
+		"labels": [
+			"1л"
+		],
+		"fullDescription": "Пластик",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "1л",
+		"allergens": []
+	},
+	{
+		"slug": "polyana-kvasova",
+		"categorySlug": "bezalkohol-ni-napoi",
+		"name": "Поляна квасова",
+		"description": "Скло",
+		"price": 80,
+		"currency": "₴",
+		"image": "/item/polyana-kvasova.webp",
+		"labels": [
+			"500мл"
+		],
+		"fullDescription": "Скло",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "500мл",
+		"allergens": []
+	},
+	{
+		"slug": "coca-cola-0-5l",
+		"categorySlug": "bezalkohol-ni-napoi",
+		"name": "Coca-cola 0.5л",
+		"description": "Пластик",
 		"price": 50,
-		"labels": ["350 ml"],
-		"fullDescription": "Espresso with steamed milk and foam. Ingredients: Espresso with steamed milk and foam..",
-		"suggested": ["homemade-syrnyky-with-sour-cream"],
-		"cookTimeMinutes": 5,
-		"caloriesKcal": 110,
-		"portion": "350 ml",
-		"allergens": ["milk"]
+		"currency": "₴",
+		"image": "/item/coca-cola-0-5l.webp",
+		"labels": [
+			"500мл"
+		],
+		"fullDescription": "Пластик",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "500мл",
+		"allergens": []
+	},
+	{
+		"slug": "coca-cola-0-75l",
+		"categorySlug": "bezalkohol-ni-napoi",
+		"name": "Coca-cola 0.75л",
+		"description": "Пластик",
+		"price": 65,
+		"currency": "₴",
+		"image": "/item/coca-cola-0-75l.webp",
+		"labels": [
+			"750мл"
+		],
+		"fullDescription": "Пластик",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "750мл",
+		"allergens": []
+	},
+	{
+		"slug": "coca-cola-0-33",
+		"categorySlug": "bezalkohol-ni-napoi",
+		"name": "Coca-cola 0.33",
+		"description": "Жестяна банка",
+		"price": 50,
+		"currency": "₴",
+		"image": "/item/coca-cola-0-33.webp",
+		"labels": [
+			"330мл"
+		],
+		"fullDescription": "Жестяна банка",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "330мл",
+		"allergens": []
+	},
+	{
+		"slug": "fanta",
+		"categorySlug": "bezalkohol-ni-napoi",
+		"name": "Фанта",
+		"description": "Жестяна банка",
+		"price": 50,
+		"currency": "₴",
+		"image": "/item/fanta.webp",
+		"labels": [
+			"330мл"
+		],
+		"fullDescription": "Жестяна банка",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "330мл",
+		"allergens": []
+	},
+	{
+		"slug": "schweppes-0-33",
+		"categorySlug": "bezalkohol-ni-napoi",
+		"name": "Schweppes 0.33",
+		"description": "Жестяна банка На вибір: Мохіто/тонік",
+		"price": 50,
+		"currency": "₴",
+		"image": "/item/schweppes-0-33.webp",
+		"labels": [],
+		"fullDescription": "Жестяна банка На вибір: Мохіто/тонік",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": null,
+		"allergens": []
+	},
+	{
+		"slug": "uzvar-0-2l",
+		"categorySlug": "bezalkohol-ni-napoi",
+		"name": "Узвар 0.2л",
+		"description": null,
+		"price": 29,
+		"currency": "₴",
+		"image": "/item/uzvar-0-2l.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "uzvar-1l",
+		"categorySlug": "bezalkohol-ni-napoi",
+		"name": "Узвар 1л",
+		"description": null,
+		"price": 145,
+		"currency": "₴",
+		"image": "/item/uzvar-1l.webp",
+		"labels": [
+			"1л"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "1л",
+		"allergens": []
+	},
+	{
+		"slug": "fresh",
+		"categorySlug": "bezalkohol-ni-napoi",
+		"name": "Фреш",
+		"description": "на вибір: -апельсиновий; -грейпфрутовий; -морквяно-яблучний; -морква-буряк-яблуко]Показати більше",
+		"price": 150,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": "на вибір: -апельсиновий; -грейпфрутовий; -морквяно-яблучний; -морква-буряк-яблуко]Показати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "borzhomi-sklo",
+		"categorySlug": "bezalkohol-ni-napoi",
+		"name": "Боржомі скло",
+		"description": null,
+		"price": 110,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"500г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "500г",
+		"allergens": []
+	},
+	{
+		"slug": "bananovyy-day-kiri-b-a",
+		"categorySlug": "bezalkohol-ni-koktey-li",
+		"name": "Банановий Дайкірі б/а",
+		"description": null,
+		"price": 100,
+		"currency": "₴",
+		"image": "/item/bananovyy-day-kiri-b-a.webp",
+		"labels": [
+			"290мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "290мл",
+		"allergens": []
+	},
+	{
+		"slug": "firmovyy-lymonad",
+		"categorySlug": "bezalkohol-ni-koktey-li",
+		"name": "Фірмовий лимонад",
+		"description": "Сік мультифруктовий, сік грейпфрутовий, пюре маракуї, пізан, гренадін, содова",
+		"price": 100,
+		"currency": "₴",
+		"image": "/item/firmovyy-lymonad.webp",
+		"labels": [
+			"250мл"
+		],
+		"fullDescription": "Сік мультифруктовий, сік грейпфрутовий, пюре маракуї, пізан, гренадін, содова",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250мл",
+		"allergens": []
+	},
+	{
+		"slug": "lymonad-manho-marakuya",
+		"categorySlug": "bezalkohol-ni-koktey-li",
+		"name": "Лимонад манго-маракуя",
+		"description": null,
+		"price": 100,
+		"currency": "₴",
+		"image": "/item/lymonad-manho-marakuya.webp",
+		"labels": [
+			"250мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250мл",
+		"allergens": []
+	},
+	{
+		"slug": "lymonad-sunytsya-lichi",
+		"categorySlug": "bezalkohol-ni-koktey-li",
+		"name": "Лимонад суниця-лічі",
+		"description": null,
+		"price": 100,
+		"currency": "₴",
+		"image": "/item/lymonad-sunytsya-lichi.webp",
+		"labels": [
+			"250мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250мл",
+		"allergens": []
+	},
+	{
+		"slug": "lymonad-malyna-lymon",
+		"categorySlug": "bezalkohol-ni-koktey-li",
+		"name": "Лимонад малина-лимон",
+		"description": null,
+		"price": 100,
+		"currency": "₴",
+		"image": "/item/lymonad-malyna-lymon.webp",
+		"labels": [
+			"250мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250мл",
+		"allergens": []
+	},
+	{
+		"slug": "mokhito-klasychne",
+		"categorySlug": "bezalkohol-ni-koktey-li",
+		"name": "Мохіто класичне",
+		"description": null,
+		"price": 154,
+		"currency": "₴",
+		"image": "/item/mokhito-klasychne.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "raspberry-milkshake",
+		"categorySlug": "bezalkohol-ni-koktey-li",
+		"name": "Raspberry Milkshake",
+		"description": "Солодкий коктейль на основі молока, морозива, вершків та пюре малини",
+		"price": 120,
+		"currency": "₴",
+		"image": "/item/raspberry-milkshake.webp",
+		"labels": [
+			"345мл"
+		],
+		"fullDescription": "Солодкий коктейль на основі молока, морозива, вершків та пюре малини",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "345мл",
+		"allergens": []
+	},
+	{
+		"slug": "cherry-gin",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Cherry Gin",
+		"description": "Джин пінк , джин маракуї, вишневий сироп, ананасовий сік",
+		"price": 150,
+		"currency": "₴",
+		"image": "/item/cherry-gin.webp",
+		"labels": [
+			"150мл"
+		],
+		"fullDescription": "Джин пінк , джин маракуї, вишневий сироп, ананасовий сік",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "150мл",
+		"allergens": []
+	},
+	{
+		"slug": "blakytnyy-dzhon",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Блакитний Джон",
+		"description": "Білий ром, блю кюрасао, лимонний фреш, ананасовий сік",
+		"price": 145,
+		"currency": "₴",
+		"image": "/item/blakytnyy-dzhon.webp",
+		"labels": [
+			"250мл"
+		],
+		"fullDescription": "Білий ром, блю кюрасао, лимонний фреш, ананасовий сік",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250мл",
+		"allergens": []
+	},
+	{
+		"slug": "bananovyy-day-kiri",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Банановий Дайкірі",
+		"description": "Ром білий, ананасовий сік, лимонний фреш, спрайт, банан",
+		"price": 120,
+		"currency": "₴",
+		"image": "/item/bananovyy-day-kiri.webp",
+		"labels": [
+			"320мл"
+		],
+		"fullDescription": "Ром білий, ананасовий сік, лимонний фреш, спрайт, банан",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "320мл",
+		"allergens": []
+	},
+	{
+		"slug": "pina-kolada",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Піна колада",
+		"description": "Ром Captain Morgan, лікер Malibu, ананасовий сік",
+		"price": 190,
+		"currency": "₴",
+		"image": "/item/pina-kolada.webp",
+		"labels": [
+			"250мл"
+		],
+		"fullDescription": "Ром Captain Morgan, лікер Malibu, ананасовий сік",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250мл",
+		"allergens": []
+	},
+	{
+		"slug": "coffee-baileys",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Coffee Baileys",
+		"description": "Джин, бейліс, старий Таллін, кава заморожена, молоко",
+		"price": 190,
+		"currency": "₴",
+		"image": "/item/coffee-baileys.webp",
+		"labels": [
+			"245мл"
+		],
+		"fullDescription": "Джин, бейліс, старий Таллін, кава заморожена, молоко",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "245мл",
+		"allergens": []
+	},
+	{
+		"slug": "aperol-spritz",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Aperol Spritz",
+		"description": "Шампанське, Апероль, содова",
+		"price": 168,
+		"currency": "₴",
+		"image": "/item/aperol-spritz.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": "Шампанське, Апероль, содова",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "seks-na-plyazhi",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Секс на пляжі",
+		"description": "Горілка, лікер peach tree, лікер triple sec, апельсиновий сік, гренадін",
+		"price": 160,
+		"currency": "₴",
+		"image": "/item/seks-na-plyazhi.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": "Горілка, лікер peach tree, лікер triple sec, апельсиновий сік, гренадін",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "bloody-mary",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Bloody Mary",
+		"description": "Горілка, томатний сік, соус, сіль, перець, селера",
+		"price": 140,
+		"currency": "₴",
+		"image": "/item/bloody-mary.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": "Горілка, томатний сік, соус, сіль, перець, селера",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "alkohol-ni-koktey-li-mokhito-klasychne",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Мохіто класичне",
+		"description": null,
+		"price": 154,
+		"currency": "₴",
+		"image": "/item/alkohol-ni-koktey-li-mokhito-klasychne.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "gin-garden",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Gin Garden",
+		"description": "Befeater, яблучний сік, сироп зі смаком бузини, лимонний фреш, чіпс яблука",
+		"price": 180,
+		"currency": "₴",
+		"image": "/item/gin-garden.webp",
+		"labels": [
+			"115мл"
+		],
+		"fullDescription": "Befeater, яблучний сік, сироп зі смаком бузини, лимонний фреш, чіпс яблука",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "115мл",
+		"allergens": []
+	},
+	{
+		"slug": "passion-fruit-martini",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Passion Fruit Martini",
+		"description": "Горілка, п'юре маракуї, лимонний фреш, цукровий сироп, Marengo Bruit, чіпс лимона, листя бамбуку",
+		"price": 170,
+		"currency": "₴",
+		"image": "/item/passion-fruit-martini.webp",
+		"labels": [
+			"125мл"
+		],
+		"fullDescription": "Горілка, п'юре маракуї, лимонний фреш, цукровий сироп, Marengo Bruit, чіпс лимона, листя бамбуку",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "125мл",
+		"allergens": []
+	},
+	{
+		"slug": "hlintvey-n",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Глінтвейн",
+		"description": null,
+		"price": 140,
+		"currency": "₴",
+		"image": "/item/hlintvey-n.webp",
+		"labels": [
+			"200 мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200 мл",
+		"allergens": []
+	},
+	{
+		"slug": "bellini",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Bellini",
+		"description": "Пюре маракуї, Marengo Brut",
+		"price": 140,
+		"currency": "₴",
+		"image": "/item/bellini.webp",
+		"labels": [
+			"165мл"
+		],
+		"fullDescription": "Пюре маракуї, Marengo Brut",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "165мл",
+		"allergens": []
+	},
+	{
+		"slug": "pink-tonic",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Pink Tonic",
+		"description": "Gordon's Premoum pink, тонік, малинове пюре, малина(або полуниця), м'ята",
+		"price": 170,
+		"currency": "₴",
+		"image": "/item/pink-tonic.webp",
+		"labels": [
+			"195мл"
+		],
+		"fullDescription": "Gordon's Premoum pink, тонік, малинове пюре, малина(або полуниця), м'ята",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "195мл",
+		"allergens": []
+	},
+	{
+		"slug": "bohemian",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Bohemian",
+		"description": "Гарячий коктейль на основі Бехеровки, яблучного соку, лимонного фрешу, бадяну, кориці та свіжого і сушеного апельсину",
+		"price": 164,
+		"currency": "₴",
+		"image": "/item/bohemian.webp",
+		"labels": [
+			"210мл"
+		],
+		"fullDescription": "Гарячий коктейль на основі Бехеровки, яблучного соку, лимонного фрешу, бадяну, кориці та свіжого і сушеного апельсину",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "210мл",
+		"allergens": []
+	},
+	{
+		"slug": "lavndovyy-potsilunok",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Лавндовий поцілунок😍",
+		"description": null,
+		"price": 210,
+		"currency": "₴",
+		"image": "/item/lavndovyy-potsilunok.webp",
+		"labels": [
+			"210г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "210г",
+		"allergens": []
+	},
+	{
+		"slug": "lady-berry",
+		"categorySlug": "alkohol-ni-koktey-li",
+		"name": "Lady berry",
+		"description": null,
+		"price": 208,
+		"currency": "₴",
+		"image": "/item/lady-berry.webp",
+		"labels": [
+			"160г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "160г",
+		"allergens": []
+	},
+	{
+		"slug": "chay-zelenyy",
+		"categorySlug": "chay",
+		"name": "Чай Зелений",
+		"description": "(Зелений байховий листковий)",
+		"price": 80,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"700мл"
+		],
+		"fullDescription": "(Зелений байховий листковий)",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "700мл",
+		"allergens": []
+	},
+	{
+		"slug": "travyanyy-fitochay-syla-pryrody",
+		"categorySlug": "chay",
+		"name": "Трав'яний фіточай Сила природи",
+		"description": "М'ята перцева, трава материнки, трава звbробою, листя кропиви, трава ахінацея, листя вишні, листя малини, квіти цьмину, і плоди яблук та кизилу",
+		"price": 85,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"700мл"
+		],
+		"fullDescription": "М'ята перцева, трава материнки, трава звbробою, листя кропиви, трава ахінацея, листя вишні, листя малини, квіти цьмину, і плоди яблук та кизилу",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "700мл",
+		"allergens": []
+	},
+	{
+		"slug": "paketovanyy-chay",
+		"categorySlug": "chay",
+		"name": "Пакетований чай",
+		"description": "на вибір: -англійський чорний; -англійський зелений; -чорний з маракуєю.]Показати більше",
+		"price": 28,
+		"currency": "₴",
+		"image": "/item/paketovanyy-chay.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": "на вибір: -англійський чорний; -англійський зелений; -чорний з маракуєю.]Показати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "rozsypnyy-chay",
+		"categorySlug": "chay",
+		"name": "Розсипний чай",
+		"description": "Класичний чорний або зелений, подається в чайничку",
+		"price": 80,
+		"currency": "₴",
+		"image": "/item/rozsypnyy-chay.webp",
+		"labels": [
+			"800мл"
+		],
+		"fullDescription": "Класичний чорний або зелений, подається в чайничку",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "800мл",
+		"allergens": []
+	},
+	{
+		"slug": "tutti-frutti",
+		"categorySlug": "chay",
+		"name": "Тутті-Фрутті",
+		"description": "Ананас, манго, папайя, яблуко, мускатний виноград, пелюстки троянди",
+		"price": 110,
+		"currency": "₴",
+		"image": "/item/tutti-frutti.webp",
+		"labels": [
+			"800мл"
+		],
+		"fullDescription": "Ананас, манго, папайя, яблуко, мускатний виноград, пелюстки троянди",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "800мл",
+		"allergens": []
+	},
+	{
+		"slug": "firmovi-napoi-z-chayu",
+		"categorySlug": "chay",
+		"name": "Фірмові напої з чаю",
+		"description": "на вибір: -обліпиховий; -манго-маракуйя; -малина-лимон-конопля]Показати більше",
+		"price": 120,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"800г"
+		],
+		"fullDescription": "на вибір: -обліпиховий; -манго-маракуйя; -малина-лимон-конопля]Показати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "800г",
+		"allergens": []
+	},
+	{
+		"slug": "mykulynets-ke-svitle",
+		"categorySlug": "pyvo",
+		"name": "Микулинецьке світле",
+		"description": "Пляшкове",
+		"price": 65,
+		"currency": "₴",
+		"image": "/item/mykulynets-ke-svitle.webp",
+		"labels": [
+			"500мл"
+		],
+		"fullDescription": "Пляшкове",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "500мл",
+		"allergens": []
+	},
+	{
+		"slug": "mykulynets-ke-900",
+		"categorySlug": "pyvo",
+		"name": "Микулинецьке 900",
+		"description": "Пляшкове",
+		"price": 65,
+		"currency": "₴",
+		"image": "/item/mykulynets-ke-900.webp",
+		"labels": [
+			"500мл"
+		],
+		"fullDescription": "Пляшкове",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "500мл",
+		"allergens": []
+	},
+	{
+		"slug": "medove",
+		"categorySlug": "pyvo",
+		"name": "Медове",
+		"description": "Микулинецьке з медом] [Пляшкове",
+		"price": 65,
+		"currency": "₴",
+		"image": "/item/medove.webp",
+		"labels": [
+			"500мл"
+		],
+		"fullDescription": "Микулинецьке з медом] [Пляшкове",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "500мл",
+		"allergens": []
+	},
+	{
+		"slug": "ukrai-ns-ke-temne",
+		"categorySlug": "pyvo",
+		"name": "Українське [темне]",
+		"description": "Пляшкове",
+		"price": 65,
+		"currency": "₴",
+		"image": "/item/ukrai-ns-ke-temne.webp",
+		"labels": [
+			"500мл"
+		],
+		"fullDescription": "Пляшкове",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "500мл",
+		"allergens": []
+	},
+	{
+		"slug": "bezalkohol-ne-pyvo",
+		"categorySlug": "pyvo",
+		"name": "Безалкогольне пиво",
+		"description": "Пляшкове",
+		"price": 65,
+		"currency": "₴",
+		"image": "/item/bezalkohol-ne-pyvo.webp",
+		"labels": [
+			"500мл"
+		],
+		"fullDescription": "Пляшкове",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "500мл",
+		"allergens": []
+	},
+	{
+		"slug": "corona-extra",
+		"categorySlug": "pyvo",
+		"name": "Corona Extra",
+		"description": null,
+		"price": 95,
+		"currency": "₴",
+		"image": "/item/corona-extra.webp",
+		"labels": [
+			"330мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "330мл",
+		"allergens": []
+	},
+	{
+		"slug": "hoegaargen",
+		"categorySlug": "pyvo",
+		"name": "Hoegaargen",
+		"description": null,
+		"price": 95,
+		"currency": "₴",
+		"image": "/item/hoegaargen.webp",
+		"labels": [
+			"330мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "330мл",
+		"allergens": []
+	},
+	{
+		"slug": "amerykano",
+		"categorySlug": "kava",
+		"name": "Американо",
+		"description": null,
+		"price": 45,
+		"currency": "₴",
+		"image": "/item/amerykano.webp",
+		"labels": [
+			"120мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "120мл",
+		"allergens": []
+	},
+	{
+		"slug": "amerykano-bez-kofei-nu",
+		"categorySlug": "kava",
+		"name": "Американо без кофеїну",
+		"description": null,
+		"price": 55,
+		"currency": "₴",
+		"image": "/item/amerykano-bez-kofei-nu.webp",
+		"labels": [
+			"120мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "120мл",
+		"allergens": []
+	},
+	{
+		"slug": "espreso",
+		"categorySlug": "kava",
+		"name": "Еспресо",
+		"description": null,
+		"price": 45,
+		"currency": "₴",
+		"image": "/item/espreso.webp",
+		"labels": [
+			"30мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "30мл",
+		"allergens": []
+	},
+	{
+		"slug": "espreso-bez-kofei-nu",
+		"categorySlug": "kava",
+		"name": "Еспресо без кофеїну",
+		"description": null,
+		"price": 50,
+		"currency": "₴",
+		"image": "/item/espreso-bez-kofei-nu.webp",
+		"labels": [
+			"30мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "30мл",
+		"allergens": []
+	},
+	{
+		"slug": "rystreto",
+		"categorySlug": "kava",
+		"name": "Ристрето",
+		"description": null,
+		"price": 40,
+		"currency": "₴",
+		"image": "/item/rystreto.webp",
+		"labels": [
+			"20мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "20мл",
+		"allergens": []
+	},
+	{
+		"slug": "dopio",
+		"categorySlug": "kava",
+		"name": "Допіо",
+		"description": null,
+		"price": 75,
+		"currency": "₴",
+		"image": "/item/dopio.webp",
+		"labels": [
+			"60мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "60мл",
+		"allergens": []
+	},
+	{
+		"slug": "late-klasychne",
+		"categorySlug": "kava",
+		"name": "Лате класичне",
+		"description": null,
+		"price": 65,
+		"currency": "₴",
+		"image": "/item/late-klasychne.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "late-bez-kofei-nu",
+		"categorySlug": "kava",
+		"name": "Лате без кофеїну",
+		"description": null,
+		"price": 70,
+		"currency": "₴",
+		"image": "/item/late-bez-kofei-nu.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "kapuchyno",
+		"categorySlug": "kava",
+		"name": "Капучино",
+		"description": null,
+		"price": 60,
+		"currency": "₴",
+		"image": "/item/kapuchyno.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "kapuchyno-bez-kofei-nu",
+		"categorySlug": "kava",
+		"name": "Капучино без кофеїну",
+		"description": null,
+		"price": 65,
+		"currency": "₴",
+		"image": "/item/kapuchyno-bez-kofei-nu.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "kava-bez-kofei-nu",
+		"categorySlug": "kava",
+		"name": "Кава без кофеїну",
+		"description": null,
+		"price": 55,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"30мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "30мл",
+		"allergens": []
+	},
+	{
+		"slug": "bambl-kava",
+		"categorySlug": "kava",
+		"name": "Бамбл кава",
+		"description": "Кавовий напій на основі еспресо з додаванням свіжого апельсинового соку та льоду",
+		"price": 70,
+		"currency": "₴",
+		"image": "/item/bambl-kava.webp",
+		"labels": [
+			"300мл"
+		],
+		"fullDescription": "Кавовий напій на основі еспресо з додаванням свіжого апельсинового соку та льоду",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "300мл",
+		"allergens": []
+	},
+	{
+		"slug": "frape",
+		"categorySlug": "kava",
+		"name": "Фрапе",
+		"description": "Холодна кава",
+		"price": 65,
+		"currency": "₴",
+		"image": "/item/frape.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": "Холодна кава",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "hlyase",
+		"categorySlug": "kava",
+		"name": "Глясе",
+		"description": "Холодний напій на основі кави з додаванням морозива",
+		"price": 70,
+		"currency": "₴",
+		"image": "/item/hlyase.webp",
+		"labels": [
+			"150мл"
+		],
+		"fullDescription": "Холодний напій на основі кави з додаванням морозива",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "150мл",
+		"allergens": []
+	},
+	{
+		"slug": "kava-po-irlands-ky",
+		"categorySlug": "kava",
+		"name": "Кава по-ірландськи",
+		"description": "Кавовий напій з гарячої кави, віскі та вершків",
+		"price": 85,
+		"currency": "₴",
+		"image": "/item/kava-po-irlands-ky.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": "Кавовий напій з гарячої кави, віскі та вершків",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "kakao-z-marshmellou",
+		"categorySlug": "kava",
+		"name": "Какао з маршмеллоу",
+		"description": null,
+		"price": 90,
+		"currency": "₴",
+		"image": "/item/kakao-z-marshmellou.webp",
+		"labels": [
+			"200мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200мл",
+		"allergens": []
+	},
+	{
+		"slug": "lavandove-kapuchino",
+		"categorySlug": "kava",
+		"name": "Лавандове Капучіно",
+		"description": null,
+		"price": 85,
+		"currency": "₴",
+		"image": "/item/lavandove-kapuchino.webp",
+		"labels": [
+			"300мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "300мл",
+		"allergens": []
+	},
+	{
+		"slug": "dodatok-do-kavy",
+		"categorySlug": "kava",
+		"name": "Додаток до кави",
+		"description": "Молоко Сироп карамель",
+		"price": 8,
+		"currency": "₴",
+		"image": "/item/dodatok-do-kavy.webp",
+		"labels": [
+			"20мл"
+		],
+		"fullDescription": "Молоко Сироп карамель",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "20мл",
+		"allergens": []
+	},
+	{
+		"slug": "harbuzove-late",
+		"categorySlug": "kava",
+		"name": "Гарбузове Лате",
+		"description": null,
+		"price": 68,
+		"currency": "₴",
+		"image": "/item/harbuzove-late.webp",
+		"labels": [
+			"200млг"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200млг",
+		"allergens": []
+	},
+	{
+		"slug": "don-simon-bile-sukhe",
+		"categorySlug": "vyno",
+		"name": "Don Simon [біле сухе]",
+		"description": "Іспанія Вино виноградне натуральне біле сухе Це легке, ніжне, зрозуміле та питке вино, в якому приємнии аромат фруктів та польових квітів, які залишать дуже освіжаючі ноти в смаку молодого Совіньон Блана. Вино чудово освіжає та втамовує спрагуПоказати більше",
+		"price": 28,
+		"currency": "₴",
+		"image": "/item/don-simon-bile-sukhe.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": "Іспанія Вино виноградне натуральне біле сухе Це легке, ніжне, зрозуміле та питке вино, в якому приємнии аромат фруктів та польових квітів, які залишать дуже освіжаючі ноти в смаку молодого Совіньон Блана. Вино чудово освіжає та втамовує спрагуПоказати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "don-simon-chervone-sukhe",
+		"categorySlug": "vyno",
+		"name": "Don Simon [червоне сухе]",
+		"description": "Іспанія Вино виноградне натуральне червоне сухе Привабливий червоно-фіалковий колір цього питного вина гармонічно поєднується з інтенсивним ароматом смородини, чорносливу та червоних ягід. Це каберне - просте та дружелюбне вино, котре смакуватиме за будь-яких обставин.Показати більше",
+		"price": 28,
+		"currency": "₴",
+		"image": "/item/don-simon-chervone-sukhe.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": "Іспанія Вино виноградне натуральне червоне сухе Привабливий червоно-фіалковий колір цього питного вина гармонічно поєднується з інтенсивним ароматом смородини, чорносливу та червоних ягід. Це каберне - просте та дружелюбне вино, котре смакуватиме за будь-яких обставин.Показати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "don-simon-bile-napivsolodke",
+		"categorySlug": "vyno",
+		"name": "Don Simon [біле напівсолодке]",
+		"description": "Іспанія Вино Don Simon біле напівсолодке - це легке та освіжаюче вино з приємним фруктовим смаком, яке часто описують як таке, що має нотки тропічних фруктів та цитрусових. Воно добре поєднується з рибою, морепродуктами та легкими салатами.Показати більше",
+		"price": 28,
+		"currency": "₴",
+		"image": "/item/don-simon-bile-napivsolodke.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": "Іспанія Вино Don Simon біле напівсолодке - це легке та освіжаюче вино з приємним фруктовим смаком, яке часто описують як таке, що має нотки тропічних фруктів та цитрусових. Воно добре поєднується з рибою, морепродуктами та легкими салатами.Показати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "don-simon-chervone-napivsolodke",
+		"categorySlug": "vyno",
+		"name": "Don Simon [червоне напівсолодке]",
+		"description": "Іспанія Вино виноградне натуральне столове червоне напівсолодке виготовлене з сорту винограду Монастрель",
+		"price": 28,
+		"currency": "₴",
+		"image": "/item/don-simon-chervone-napivsolodke.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": "Іспанія Вино виноградне натуральне столове червоне напівсолодке виготовлене з сорту винограду Монастрель",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "tsinandali-bile-sukhe",
+		"categorySlug": "vyno",
+		"name": "Tsinandali [біле сухе]",
+		"description": "Грузія Цинандалі - сухе, біле вино з світло-соломʼяним відтінком, ароматом білих фруктів та квітів.",
+		"price": 32,
+		"currency": "₴",
+		"image": "/item/tsinandali-bile-sukhe.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": "Грузія Цинандалі - сухе, біле вино з світло-соломʼяним відтінком, ароматом білих фруктів та квітів.",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "saperavi-chervone-sukhe",
+		"categorySlug": "vyno",
+		"name": "Saperavi [червоне сухе]",
+		"description": "Грузія Сапераві - сухе, червоне вино з пурпурним відтінком, ароматом чероня. Сапераві - суже, чев премно збалансова відтінком, ароматом чером. фруктів та квітів. Із приємним збалансованим смаком.Показати більше",
+		"price": 32,
+		"currency": "₴",
+		"image": "/item/saperavi-chervone-sukhe.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": "Грузія Сапераві - сухе, червоне вино з пурпурним відтінком, ароматом чероня. Сапераві - суже, чев премно збалансова відтінком, ароматом чером. фруктів та квітів. Із приємним збалансованим смаком.Показати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "alazan-veli-bile-napivsolodke",
+		"categorySlug": "vyno",
+		"name": "Alazan Veli [біле напівсолодке]",
+		"description": "Грузія Біле напівсолодке вино, вироблене з добірного винограду сорту Ркацителі та Мцпане, що вирощується в Алазанський долині, Кахетія, Грузія. Має золотавий колір зі смарагдовими відтінками , сортовий аромат тропічних фруктів та квітів . Вино захоплює мʼяким оксамитовим смаком із соковитими нотками абрикосу та ананасу, тривалим післясмаком та освіжаючою кислинкою , Відмінне як аперитив , прекрасне доповнення до паштетів , риби , та сиру . Пасує до різноманітних десертів .Показати більше",
+		"price": 30,
+		"currency": "₴",
+		"image": "/item/alazan-veli-bile-napivsolodke.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": "Грузія Біле напівсолодке вино, вироблене з добірного винограду сорту Ркацителі та Мцпане, що вирощується в Алазанський долині, Кахетія, Грузія. Має золотавий колір зі смарагдовими відтінками , сортовий аромат тропічних фруктів та квітів . Вино захоплює мʼяким оксамитовим смаком із соковитими нотками абрикосу та ананасу, тривалим післясмаком та освіжаючою кислинкою , Відмінне як аперитив , прекрасне доповнення до паштетів , риби , та сиру . Пасує до різноманітних десертів .Показати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "alazan-veli-chervone-napivsolodke",
+		"categorySlug": "vyno",
+		"name": "Alazan Veli [червоне напівсолодке]",
+		"description": "Грузія Червоне виноградне натуральне напівсолодке вино, вироблене А добірного винограду сорту Сапераві, що культивується р Алаанській долині, в Ка хеті, рузе рано має рубіновий колір, характеризується вираженим ароматом чорної смородини ть стиглої вишні. Гармонійний аромитовий смак доповнють ма таніни. Підаров до мажено сонний и, па допо та піши Поєднується з десертами, морозивом та ягодами.Показати більше",
+		"price": 30,
+		"currency": "₴",
+		"image": "/item/alazan-veli-chervone-napivsolodke.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": "Грузія Червоне виноградне натуральне напівсолодке вино, вироблене А добірного винограду сорту Сапераві, що культивується р Алаанській долині, в Ка хеті, рузе рано має рубіновий колір, характеризується вираженим ароматом чорної смородини ть стиглої вишні. Гармонійний аромитовий смак доповнють ма таніни. Підаров до мажено сонний и, па допо та піши Поєднується з десертами, морозивом та ягодами.Показати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "cantina-castelnuovo-del-garda-bardolino-chervone-sukhe",
+		"categorySlug": "vyno",
+		"name": "Cantina Castelnuovo del Garda Bardolino [червоне сухе]",
+		"description": "Італія Вино червоне сухе «Castelnuovo Bardolino» Італії Сорти винограду - Корвіна, Рондінелла, Молінара Вино глибокого рубінового кольору. Інтенсивний аромат червоних фруктів та фіалок . Збалансований і гармонійний смак з тонами червоних фруктів та ягід . Краще смакує при t*15+16° як супровід до мʼясних страв та сирів .Показати більше",
+		"price": 28,
+		"currency": "₴",
+		"image": "/item/cantina-castelnuovo-del-garda-bardolino-chervone-sukhe.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": "Італія Вино червоне сухе «Castelnuovo Bardolino» Італії Сорти винограду - Корвіна, Рондінелла, Молінара Вино глибокого рубінового кольору. Інтенсивний аромат червоних фруктів та фіалок . Збалансований і гармонійний смак з тонами червоних фруктів та ягід . Краще смакує при t*15+16° як супровід до мʼясних страв та сирів .Показати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "cantina-castelnuovo-del-garda-soave-bile-sukhe",
+		"categorySlug": "vyno",
+		"name": "Cantina Castelnuovo del Garda Soave [біле сухе]",
+		"description": "Італія Вино біле сухе «Castelnuovo Soave» Сорт винограду - Гарганега. Вино має свіжий квітковий аромат, доповнений легкими фруктовими нюансами. Смак легкий, достатньо свіжий. Краще смакує при t°8÷9°С як аперитив або як супровід до рибних страв і білого мʼяса.Показати більше",
+		"price": 28,
+		"currency": "₴",
+		"image": "/item/cantina-castelnuovo-del-garda-soave-bile-sukhe.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": "Італія Вино біле сухе «Castelnuovo Soave» Сорт винограду - Гарганега. Вино має свіжий квітковий аромат, доповнений легкими фруктовими нюансами. Смак легкий, достатньо свіжий. Краще смакує при t°8÷9°С як аперитив або як супровід до рибних страв і білого мʼяса.Показати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "cantina-castelnuovo-del-garda-vino-bianco-bile-napivsolodke",
+		"categorySlug": "vyno",
+		"name": "Cantina Castelnuovo del Garda Vino Bianco [біле напівсолодке]",
+		"description": "Італія Вино біле напівсолодке «Castelnuovo Vino Bianco» виробництва Італії Сорти винограду - Гарганега, Требьяно. Вино яскравого соломʼяного кольору, з виразним, свіжим ароматом тропічних фруктів та яскравими персиковими нотками. Смак солодкуватий, збалансований, достатньо свіжий. Краще смакує при t°8÷9°С як аперитив а також стане гарним компаньйоном до вершків та бісквіту.Показати більше",
+		"price": 28,
+		"currency": "₴",
+		"image": "/item/cantina-castelnuovo-del-garda-vino-bianco-bile-napivsolodke.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": "Італія Вино біле напівсолодке «Castelnuovo Vino Bianco» виробництва Італії Сорти винограду - Гарганега, Требьяно. Вино яскравого соломʼяного кольору, з виразним, свіжим ароматом тропічних фруктів та яскравими персиковими нотками. Смак солодкуватий, збалансований, достатньо свіжий. Краще смакує при t°8÷9°С як аперитив а також стане гарним компаньйоном до вершків та бісквіту.Показати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "cantina-castelnuovo-del-garda-vino-rosso-chervone-napivsolodke",
+		"categorySlug": "vyno",
+		"name": "Cantina Castelnuovo del Garda Vino Rosso [червоне напівсолодке]",
+		"description": "Італія Вино червоне напівсолодке «Castelnuovo Vino Rosso» виробництва Італії Сорти винограду - Корвіна, Рондінелла. Вино яскравого рубінового кольору із виразним, свіжим ароматом суниці та смородини. Ніжний, солодкуватий смак із приємним свіжим фруктовим присмаком. Краще смакує при +°14÷15°С з легкими десертами.Показати більше",
+		"price": 28,
+		"currency": "₴",
+		"image": "/item/cantina-castelnuovo-del-garda-vino-rosso-chervone-napivsolodke.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": "Італія Вино червоне напівсолодке «Castelnuovo Vino Rosso» виробництва Італії Сорти винограду - Корвіна, Рондінелла. Вино яскравого рубінового кольору із виразним, свіжим ароматом суниці та смородини. Ніжний, солодкуватий смак із приємним свіжим фруктовим присмаком. Краще смакує при +°14÷15°С з легкими десертами.Показати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "petulant-naturel",
+		"categorySlug": "vyno",
+		"name": "Petulant Naturel",
+		"description": "Крафтове натуральне рожеве ігристе вино. Створюється традиційним методом виноробства ансестроль, який зʼявився задовго до шампанського, при якому вино розливають у пляшки до повного завершення свого першого бродіння]Показати більше",
+		"price": 600,
+		"currency": "₴",
+		"image": "/item/petulant-naturel.webp",
+		"labels": [
+			"750мл"
+		],
+		"fullDescription": "Крафтове натуральне рожеве ігристе вино. Створюється традиційним методом виноробства ансестроль, який зʼявився задовго до шампанського, при якому вино розливають у пляшки до повного завершення свого першого бродіння]Показати більше",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "750мл",
+		"allergens": []
+	},
+	{
+		"slug": "muskat-ottonel",
+		"categorySlug": "vyno",
+		"name": "Мускат Оттонель",
+		"description": "Крафтове вино виноградне ординарне сухе біле",
+		"price": 555,
+		"currency": "₴",
+		"image": "/item/muskat-ottonel.webp",
+		"labels": [
+			"750мл"
+		],
+		"fullDescription": "Крафтове вино виноградне ординарне сухе біле",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "750мл",
+		"allergens": []
+	},
+	{
+		"slug": "marengo-bile-napivsolodke",
+		"categorySlug": "shampans-ke",
+		"name": "Marengo [біле напівсолодке]",
+		"description": null,
+		"price": 420,
+		"currency": "₴",
+		"image": "/item/marengo-bile-napivsolodke.webp",
+		"labels": [
+			"750мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "750мл",
+		"allergens": []
+	},
+	{
+		"slug": "marengo-bile-solodke",
+		"categorySlug": "shampans-ke",
+		"name": "Marengo [біле солодке]",
+		"description": null,
+		"price": 420,
+		"currency": "₴",
+		"image": "/item/marengo-bile-solodke.webp",
+		"labels": [
+			"750мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "750мл",
+		"allergens": []
+	},
+	{
+		"slug": "marengo-extra-brut",
+		"categorySlug": "shampans-ke",
+		"name": "Marengo [extra brut]",
+		"description": null,
+		"price": 420,
+		"currency": "₴",
+		"image": "/item/marengo-extra-brut.webp",
+		"labels": [
+			"750мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "750мл",
+		"allergens": []
+	},
+	{
+		"slug": "asti-salute-bile-solodke",
+		"categorySlug": "shampans-ke",
+		"name": "Asti Salute [біле, солодке]",
+		"description": null,
+		"price": 320,
+		"currency": "₴",
+		"image": "/item/asti-salute-bile-solodke.webp",
+		"labels": [
+			"750мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "750мл",
+		"allergens": []
+	},
+	{
+		"slug": "asti-mondoro-bile-solodke",
+		"categorySlug": "shampans-ke",
+		"name": "Asti Mondoro [біле, солодке]",
+		"description": null,
+		"price": 920,
+		"currency": "₴",
+		"image": "/item/asti-mondoro-bile-solodke.webp",
+		"labels": [
+			"750мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "750мл",
+		"allergens": []
+	},
+	{
+		"slug": "fragolino-bianco-fiorelli",
+		"categorySlug": "shampans-ke",
+		"name": "Fragolino Bianco Fiorelli",
+		"description": null,
+		"price": 410,
+		"currency": "₴",
+		"image": "/item/fragolino-bianco-fiorelli.webp",
+		"labels": [
+			"750мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "750мл",
+		"allergens": []
+	},
+	{
+		"slug": "fragolino-rosso-fiorelli",
+		"categorySlug": "shampans-ke",
+		"name": "Fragolino Rosso Fiorelli",
+		"description": null,
+		"price": 410,
+		"currency": "₴",
+		"image": "/item/fragolino-rosso-fiorelli.webp",
+		"labels": [
+			"750г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "750г",
+		"allergens": []
+	},
+	{
+		"slug": "mionetto-prestige-collection-prosecco-bile-sukhe",
+		"categorySlug": "shampans-ke",
+		"name": "Mionetto Prestige Collection Prosecco [біле сухе]",
+		"description": null,
+		"price": 550,
+		"currency": "₴",
+		"image": "/item/mionetto-prestige-collection-prosecco-bile-sukhe.webp",
+		"labels": [
+			"750мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "750мл",
+		"allergens": []
+	},
+	{
+		"slug": "prosecco",
+		"categorySlug": "shampans-ke",
+		"name": "Prosecco",
+		"description": "extra dy doc",
+		"price": 550,
+		"currency": "₴",
+		"image": "/item/prosecco.webp",
+		"labels": [
+			"750мл"
+		],
+		"fullDescription": "extra dy doc",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "750мл",
+		"allergens": []
+	},
+	{
+		"slug": "kozats-ka-rada-klasychna",
+		"categorySlug": "horilka",
+		"name": "Козацька рада [класична]",
+		"description": null,
+		"price": 32,
+		"currency": "₴",
+		"image": "/item/kozats-ka-rada-klasychna.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "nemiroff-oryhinal",
+		"categorySlug": "horilka",
+		"name": "Nemiroff Оригінал",
+		"description": null,
+		"price": 30,
+		"currency": "₴",
+		"image": "/item/nemiroff-oryhinal.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "nemiroff-delikat-m-yaka",
+		"categorySlug": "horilka",
+		"name": "Nemiroff Делікат мʼяка",
+		"description": null,
+		"price": 32,
+		"currency": "₴",
+		"image": "/item/nemiroff-delikat-m-yaka.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "zolote-pole-o1",
+		"categorySlug": "horilka",
+		"name": "Золоте поле №1",
+		"description": null,
+		"price": 35,
+		"currency": "₴",
+		"image": "/item/zolote-pole-o1.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "zolote-pole-o3",
+		"categorySlug": "horilka",
+		"name": "Золоте поле №3",
+		"description": null,
+		"price": 30,
+		"currency": "₴",
+		"image": "/item/zolote-pole-o3.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "zubrowka-bison-grass",
+		"categorySlug": "horilka",
+		"name": "Zubrowka Bison Grass",
+		"description": "Зелена",
+		"price": 50,
+		"currency": "₴",
+		"image": "/item/zubrowka-bison-grass.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": "Зелена",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "zubrowka-biala",
+		"categorySlug": "horilka",
+		"name": "Zubrowka Biala",
+		"description": "Біла",
+		"price": 30,
+		"currency": "₴",
+		"image": "/item/zubrowka-biala.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": "Біла",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "absolut",
+		"categorySlug": "horilka",
+		"name": "Absolut",
+		"description": null,
+		"price": 50,
+		"currency": "₴",
+		"image": "/item/absolut.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "finlandia",
+		"categorySlug": "horilka",
+		"name": "Finlandia",
+		"description": null,
+		"price": 50,
+		"currency": "₴",
+		"image": "/item/finlandia.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "finlandia-zhuravlyna",
+		"categorySlug": "horilka",
+		"name": "Finlandia Журавлина",
+		"description": null,
+		"price": 50,
+		"currency": "₴",
+		"image": "/item/finlandia-zhuravlyna.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "het-man-dukh-peremohy",
+		"categorySlug": "horilka",
+		"name": "Гетьман Дух Перемоги",
+		"description": null,
+		"price": 28,
+		"currency": "₴",
+		"image": "/item/het-man-dukh-peremohy.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "het-man-ukrai-ns-ke-zerno",
+		"categorySlug": "horilka",
+		"name": "Гетьман Українське зерно",
+		"description": null,
+		"price": 28,
+		"currency": "₴",
+		"image": "/item/het-man-ukrai-ns-ke-zerno.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "zubrowka-gold",
+		"categorySlug": "horilka",
+		"name": "Zubrowka Gold",
+		"description": null,
+		"price": 500,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"0.5г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "0.5г",
+		"allergens": []
+	},
+	{
+		"slug": "bells-shotlandiya",
+		"categorySlug": "viski",
+		"name": "Bells [Шотландія]",
+		"description": null,
+		"price": 50,
+		"currency": "₴",
+		"image": "/item/bells-shotlandiya.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "johnie-walker-red-label",
+		"categorySlug": "viski",
+		"name": "Johnie Walker Red Label",
+		"description": null,
+		"price": 60,
+		"currency": "₴",
+		"image": "/item/johnie-walker-red-label.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "jameson-irlandiya",
+		"categorySlug": "viski",
+		"name": "Jameson [Ірландія]",
+		"description": null,
+		"price": 90,
+		"currency": "₴",
+		"image": "/item/jameson-irlandiya.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "jack-daniels-old",
+		"categorySlug": "viski",
+		"name": "Jack Daniel's Old",
+		"description": null,
+		"price": 93,
+		"currency": "₴",
+		"image": "/item/jack-daniels-old.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "jack-daniels-honey",
+		"categorySlug": "viski",
+		"name": "Jack Daniel's Honey",
+		"description": null,
+		"price": 95,
+		"currency": "₴",
+		"image": "/item/jack-daniels-honey.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "jim-beam-apple",
+		"categorySlug": "viski",
+		"name": "Jim Beam Apple",
+		"description": null,
+		"price": 1,
+		"currency": "₴",
+		"image": "/item/jim-beam-apple.webp",
+		"labels": [
+			"700мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "700мл",
+		"allergens": []
+	},
+	{
+		"slug": "jim-beam-red-stag-black-cherry",
+		"categorySlug": "viski",
+		"name": "Jim Beam Red Stag [Black Cherry]",
+		"description": null,
+		"price": 1,
+		"currency": "₴",
+		"image": "/item/jim-beam-red-stag-black-cherry.webp",
+		"labels": [
+			"700мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "700мл",
+		"allergens": []
+	},
+	{
+		"slug": "jim-beam-whire",
+		"categorySlug": "viski",
+		"name": "Jim Beam Whire",
+		"description": null,
+		"price": 1,
+		"currency": "₴",
+		"image": "/item/jim-beam-whire.webp",
+		"labels": [
+			"0.5г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "0.5г",
+		"allergens": []
+	},
+	{
+		"slug": "jim-beam-white",
+		"categorySlug": "viski",
+		"name": "Jim Beam White",
+		"description": null,
+		"price": 100,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"0.5г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "0.5г",
+		"allergens": []
+	},
+	{
+		"slug": "zakarpats-kyy",
+		"categorySlug": "kon-yak",
+		"name": "Закарпатський",
+		"description": null,
+		"price": 45,
+		"currency": "₴",
+		"image": "/item/zakarpats-kyy.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "lehenda-virmenii-3-roky",
+		"categorySlug": "kon-yak",
+		"name": "Легенда Вірменії 3 роки",
+		"description": null,
+		"price": 52,
+		"currency": "₴",
+		"image": "/item/lehenda-virmenii-3-roky.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "lehenda-virmenii-5-rokiv",
+		"categorySlug": "kon-yak",
+		"name": "Легенда Вірменії 5 років",
+		"description": null,
+		"price": 60,
+		"currency": "₴",
+		"image": "/item/lehenda-virmenii-5-rokiv.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "metaxa",
+		"categorySlug": "kon-yak",
+		"name": "Metaxa",
+		"description": null,
+		"price": 55,
+		"currency": "₴",
+		"image": "/item/metaxa.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "aznauri-v-v-s-o-p",
+		"categorySlug": "kon-yak",
+		"name": "Aznauri V.V.S.O.P",
+		"description": null,
+		"price": 450,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"0.5г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "0.5г",
+		"allergens": []
+	},
+	{
+		"slug": "captain-morgan-gold",
+		"categorySlug": "rom",
+		"name": "Captain Morgan Gold",
+		"description": null,
+		"price": 65,
+		"currency": "₴",
+		"image": "/item/captain-morgan-gold.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "captain-morgan-dark",
+		"categorySlug": "rom",
+		"name": "Captain Morgan Dark",
+		"description": null,
+		"price": 65,
+		"currency": "₴",
+		"image": "/item/captain-morgan-dark.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "beefeater",
+		"categorySlug": "dzhyn",
+		"name": "Beefeater",
+		"description": null,
+		"price": 80,
+		"currency": "₴",
+		"image": "/item/beefeater.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "gordons-pink",
+		"categorySlug": "dzhyn",
+		"name": "Gordon’s Pink",
+		"description": null,
+		"price": 85,
+		"currency": "₴",
+		"image": "/item/gordons-pink.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "gordons-tropical-passionfruit",
+		"categorySlug": "dzhyn",
+		"name": "Gordon’s Tropical Passionfruit",
+		"description": null,
+		"price": 85,
+		"currency": "₴",
+		"image": "/item/gordons-tropical-passionfruit.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "becherovka",
+		"categorySlug": "nastoyanky",
+		"name": "Becherovka",
+		"description": null,
+		"price": 60,
+		"currency": "₴",
+		"image": "/item/becherovka.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "absent-xenta",
+		"categorySlug": "nastoyanky",
+		"name": "Absent Xenta",
+		"description": null,
+		"price": 98,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "jagermeister",
+		"categorySlug": "nastoyanky",
+		"name": "Jagermeister",
+		"description": null,
+		"price": 80,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "martini-bianco",
+		"categorySlug": "vermut",
+		"name": "Martini Bianco",
+		"description": null,
+		"price": 35,
+		"currency": "₴",
+		"image": "/item/martini-bianco.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "staryy-talin",
+		"categorySlug": "likery",
+		"name": "Старий Талін",
+		"description": null,
+		"price": 84,
+		"currency": "₴",
+		"image": "/item/staryy-talin.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "baileys",
+		"categorySlug": "likery",
+		"name": "Baileys",
+		"description": null,
+		"price": 92,
+		"currency": "₴",
+		"image": "/item/baileys.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "malibu",
+		"categorySlug": "likery",
+		"name": "Malibu",
+		"description": null,
+		"price": 60,
+		"currency": "₴",
+		"image": "/item/malibu.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "sambuca-antica",
+		"categorySlug": "sambuka",
+		"name": "Sambuca Antica",
+		"description": null,
+		"price": 55,
+		"currency": "₴",
+		"image": "/item/sambuca-antica.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "jose-cuervo-silver-especial",
+		"categorySlug": "tekila",
+		"name": "Jose Cuervo Silver Especial",
+		"description": null,
+		"price": 70,
+		"currency": "₴",
+		"image": "/item/jose-cuervo-silver-especial.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "jose-cuervo-resporado-especial",
+		"categorySlug": "tekila",
+		"name": "Jose Cuervo Resporado Especial",
+		"description": null,
+		"price": 70,
+		"currency": "₴",
+		"image": "/item/jose-cuervo-resporado-especial.webp",
+		"labels": [
+			"50мл"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50мл",
+		"allergens": []
+	},
+	{
+		"slug": "jose-cuervo-resporado-especia",
+		"categorySlug": "tekila",
+		"name": "Jose Cuervo Resporado Especia",
+		"description": null,
+		"price": 1,
+		"currency": "₴",
+		"image": "/item/jose-cuervo-resporado-especia.webp",
+		"labels": [
+			"1л"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "1л",
+		"allergens": []
+	},
+	{
+		"slug": "shokoladnyy-bey-lis",
+		"categorySlug": "deserty-deserty",
+		"name": "Шоколадний Бейліс",
+		"description": "Торт з арахісом та солоною карамеллю",
+		"price": 146,
+		"currency": "₴",
+		"image": "/item/shokoladnyy-bey-lis.webp",
+		"labels": [
+			"130г"
+		],
+		"fullDescription": "Торт з арахісом та солоною карамеллю",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "130г",
+		"allergens": []
+	},
+	{
+		"slug": "syrnyy-pyrih",
+		"categorySlug": "deserty-deserty",
+		"name": "Сирний пиріг",
+		"description": null,
+		"price": 122,
+		"currency": "₴",
+		"image": "/item/syrnyy-pyrih.webp",
+		"labels": [
+			"130г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "130г",
+		"allergens": []
+	},
+	{
+		"slug": "horikhovyy-rol",
+		"categorySlug": "deserty-deserty",
+		"name": "Горіховий рол",
+		"description": "Холодний десерт на основі сиру та кеш‘ю",
+		"price": 198,
+		"currency": "₴",
+		"image": "/item/horikhovyy-rol.webp",
+		"labels": [
+			"150 / 20г"
+		],
+		"fullDescription": "Холодний десерт на основі сиру та кеш‘ю",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "150 / 20г",
+		"allergens": []
+	},
+	{
+		"slug": "tort-napoleon",
+		"categorySlug": "deserty-deserty",
+		"name": "Торт Наполеон",
+		"description": null,
+		"price": 128,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"130г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "130г",
+		"allergens": []
+	},
+	{
+		"slug": "morozyvo",
+		"categorySlug": "deserty-deserty",
+		"name": "Морозиво",
+		"description": "Із фруктовим сиропом",
+		"price": 110,
+		"currency": "₴",
+		"image": "/item/morozyvo.webp",
+		"labels": [
+			"120г"
+		],
+		"fullDescription": "Із фруктовим сиропом",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "120г",
+		"allergens": []
+	},
+	{
+		"slug": "mlyntsi-z-tvorohom",
+		"categorySlug": "deserty-deserty",
+		"name": "Млинці з творогом",
+		"description": null,
+		"price": 96,
+		"currency": "₴",
+		"image": "/item/mlyntsi-z-tvorohom.webp",
+		"labels": [
+			"120г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "120г",
+		"allergens": []
+	},
+	{
+		"slug": "syrnyky-z-smetanoyu",
+		"categorySlug": "deserty-deserty",
+		"name": "Сирники з сметаною",
+		"description": null,
+		"price": 98,
+		"currency": "₴",
+		"image": "/item/syrnyky-z-smetanoyu.webp",
+		"labels": [
+			"160/30г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "160/30г",
+		"allergens": []
+	},
+	{
+		"slug": "bul-y-on-z-mlyntsyamy",
+		"categorySlug": "benketne-menyu-pershi-stravy",
+		"name": "Бульйон з млинцями",
+		"description": null,
+		"price": 94,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"200 / 60г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200 / 60г",
+		"allergens": []
+	},
+	{
+		"slug": "hrybna-yushka-zi-sloy-koyu-z-myasom",
+		"categorySlug": "benketne-menyu-pershi-stravy",
+		"name": "Грибна юшка зі слойкою з м'ясом",
+		"description": null,
+		"price": 98,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"200 / 65г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200 / 65г",
+		"allergens": []
+	},
+	{
+		"slug": "borshchok-z-pampushkamy",
+		"categorySlug": "benketne-menyu-pershi-stravy",
+		"name": "Борщок з пампушками",
+		"description": null,
+		"price": 88,
+		"currency": "₴",
+		"image": "/item/borshchok-z-pampushkamy.webp",
+		"labels": [
+			"200 / 60г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200 / 60г",
+		"allergens": []
+	},
+	{
+		"slug": "hrybna-yushka",
+		"categorySlug": "benketne-menyu-pershi-stravy",
+		"name": "Грибна юшка",
+		"description": null,
+		"price": 64,
+		"currency": "₴",
+		"image": "/item/hrybna-yushka.webp",
+		"labels": [
+			"200г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200г",
+		"allergens": []
+	},
+	{
+		"slug": "bul-y-on",
+		"categorySlug": "benketne-menyu-pershi-stravy",
+		"name": "Бульйон",
+		"description": null,
+		"price": 50,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"200г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "200г",
+		"allergens": []
+	},
+	{
+		"slug": "sloy-ka-z-myasom",
+		"categorySlug": "haryachi-stravy",
+		"name": "Слойка з м’ясом",
+		"description": null,
+		"price": 44,
+		"currency": "₴",
+		"image": "/item/sloy-ka-z-myasom.webp",
+		"labels": [
+			"65г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "65г",
+		"allergens": []
+	},
+	{
+		"slug": "mlyntsi-z-m-yasom",
+		"categorySlug": "haryachi-stravy",
+		"name": "Млинці з мʼясом",
+		"description": null,
+		"price": 56,
+		"currency": "₴",
+		"image": "/item/mlyntsi-z-m-yasom.webp",
+		"labels": [
+			"60г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "60г",
+		"allergens": []
+	},
+	{
+		"slug": "pyrih-iz-syrom-ta-shpynatom",
+		"categorySlug": "haryachi-stravy",
+		"name": "Пиріг із сиром та шпинатом",
+		"description": null,
+		"price": 52,
+		"currency": "₴",
+		"image": "/item/pyrih-iz-syrom-ta-shpynatom.webp",
+		"labels": [
+			"70г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "70г",
+		"allergens": []
+	},
+	{
+		"slug": "pyrih-z-myasom",
+		"categorySlug": "haryachi-stravy",
+		"name": "Пиріг з м'ясом",
+		"description": null,
+		"price": 48,
+		"currency": "₴",
+		"image": "/item/pyrih-z-myasom.webp",
+		"labels": [
+			"70г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "70г",
+		"allergens": []
+	},
+	{
+		"slug": "holubtsi-domashni",
+		"categorySlug": "haryachi-stravy",
+		"name": "Голубці домашні",
+		"description": null,
+		"price": 158,
+		"currency": "₴",
+		"image": "/item/holubtsi-domashni.webp",
+		"labels": [
+			"280г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "280г",
+		"allergens": []
+	},
+	{
+		"slug": "zapechenyy-rulet-z-kapusty-ta-myasom",
+		"categorySlug": "haryachi-stravy",
+		"name": "Запечений рулет з капусти та м'ясом",
+		"description": null,
+		"price": 178,
+		"currency": "₴",
+		"image": "/item/zapechenyy-rulet-z-kapusty-ta-myasom.webp",
+		"labels": [
+			"300г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "300г",
+		"allergens": []
+	},
+	{
+		"slug": "telyatyna-z-vyshnevym-sousom",
+		"categorySlug": "haryachi-stravy",
+		"name": "Телятина з вишневим соусом",
+		"description": null,
+		"price": 285,
+		"currency": "₴",
+		"image": "/item/telyatyna-z-vyshnevym-sousom.webp",
+		"labels": [
+			"150г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "150г",
+		"allergens": []
+	},
+	{
+		"slug": "oshyy-ok-zapechenyy",
+		"categorySlug": "haryachi-stravy",
+		"name": "Ошийок запечений",
+		"description": "Свинний ошийок, запечений з яблуками",
+		"price": 258,
+		"currency": "₴",
+		"image": "/item/oshyy-ok-zapechenyy.webp",
+		"labels": [
+			"180г"
+		],
+		"fullDescription": "Свинний ошийок, запечений з яблуками",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180г",
+		"allergens": []
+	},
+	{
+		"slug": "haryachi-stravy-losos-u-vershkovomu-sousi",
+		"categorySlug": "haryachi-stravy",
+		"name": "Лосось у вершковому соусі",
+		"description": null,
+		"price": 315,
+		"currency": "₴",
+		"image": "/item/haryachi-stravy-losos-u-vershkovomu-sousi.webp",
+		"labels": [
+			"180г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180г",
+		"allergens": []
+	},
+	{
+		"slug": "ryba-po-italiy-s-ky",
+		"categorySlug": "haryachi-stravy",
+		"name": "Риба по-італійськи",
+		"description": null,
+		"price": 178,
+		"currency": "₴",
+		"image": "/item/ryba-po-italiy-s-ky.webp",
+		"labels": [],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": null,
+		"allergens": []
+	},
+	{
+		"slug": "ryba-v-bekoni-pid-vershkovo-syrnym-sousom",
+		"categorySlug": "haryachi-stravy",
+		"name": "Риба в беконі під вершково-сирним соусом",
+		"description": null,
+		"price": 188,
+		"currency": "₴",
+		"image": "/item/ryba-v-bekoni-pid-vershkovo-syrnym-sousom.webp",
+		"labels": [
+			"180г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "180г",
+		"allergens": []
+	},
+	{
+		"slug": "kartoplya-po-domashn-omu-zi-shkvarkamy",
+		"categorySlug": "haryachi-stravy",
+		"name": "Картопля по-домашньому зі шкварками",
+		"description": null,
+		"price": 106,
+		"currency": "₴",
+		"image": "/item/kartoplya-po-domashn-omu-zi-shkvarkamy.webp",
+		"labels": [
+			"250/50кг"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "250/50кг",
+		"allergens": []
+	},
+	{
+		"slug": "zakusochna-tarilka",
+		"categorySlug": "kholodni-stravy",
+		"name": "Закусочна тарілка",
+		"description": "Салямі, чорна ікра,вʼялене мясо",
+		"price": 300,
+		"currency": "₴",
+		"image": "/item/zakusochna-tarilka.webp",
+		"labels": [
+			"260г"
+		],
+		"fullDescription": "Салямі, чорна ікра,вʼялене мясо",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "260г",
+		"allergens": []
+	},
+	{
+		"slug": "kanape-z-chervonoi-ryby",
+		"categorySlug": "kholodni-stravy",
+		"name": "Канапе з червоної риби",
+		"description": null,
+		"price": 82,
+		"currency": "₴",
+		"image": "/item/kanape-z-chervonoi-ryby.webp",
+		"labels": [
+			"50г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50г",
+		"allergens": []
+	},
+	{
+		"slug": "kanape-z-tuntsem",
+		"categorySlug": "kholodni-stravy",
+		"name": "Канапе з тунцем",
+		"description": null,
+		"price": 76,
+		"currency": "₴",
+		"image": "/logo.webp",
+		"labels": [
+			"50г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50г",
+		"allergens": []
+	},
+	{
+		"slug": "kanape-z-shynkoyu-ta-syrom",
+		"categorySlug": "kholodni-stravy",
+		"name": "Канапе з шинкою та сиром",
+		"description": null,
+		"price": 72,
+		"currency": "₴",
+		"image": "/item/kanape-z-shynkoyu-ta-syrom.webp",
+		"labels": [
+			"50г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50г",
+		"allergens": []
+	},
+	{
+		"slug": "kanape-z-ikroyu-lososya",
+		"categorySlug": "kholodni-stravy",
+		"name": "Канапе з ікрою лосося",
+		"description": null,
+		"price": 88,
+		"currency": "₴",
+		"image": "/item/kanape-z-ikroyu-lososya.webp",
+		"labels": [
+			"50г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50г",
+		"allergens": []
+	},
+	{
+		"slug": "zalyvnyy-yazyk",
+		"categorySlug": "kholodni-stravy",
+		"name": "Заливний язик",
+		"description": null,
+		"price": 230,
+		"currency": "₴",
+		"image": "/item/zalyvnyy-yazyk.webp",
+		"labels": [
+			"280г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "280г",
+		"allergens": []
+	},
+	{
+		"slug": "zakuska-v-eklerakh",
+		"categorySlug": "kholodni-stravy",
+		"name": "Закуска в еклерах",
+		"description": null,
+		"price": 72,
+		"currency": "₴",
+		"image": "/item/zakuska-v-eklerakh.webp",
+		"labels": [
+			"50г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "50г",
+		"allergens": []
+	},
+	{
+		"slug": "pechinkovyy-rulet-z-krem-syrom",
+		"categorySlug": "kholodni-stravy",
+		"name": "Печінковий рулет з крем-сиром",
+		"description": null,
+		"price": 165,
+		"currency": "₴",
+		"image": "/item/pechinkovyy-rulet-z-krem-syrom.webp",
+		"labels": [
+			"130г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "130г",
+		"allergens": []
+	},
+	{
+		"slug": "rybne-plato-klasychne",
+		"categorySlug": "kholodni-stravy",
+		"name": "Рибне плато \"Класичне\"",
+		"description": null,
+		"price": 375,
+		"currency": "₴",
+		"image": "/item/rybne-plato-klasychne.webp",
+		"labels": [],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": null,
+		"allergens": []
+	},
+	{
+		"slug": "kholodets",
+		"categorySlug": "kholodni-stravy",
+		"name": "Холодець",
+		"description": null,
+		"price": 200,
+		"currency": "₴",
+		"image": "/item/kholodets.webp",
+		"labels": [
+			"300г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "300г",
+		"allergens": []
+	},
+	{
+		"slug": "farshyrovanyy-korop",
+		"categorySlug": "kholodni-stravy",
+		"name": "Фарширований короп",
+		"description": null,
+		"price": 680,
+		"currency": "₴",
+		"image": "/item/farshyrovanyy-korop.webp",
+		"labels": [
+			"1300г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "1300г",
+		"allergens": []
+	},
+	{
+		"slug": "bonfan",
+		"categorySlug": "kholodni-stravy",
+		"name": "Бонфан",
+		"description": "Фаршироване куряче стегно",
+		"price": 330,
+		"currency": "₴",
+		"image": "/item/bonfan.webp",
+		"labels": [
+			"400г"
+		],
+		"fullDescription": "Фаршироване куряче стегно",
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "400г",
+		"allergens": []
+	},
+	{
+		"slug": "farshyrovana-skumbriya",
+		"categorySlug": "kholodni-stravy",
+		"name": "Фарширована скумбрія",
+		"description": null,
+		"price": 398,
+		"currency": "₴",
+		"image": "/item/farshyrovana-skumbriya.webp",
+		"labels": [
+			"700г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "700г",
+		"allergens": []
+	},
+	{
+		"slug": "set-ruletiv",
+		"categorySlug": "kholodni-stravy",
+		"name": "Сет Рулетів",
+		"description": null,
+		"price": 540,
+		"currency": "₴",
+		"image": "/item/set-ruletiv.webp",
+		"labels": [
+			"400г"
+		],
+		"fullDescription": null,
+		"suggested": [],
+		"cookTimeMinutes": null,
+		"caloriesKcal": null,
+		"portion": "400г",
+		"allergens": []
 	}
 ]

@@ -38,6 +38,14 @@ Do not assume Angular assets are served from `/assets`. In this repo, files from
 
 Important business information must appear as crawlable text, not only inside images.
 
+## Menu Import
+
+Real menu data can be imported with `tools/parse-menu.mjs`. CSS selectors live in
+`tools/menu-parser.config.mjs`; the parser writes `src/data/dishes.json`,
+`src/data/dishCategories.json`, and can save images into `src/assets/item`.
+Use `npm run parse:menu -- --url=<menu-url>` for HTML menus, or
+`npm run parse:menu:js -- --url=<menu-url>` when the source renders data with JavaScript.
+
 ## Inspection Requirements For Coding Agents
 
 The generated implementation prompt should tell the coding agent to inspect:

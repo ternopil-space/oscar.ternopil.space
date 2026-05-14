@@ -1,26 +1,218 @@
 [
 	{
-		"name": "Food",
+		"name": "КУХНЯ",
 		"description": "",
 		"parent": "",
-		"slug": "food"
+		"slug": "kukhnya"
 	},
 	{
-		"name": "Drinks",
+		"name": "Перші страви",
+		"description": "",
+		"parent": "kukhnya",
+		"slug": "pershi-stravy"
+	},
+	{
+		"name": "Салати",
+		"description": "",
+		"parent": "kukhnya",
+		"slug": "salaty"
+	},
+	{
+		"name": "Холодні закуски",
+		"description": "",
+		"parent": "kukhnya",
+		"slug": "kholodni-zakusky"
+	},
+	{
+		"name": "Гарячі закуски",
+		"description": "",
+		"parent": "kukhnya",
+		"slug": "haryachi-zakusky"
+	},
+	{
+		"name": "Основні страви",
+		"description": "",
+		"parent": "kukhnya",
+		"slug": "osnovni-stravy"
+	},
+	{
+		"name": "М'ясо з гриля",
+		"description": "",
+		"parent": "kukhnya",
+		"slug": "myaso-z-hrylya"
+	},
+	{
+		"name": "Риба",
+		"description": "",
+		"parent": "kukhnya",
+		"slug": "ryba"
+	},
+	{
+		"name": "Гарніри",
+		"description": "",
+		"parent": "kukhnya",
+		"slug": "harniry"
+	},
+	{
+		"name": "Піца",
+		"description": "",
+		"parent": "kukhnya",
+		"slug": "pitsa"
+	},
+	{
+		"name": "На компанію",
+		"description": "",
+		"parent": "kukhnya",
+		"slug": "na-kompaniyu"
+	},
+	{
+		"name": "БАР",
 		"description": "",
 		"parent": "",
-		"slug": "drinks"
+		"slug": "bar"
 	},
 	{
-		"name": "Breakfasts",
-		"description": "Morning meals and light starters.",
-		"parent": "food",
-		"slug": "breakfasts"
+		"name": "ДЕСЕРТИ",
+		"description": "",
+		"parent": "",
+		"slug": "deserty"
 	},
 	{
-		"name": "Coffee",
-		"description": "Hot and cold coffee drinks.",
-		"parent": "drinks",
-		"slug": "coffee"
+		"name": "БЕНКЕТНЕ МЕНЮ",
+		"description": "",
+		"parent": "",
+		"slug": "benketne-menyu"
+	},
+	{
+		"name": "Безалкогольні напої",
+		"description": "",
+		"parent": "bar",
+		"slug": "bezalkohol-ni-napoi"
+	},
+	{
+		"name": "Безалкогольні коктейлі",
+		"description": "",
+		"parent": "bar",
+		"slug": "bezalkohol-ni-koktey-li"
+	},
+	{
+		"name": "Алкогольні коктейлі",
+		"description": "",
+		"parent": "bar",
+		"slug": "alkohol-ni-koktey-li"
+	},
+	{
+		"name": "Чай",
+		"description": "",
+		"parent": "bar",
+		"slug": "chay"
+	},
+	{
+		"name": "Пиво",
+		"description": "",
+		"parent": "bar",
+		"slug": "pyvo"
+	},
+	{
+		"name": "Кава",
+		"description": "",
+		"parent": "bar",
+		"slug": "kava"
+	},
+	{
+		"name": "Вино",
+		"description": "",
+		"parent": "bar",
+		"slug": "vyno"
+	},
+	{
+		"name": "Шампанське",
+		"description": "",
+		"parent": "bar",
+		"slug": "shampans-ke"
+	},
+	{
+		"name": "Горілка",
+		"description": "",
+		"parent": "bar",
+		"slug": "horilka"
+	},
+	{
+		"name": "Віскі",
+		"description": "",
+		"parent": "bar",
+		"slug": "viski"
+	},
+	{
+		"name": "Коньяк",
+		"description": "",
+		"parent": "bar",
+		"slug": "kon-yak"
+	},
+	{
+		"name": "Ром",
+		"description": "",
+		"parent": "bar",
+		"slug": "rom"
+	},
+	{
+		"name": "Джин",
+		"description": "",
+		"parent": "bar",
+		"slug": "dzhyn"
+	},
+	{
+		"name": "Настоянки",
+		"description": "",
+		"parent": "bar",
+		"slug": "nastoyanky"
+	},
+	{
+		"name": "Вермут",
+		"description": "",
+		"parent": "bar",
+		"slug": "vermut"
+	},
+	{
+		"name": "Лікери",
+		"description": "",
+		"parent": "bar",
+		"slug": "likery"
+	},
+	{
+		"name": "Самбука",
+		"description": "",
+		"parent": "bar",
+		"slug": "sambuka"
+	},
+	{
+		"name": "Текіла",
+		"description": "",
+		"parent": "bar",
+		"slug": "tekila"
+	},
+	{
+		"name": "Десерти",
+		"description": "",
+		"parent": "deserty",
+		"slug": "deserty-deserty"
+	},
+	{
+		"name": "Перші страви",
+		"description": "",
+		"parent": "benketne-menyu",
+		"slug": "benketne-menyu-pershi-stravy"
+	},
+	{
+		"name": "Гарячі страви",
+		"description": "",
+		"parent": "benketne-menyu",
+		"slug": "haryachi-stravy"
+	},
+	{
+		"name": "Холодні страви",
+		"description": "",
+		"parent": "benketne-menyu",
+		"slug": "kholodni-stravy"
 	}
 ]

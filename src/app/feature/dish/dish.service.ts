@@ -9,14 +9,16 @@ const DISH_TRANSLATION_PATH = '/i18n/dish';
 
 const _fallbackDishes: Dish[] = (dishesData as Dish[]).map((dish) => ({
 	...dish,
-	price: dish.price ?? 0,
-	description: dish.description ?? '',
-	fullDescription: dish.fullDescription ?? '',
+	price: dish.price ?? null,
+	currency: dish.currency || '₴',
+	image: dish.image || `/item/${dish.slug}.webp`,
+	description: dish.description ?? null,
+	fullDescription: dish.fullDescription ?? dish.description ?? null,
 	labels: dish.labels ?? [],
 	suggested: dish.suggested ?? [],
-	cookTimeMinutes: dish.cookTimeMinutes ?? 0,
-	caloriesKcal: dish.caloriesKcal ?? 0,
-	portion: dish.portion ?? '',
+	cookTimeMinutes: dish.cookTimeMinutes ?? null,
+	caloriesKcal: dish.caloriesKcal ?? null,
+	portion: dish.portion ?? null,
 	allergens: dish.allergens ?? [],
 }));
 

@@ -34,8 +34,9 @@ export function toDishCard(dish: Dish): DishCard {
 		name: dish.name,
 		price: dish.price,
 		description: dish.description,
+		currency: dish.currency || '₴',
 		labels: dish.labels,
-		image: `/item/${dish.slug}.webp`,
+		image: dish.image || `/item/${dish.slug}.webp`,
 		imageAlt: dish.name,
 		soldOut: false,
 	};

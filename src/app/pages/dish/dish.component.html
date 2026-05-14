@@ -31,7 +31,7 @@
 						@if (dish().price === null) {
 							<span [translate]="'Ask for price'">{{ 'Ask for price' }}</span>
 						} @else {
-							{{ dish().price }} â‚¬
+							{{ dish().price }} {{ dish().currency }}
 						}
 					</p>
 				</div>
@@ -75,7 +75,7 @@
 				<div class="hero-glow absolute inset-0 rounded-[1.4rem]"></div>
 				<app-image
 					imageClass="relative z-[1] h-[20rem] w-full rounded-[1.4rem] object-cover shadow-[var(--shadow-md)] sm:h-[26rem]"
-					[src]="'/item/' + dish().slug + '.webp'"
+					[src]="dish().image"
 					[alt]="dish().name"
 					loading="eager"
 				/>
@@ -168,7 +168,7 @@
 						<div class="flex gap-3">
 							<img
 								class="h-20 w-20 shrink-0 rounded-[0.9rem] object-cover"
-								[src]="'/item/' + suggestion.slug + '.webp'"
+								[src]="suggestion.image"
 								translate
 								[translate]="{ alt: suggestion.name }"
 								loading="lazy"
@@ -186,7 +186,7 @@
 											'Ask for price'
 										}}</span>
 									} @else {
-										{{ suggestion.price }} â‚¬
+										{{ suggestion.price }} {{ suggestion.currency }}
 									}
 								</p>
 								@if (suggestion.hasDescription) {

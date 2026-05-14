@@ -43,7 +43,7 @@
 			@if (_dish.price === null) {
 				<span [translate]="'Ask for price'">{{ 'Ask for price' }}</span>
 			} @else {
-				{{ _dish.price }} ₴
+				{{ _dish.price }} {{ _dish.currency }}
 			}
 		</p>
 

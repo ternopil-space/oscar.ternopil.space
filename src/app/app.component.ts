@@ -82,7 +82,7 @@ export class App {
 }
 
 const _pageTitleKeys: Record<string, string> = {
-	'/': 'Horeca',
+	'/': 'Oscar',
 	'/menu': 'Menu',
 	'/about': 'About us',
 	'/spa': 'Spa',

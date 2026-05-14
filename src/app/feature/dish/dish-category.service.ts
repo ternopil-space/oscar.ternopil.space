@@ -35,11 +35,8 @@ export class DishCategoryService {
 		categories: DishCategory[],
 		selectedCategories: DishCategory[] = [],
 	) {
-		while (categories.length) {
-			selectedCategories.push(category);
-			categories = categories[0].children ?? [];
-		}
-		this.selectedCategories.set(selectedCategories);
+		void categories;
+		this.selectedCategories.set([...selectedCategories, category]);
 	}
 
 	private _mapCategory(category: DishCategory): DishCategory {

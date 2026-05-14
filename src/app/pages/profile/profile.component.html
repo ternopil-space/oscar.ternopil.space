@@ -1,0 +1,82 @@
+<main class="mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
+	<article class="overflow-hidden rounded-[1.5rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)]">
+		<header
+			class="grid gap-6 border-b border-[var(--c-border)] px-4 py-8 sm:px-6 lg:px-8"
+			[class.lg:grid-cols-[minmax(0,1fr)_18rem]]="profile().image"
+		>
+			<div>
+				<div class="mb-7">
+					<a class="ui-btn ui-btn-secondary" routerLink="/team">
+						<span [translate]="'Back to team'">{{ 'Back to team' }}</span>
+					</a>
+				</div>
+
+				<p
+					class="w-fit max-w-full rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--c-secondary)]"
+				>
+					<span [translate]="profile().role">{{ profile().role }}</span>
+				</p>
+
+				<h1 class="mt-5 max-w-[18ch] text-[2.25rem] font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-5xl">
+					<span [translate]="profile().name">{{ profile().name }}</span>
+				</h1>
+
+				@if (profile().seniority) {
+					<p class="mt-3 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--c-text-muted)]">
+						<span [translate]="profile().seniority">{{ profile().seniority }}</span>
+					</p>
+				}
+
+				<p class="mt-5 max-w-[44rem] text-[15px] leading-7 text-[var(--c-text-primary)]">
+					<span [translate]="profile().description">{{ profile().description }}</span>
+				</p>
+			</div>
+
+			@if (profile().image) {
+				<img
+					class="h-full min-h-72 w-full rounded-[1.2rem] border border-[var(--c-border)] object-cover"
+					[ngSrc]="profile().image"
+					translate [translate]="{ alt: profile().name }"
+					width="720"
+					height="900"
+				/>
+			}
+		</header>
+
+		<div class="grid gap-6 px-4 py-6 sm:px-6 lg:grid-cols-[minmax(0,1fr)_20rem] lg:px-8">
+			<div class="space-y-5">
+				@for (paragraph of profile().body; track paragraph) {
+					<p class="text-[15px] leading-8 text-[var(--c-text-primary)]">
+						<span [translate]="paragraph">{{ paragraph }}</span>
+					</p>
+				}
+			</div>
+
+			<aside class="h-fit rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 sm:p-5">
+				<h2 class="text-lg font-semibold text-[var(--c-text-secondary)]">
+					<span [translate]="'Profile details'">{{ 'Profile details' }}</span>
+				</h2>
+
+				@if (profile().tips) {
+					<p class="mt-4 text-sm leading-6 text-[var(--c-text-primary)]">
+						<span [translate]="profile().tips">{{ profile().tips }}</span>
+					</p>
+				}
+
+				@if (profile().highlights.length) {
+					<h3 class="mt-6 text-base font-semibold text-[var(--c-text-secondary)]">
+						<span [translate]="'Signature focus'">{{ 'Signature focus' }}</span>
+					</h3>
+					<ul class="mt-3 space-y-3">
+						@for (highlight of profile().highlights; track highlight) {
+							<li class="flex gap-3 text-sm leading-6 text-[var(--c-text-primary)]">
+								<span class="material-symbols-outlined mt-0.5 text-[18px] text-[var(--c-secondary)]" aria-hidden="true">check_circle</span>
+								<span [translate]="highlight">{{ highlight }}</span>
+							</li>
+						}
+					</ul>
+				}
+			</aside>
+		</div>
+	</article>
+</main>

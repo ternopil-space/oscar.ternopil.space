@@ -1,0 +1,156 @@
+<main class="job-page mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
+	<article class="job-page__article">
+		<header class="job-page__header">
+			<a class="ui-btn ui-btn-secondary mb-6 inline-flex" routerLink="/jobs">
+				<span [translate]="'Back to jobs'">{{ 'Back to jobs' }}</span>
+			</a>
+
+			<div class="job-page__eyebrow">
+				@if (job().department) {
+					<span class="job-page__pill">
+						<span [translate]="job().department">{{ job().department }}</span>
+					</span>
+				}
+				@if (job().level) {
+					<span class="job-page__meta">
+						<span [translate]="job().level">{{ job().level }}</span>
+					</span>
+				}
+				@if (job().workFormat) {
+					<span class="job-page__meta">
+						<span [translate]="job().workFormat">{{ job().workFormat }}</span>
+					</span>
+				}
+			</div>
+
+			<h1 class="job-page__title">
+				<span [translate]="job().title">{{ job().title }}</span>
+			</h1>
+			<p class="job-page__summary">
+				<span [translate]="job().summary">{{ job().summary }}</span>
+			</p>
+		</header>
+
+		<div class="job-page__content">
+			<section class="job-page__info-card" aria-labelledby="job-info-title">
+				<h2 id="job-info-title" class="job-page__section-title">
+					<span [translate]="'Job details'">{{ 'Job details' }}</span>
+				</h2>
+
+				<dl class="job-page__info-list">
+					@for (field of infoFields(); track field.label) {
+						<div class="job-page__info-item">
+							<dt>
+								<span [translate]="field.label">{{ field.label }}</span>
+							</dt>
+							<dd>
+								<span [translate]="field.value">{{ field.value }}</span>
+							</dd>
+						</div>
+					}
+				</dl>
+			</section>
+
+			@if (job().body.length) {
+				<section class="job-page__section">
+					@for (paragraph of job().body; track paragraph) {
+						<p class="job-page__paragraph">
+							<span [translate]="paragraph">{{ paragraph }}</span>
+						</p>
+					}
+				</section>
+			}
+
+			@if (job().responsibilities.length) {
+				<section class="job-page__section" aria-labelledby="job-responsibilities-title">
+					<h2 id="job-responsibilities-title" class="job-page__section-title">
+						<span [translate]="'Responsibilities'">{{ 'Responsibilities' }}</span>
+					</h2>
+					<ul class="job-page__list">
+						@for (responsibility of job().responsibilities; track responsibility) {
+							<li>
+								<span [translate]="responsibility">{{ responsibility }}</span>
+							</li>
+						}
+					</ul>
+				</section>
+			}
+
+			@if (job().requirements.length) {
+				<section class="job-page__section" aria-labelledby="job-requirements-title">
+					<h2 id="job-requirements-title" class="job-page__section-title">
+						<span [translate]="'Requirements'">{{ 'Requirements' }}</span>
+					</h2>
+					<ul class="job-page__list">
+						@for (requirement of job().requirements; track requirement) {
+							<li>
+								<span [translate]="requirement">{{ requirement }}</span>
+							</li>
+						}
+					</ul>
+				</section>
+			}
+
+			@if (job().benefits.length) {
+				<section class="job-page__section" aria-labelledby="job-benefits-title">
+					<h2 id="job-benefits-title" class="job-page__section-title">
+						<span [translate]="'Benefits'">{{ 'Benefits' }}</span>
+					</h2>
+					<ul class="job-page__list">
+						@for (benefit of job().benefits; track benefit) {
+							<li>
+								<span [translate]="benefit">{{ benefit }}</span>
+							</li>
+						}
+					</ul>
+				</section>
+			}
+
+			@if (job().highlights.length) {
+				<section class="job-page__section" aria-labelledby="job-highlights-title">
+					<h2 id="job-highlights-title" class="job-page__section-title">
+						<span [translate]="'Highlights'">{{ 'Highlights' }}</span>
+					</h2>
+					<ul class="job-page__list job-page__list--highlight">
+						@for (highlight of job().highlights; track highlight) {
+							<li>
+								<span class="material-symbols-outlined" aria-hidden="true">check_circle</span>
+								<span [translate]="highlight">{{ highlight }}</span>
+							</li>
+						}
+					</ul>
+				</section>
+			}
+
+			@if (job().applyUrl || job().contactEmail || job().contactPhone) {
+				<section class="job-page__apply" aria-labelledby="job-apply-title">
+					<h2 id="job-apply-title" class="job-page__section-title">
+						<span [translate]="'Apply for this role'">{{ 'Apply for this role' }}</span>
+					</h2>
+
+					@if (job().applyUrl) {
+						<a
+							class="ui-btn ui-btn-primary job-page__apply-button"
+							[href]="job().applyUrl"
+							[attr.target]="job().applyUrl.startsWith('http') ? '_blank' : null"
+							[attr.rel]="job().applyUrl.startsWith('http') ? 'noreferrer' : null"
+						>
+							<span [translate]="(job().applyLabel || job().applyUrl)!">{{ (job().applyLabel || job().applyUrl)! }}</span>
+						</a>
+					}
+
+					@if (job().contactEmail || job().contactPhone) {
+						<div class="job-page__contacts">
+							@if (job().contactEmail) {
+								<a [href]="'mailto:' + job().contactEmail">{{ job().contactEmail }}</a>
+							}
+							@if (job().contactPhone) {
+								<a [href]="'tel:' + job().contactPhone">{{ job().contactPhone }}</a>
+							}
+						</div>
+					}
+				</section>
+			}
+		</div>
+	</article>
+</main>

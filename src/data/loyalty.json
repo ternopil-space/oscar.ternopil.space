@@ -1,0 +1,106 @@
+{
+	"hero": {
+		"title": "Loyalty program",
+		"subtitle": "More visits, more benefits",
+		"description": "A simple loyalty program for regular guests who visit the restaurant, book rooms, enjoy coffee, use the spa, or celebrate special moments with us."
+	},
+	"howItWorks": {
+		"title": "How it works",
+		"steps": [
+			{
+				"title": "Join the program",
+				"description": "Ask the team to add you to the loyalty program or join through our contact channels."
+			},
+			{
+				"title": "Visit, book, or order",
+				"description": "Use restaurant, hotel, cafe, spa, event, or takeaway services as usual."
+			},
+			{
+				"title": "Receive guest benefits",
+				"description": "Get rewards, personal offers, birthday bonuses, and special conditions when available."
+			}
+		]
+	},
+	"benefits": {
+		"title": "Guest benefits",
+		"items": [
+			"Birthday bonus",
+			"Coffee or dessert gift",
+			"Special offers for regular guests",
+			"Room upgrade when available",
+			"Spa discount for returning guests",
+			"Early access to events",
+			"Family and group visit benefits"
+		]
+	},
+	"earnRewards": {
+		"title": "Ways to earn rewards",
+		"items": [
+			"Restaurant visits",
+			"Hotel stays",
+			"Coffee orders",
+			"Spa bookings",
+			"Event reservations",
+			"Referring friends",
+			"Seasonal promotions"
+		]
+	},
+	"levels": {
+		"title": "Loyalty levels",
+		"items": [
+			{
+				"name": "Guest",
+				"description": "The starting level for new guests who want to receive simple offers and updates.",
+				"benefits": [
+					"Access to active offers",
+					"Birthday reminder bonus",
+					"Invitations to selected events"
+				]
+			},
+			{
+				"name": "Regular guest",
+				"description": "A level for returning guests who visit more often and use several services.",
+				"benefits": [
+					"Personal restaurant or cafe offers",
+					"Spa or room discount when available",
+					"Priority information about seasonal promotions"
+				]
+			},
+			{
+				"name": "VIP guest",
+				"description": "A special level for loyal guests, frequent visitors, and private event clients.",
+				"benefits": [
+					"Personal conditions for selected services",
+					"Early access to private events",
+					"Special attention for birthdays and family celebrations"
+				]
+			}
+		]
+	},
+	"specialDates": {
+		"title": "Birthday and special dates",
+		"description": "Guests can receive small gifts, discounts, or personal offers for birthdays, anniversaries, family celebrations, and other important dates.",
+		"items": [
+			"Birthday dessert or drink",
+			"Anniversary offer",
+			"Family celebration bonus",
+			"Special conditions for private events"
+		]
+	},
+	"terms": {
+		"title": "Simple terms",
+		"items": [
+			"Benefits may depend on availability",
+			"Offers cannot always be combined",
+			"Some rewards may require advance reservation",
+			"Room upgrades depend on free room availability",
+			"The team can explain current active offers before your visit"
+		]
+	},
+	"cta": {
+		"title": "Join the loyalty program",
+		"description": "Ask our team about current loyalty benefits, active offers, and the easiest way to join.",
+		"label": "Ask about loyalty",
+		"href": "/socials"
+	}
+}

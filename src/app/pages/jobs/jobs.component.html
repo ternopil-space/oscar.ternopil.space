@@ -1,0 +1,161 @@
+<main class="mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
+	@if (isLoading()) {
+		<section
+			class="rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center sm:px-6 sm:py-14"
+			aria-busy="true"
+			aria-live="polite"
+		>
+			<div
+				class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
+			>
+				<span class="material-symbols-outlined animate-pulse text-[28px]" aria-hidden="true">
+					work_history
+				</span>
+			</div>
+
+			<p
+				class="mt-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
+				translate
+			>
+				Jobs
+			</p>
+			<p class="mt-2 text-sm text-[var(--c-text-muted)]" translate>Loading jobs...</p>
+		</section>
+	} @else if (jobs().length) {
+		<section
+			class="overflow-hidden rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
+		>
+			<div
+				class="border-b border-[var(--c-border)] bg-[linear-gradient(135deg,rgba(197,61,61,0.14),rgba(217,168,88,0.08))] px-4 py-5 sm:px-5"
+			>
+				<p
+					class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
+					translate
+				>
+					Jobs
+				</p>
+				<h1 class="mt-2 text-2xl font-semibold text-[var(--c-text-secondary)]" translate>
+					Jobs
+				</h1>
+			</div>
+
+			<div class="grid gap-3 p-3 sm:grid-cols-2 sm:p-4 xl:grid-cols-3">
+				@for (job of jobs(); track job.slug) {
+					<a
+						class="jobs-card flex h-full flex-col rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 transition-colors duration-200 hover:border-[var(--c-secondary)]/60 hover:bg-[var(--c-bg-secondary)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--c-secondary)]"
+						[routerLink]="['/job', job.slug]"
+						translate [translate]="{ ariaLabel: 'Open job details' }"
+					>
+						<div class="space-y-3">
+							<h2 class="text-lg font-semibold text-[var(--c-text-secondary)]">
+								<span [translate]="job.title">{{ job.title }}</span>
+							</h2>
+
+							@if (job.summary) {
+								<p class="text-sm leading-6 text-[var(--c-text-muted)]">
+									<span [translate]="job.summary">{{ job.summary }}</span>
+								</p>
+							}
+
+							<div class="flex flex-wrap gap-2 text-xs font-medium text-[var(--c-text-muted)]">
+								@if (job.location) {
+									<span class="rounded-full border border-[var(--c-border)] px-3 py-1">
+										<span [translate]="job.location">{{ job.location }}</span>
+									</span>
+								}
+								@if (job.employmentType) {
+									<span class="rounded-full border border-[var(--c-border)] px-3 py-1">
+										<span [translate]="job.employmentType">{{ job.employmentType }}</span>
+									</span>
+								}
+								@if (job.schedule) {
+									<span class="rounded-full border border-[var(--c-border)] px-3 py-1">
+										<span [translate]="job.schedule">{{ job.schedule }}</span>
+									</span>
+								}
+								@if (job.experience) {
+									<span class="rounded-full border border-[var(--c-border)] px-3 py-1">
+										<span [translate]="job.experience">{{ job.experience }}</span>
+									</span>
+								}
+							</div>
+
+							@if (job.salary) {
+								<p class="text-sm font-semibold text-[var(--c-text-secondary)]">
+									<span [translate]="job.salary">{{ job.salary }}</span>
+								</p>
+							}
+
+							@if (job.department || job.level || job.workFormat) {
+								<div class="jobs-card__badges">
+									@if (job.department) {
+										<span class="jobs-card__badge">
+											<span [translate]="'Department'">{{ 'Department' }}</span>
+											<span [translate]="job.department">{{ job.department }}</span>
+										</span>
+									}
+									@if (job.level) {
+										<span class="jobs-card__badge">
+											<span [translate]="'Level'">{{ 'Level' }}</span>
+											<span [translate]="job.level">{{ job.level }}</span>
+										</span>
+									}
+									@if (job.workFormat) {
+										<span class="jobs-card__badge">
+											<span [translate]="'Work format'">{{ 'Work format' }}</span>
+											<span [translate]="job.workFormat">{{ job.workFormat }}</span>
+										</span>
+									}
+								</div>
+							}
+						</div>
+
+						<div class="mt-4 space-y-3 border-t border-[var(--c-border)] pt-4">
+							@if (job.contactEmail || job.contactPhone) {
+								<div class="space-y-1 text-sm text-[var(--c-text-muted)]">
+									@if (job.contactEmail) {
+										<p>
+											{{ job.contactEmail }}
+										</p>
+									}
+									@if (job.contactPhone) {
+										<p>
+											{{ job.contactPhone }}
+										</p>
+									}
+								</div>
+							}
+						</div>
+					</a>
+				}
+			</div>
+		</section>
+	} @else {
+		<section
+			class="rounded-[1.2rem] border border-dashed border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center sm:px-6 sm:py-14"
+		>
+			<div
+				class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
+			>
+				<span class="material-symbols-outlined text-[28px]" aria-hidden="true">work</span>
+			</div>
+
+			<p
+				class="mt-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
+				translate
+			>
+				Jobs
+			</p>
+
+			<h1 class="mt-2 text-xl font-semibold text-[var(--c-text-secondary)]" translate>
+				No job openings at the moment
+			</h1>
+			<p
+				class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]"
+				translate
+			>
+				Stay tuned for updates
+			</p>
+		</section>
+	}
+</main>

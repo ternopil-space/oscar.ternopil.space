@@ -1,0 +1,193 @@
+<main class="loyalty mx-auto max-w-[var(--container)] px-3 pb-10 pt-3 sm:px-4 sm:pb-12">
+	<section class="loyalty__hero">
+		<div class="loyalty__heroContent">
+			<p class="loyalty__eyebrow">
+				<span [translate]="page.hero.subtitle">{{ page.hero.subtitle }}</span>
+			</p>
+
+			<h1 class="loyalty__title">
+				<span [translate]="page.hero.title">{{ page.hero.title }}</span>
+			</h1>
+
+			<p class="loyalty__description">
+				<span [translate]="page.hero.description">{{ page.hero.description }}</span>
+			</p>
+		</div>
+
+		<div class="loyalty__heroBadge" aria-hidden="true">
+			<span class="material-symbols-outlined">workspace_premium</span>
+		</div>
+	</section>
+
+	<section class="loyalty__section loyalty__steps" aria-labelledby="loyalty-steps-title">
+		<div class="loyalty__sectionHeader">
+			<p class="loyalty__eyebrow">
+				<span [translate]="page.hero.title">{{ page.hero.title }}</span>
+			</p>
+			<h2 id="loyalty-steps-title">
+				<span [translate]="page.howItWorks.title">{{ page.howItWorks.title }}</span>
+			</h2>
+		</div>
+
+		<div class="loyalty__stepGrid">
+			@for (step of page.howItWorks.steps; track step.title; let index = $index) {
+				<article class="loyalty__step">
+					<div class="loyalty__stepNumber">{{ index + 1 }}</div>
+					<h3>
+						<span [translate]="step.title">{{ step.title }}</span>
+					</h3>
+					<p>
+						<span [translate]="step.description">{{ step.description }}</span>
+					</p>
+				</article>
+			}
+		</div>
+	</section>
+
+	<div class="loyalty__split">
+		<section class="loyalty__section" aria-labelledby="loyalty-benefits-title">
+			<div class="loyalty__sectionHeader">
+			<p class="loyalty__eyebrow">
+				<span [translate]="page.hero.title">{{ page.hero.title }}</span>
+			</p>
+				<h2 id="loyalty-benefits-title">
+					<span [translate]="page.benefits.title">{{ page.benefits.title }}</span>
+				</h2>
+			</div>
+
+			<ul class="loyalty__iconList">
+				@for (benefit of page.benefits.items; track benefit; let index = $index) {
+					<li>
+						<span class="material-symbols-outlined" aria-hidden="true">
+							{{ benefitIcon(index) }}
+						</span>
+						<span [translate]="benefit">{{ benefit }}</span>
+					</li>
+				}
+			</ul>
+		</section>
+
+		<section class="loyalty__section" aria-labelledby="loyalty-earn-title">
+			<div class="loyalty__sectionHeader">
+			<p class="loyalty__eyebrow">
+				<span [translate]="page.hero.title">{{ page.hero.title }}</span>
+			</p>
+				<h2 id="loyalty-earn-title">
+					<span [translate]="page.earnRewards.title">{{ page.earnRewards.title }}</span>
+				</h2>
+			</div>
+
+			<ul class="loyalty__iconList loyalty__iconList--compact">
+				@for (reward of page.earnRewards.items; track reward; let index = $index) {
+					<li>
+						<span class="material-symbols-outlined" aria-hidden="true">
+							{{ rewardIcon(index) }}
+						</span>
+						<span [translate]="reward">{{ reward }}</span>
+					</li>
+				}
+			</ul>
+		</section>
+	</div>
+
+	<section class="loyalty__section" aria-labelledby="loyalty-levels-title">
+		<div class="loyalty__sectionHeader">
+			<div>
+				<p class="loyalty__eyebrow">
+					<span [translate]="page.hero.subtitle">{{ page.hero.subtitle }}</span>
+				</p>
+				<h2 id="loyalty-levels-title">
+					<span [translate]="page.levels.title">{{ page.levels.title }}</span>
+				</h2>
+			</div>
+		</div>
+
+		<div class="loyalty__levelGrid">
+			@for (level of page.levels.items; track level.name) {
+				<article class="loyalty__level">
+					<div class="loyalty__levelIcon" aria-hidden="true">
+						<span class="material-symbols-outlined">stars</span>
+					</div>
+					<h3>
+						<span [translate]="level.name">{{ level.name }}</span>
+					</h3>
+					<p>
+						<span [translate]="level.description">{{ level.description }}</span>
+					</p>
+					<ul>
+						@for (benefit of level.benefits; track benefit) {
+							<li>
+								<span class="material-symbols-outlined" aria-hidden="true">check_circle</span>
+								<span [translate]="benefit">{{ benefit }}</span>
+							</li>
+						}
+					</ul>
+				</article>
+			}
+		</div>
+	</section>
+
+	<section class="loyalty__special" aria-labelledby="loyalty-dates-title">
+		<div>
+			<p class="loyalty__eyebrow">
+				<span [translate]="page.hero.subtitle">{{ page.hero.subtitle }}</span>
+			</p>
+			<h2 id="loyalty-dates-title">
+				<span [translate]="page.specialDates.title">{{ page.specialDates.title }}</span>
+			</h2>
+			<p>
+				<span [translate]="page.specialDates.description">
+					{{ page.specialDates.description }}
+				</span>
+			</p>
+		</div>
+
+		<ul>
+			@for (item of page.specialDates.items; track item) {
+				<li>
+					<span class="material-symbols-outlined" aria-hidden="true">redeem</span>
+					<span [translate]="item">{{ item }}</span>
+				</li>
+			}
+		</ul>
+	</section>
+
+	<section class="loyalty__section loyalty__terms" aria-labelledby="loyalty-terms-title">
+		<div class="loyalty__sectionHeader">
+			<p class="loyalty__eyebrow">
+				<span [translate]="page.hero.title">{{ page.hero.title }}</span>
+			</p>
+			<h2 id="loyalty-terms-title">
+				<span [translate]="page.terms.title">{{ page.terms.title }}</span>
+			</h2>
+		</div>
+
+		<ul>
+			@for (term of page.terms.items; track term) {
+				<li>
+					<span class="material-symbols-outlined" aria-hidden="true">info</span>
+					<span [translate]="term">{{ term }}</span>
+				</li>
+			}
+		</ul>
+	</section>
+
+	<section class="loyalty__cta">
+		<div>
+			<p class="loyalty__eyebrow">
+				<span [translate]="page.hero.title">{{ page.hero.title }}</span>
+			</p>
+			<h2>
+				<span [translate]="page.cta.title">{{ page.cta.title }}</span>
+			</h2>
+			<p>
+				<span [translate]="page.cta.description">{{ page.cta.description }}</span>
+			</p>
+		</div>
+
+		<a class="ui-btn ui-btn-primary loyalty__ctaButton" [routerLink]="page.cta.href">
+			<span class="material-symbols-outlined" aria-hidden="true">chat</span>
+			<span [translate]="page.cta.label">{{ page.cta.label }}</span>
+		</a>
+	</section>
+</main>

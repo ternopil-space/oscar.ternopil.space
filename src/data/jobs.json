@@ -1,0 +1,554 @@
+[
+	{
+		"slug": "restaurant-manager",
+		"title": "Restaurant manager",
+		"department": "Management",
+		"summary": "A leadership role responsible for daily restaurant operations, team coordination, service quality, and guest satisfaction.",
+		"location": "Kamianets-Podilskyi",
+		"employmentType": "Full-time",
+		"schedule": "Shift schedule",
+		"salary": "Competitive monthly pay",
+		"experience": "2+ years in hospitality management",
+		"level": "Senior",
+		"workFormat": "On-site",
+		"applyUrl": "/socials",
+		"applyLabel": "Contact hiring team",
+		"contactEmail": "hello@horeca.itkamianets.com",
+		"contactPhone": "+38 097 000 00 00",
+		"responsibilities": [
+			"Coordinate daily restaurant operations and service flow",
+			"Support, train, and supervise front-of-house staff",
+			"Handle guest feedback and resolve service issues",
+			"Control reservations, table planning, and event preparation",
+			"Monitor service standards, cleanliness, and team discipline"
+		],
+		"requirements": [
+			"Experience in restaurant or hotel service management",
+			"Strong communication and leadership skills",
+			"Ability to work under pressure during busy shifts",
+			"Understanding of hospitality standards and guest care"
+		],
+		"benefits": [
+			"Stable full-time role",
+			"Team meals or staff discounts may be available",
+			"Growth into senior hospitality management",
+			"Supportive team and clear work processes"
+		],
+		"body": [
+			"The restaurant manager keeps the service organized from opening to closing. This role connects guests, waiters, kitchen staff, bar staff, and owners into one clear daily workflow.",
+			"The position suits someone who can lead calmly, notice details, and keep the restaurant atmosphere professional even during busy hours.",
+			"A good manager improves both guest experience and team confidence by setting clear standards and helping people work together."
+		],
+		"highlights": [
+			"Lead daily restaurant operations",
+			"Coordinate staff, guests, and reservations",
+			"Maintain service quality during busy shifts"
+		]
+	},
+	{
+		"slug": "front-desk-receptionist",
+		"title": "Front desk receptionist",
+		"department": "Hotel",
+		"summary": "A guest-facing hotel role focused on check-in, check-out, reservations, calls, and first-contact hospitality.",
+		"location": "Kamianets-Podilskyi",
+		"employmentType": "Full-time",
+		"schedule": "Shift schedule",
+		"salary": "Competitive monthly pay",
+		"experience": "Hospitality experience preferred",
+		"level": "Middle",
+		"workFormat": "On-site",
+		"applyUrl": "/socials",
+		"applyLabel": "Contact hiring team",
+		"contactEmail": "hello@horeca.itkamianets.com",
+		"contactPhone": "+38 097 000 00 00",
+		"responsibilities": [
+			"Welcome guests and manage check-in and check-out",
+			"Process room reservations and guest requests",
+			"Answer phone calls, messages, and basic inquiries",
+			"Coordinate with housekeeping and restaurant teams",
+			"Keep reception information accurate and organized"
+		],
+		"requirements": [
+			"Polite communication and attention to detail",
+			"Basic computer skills",
+			"Ability to handle guest questions calmly",
+			"English or other foreign languages are a plus"
+		],
+		"benefits": [
+			"Stable schedule with shift planning",
+			"Hospitality experience and guest communication practice",
+			"Growth into hotel administration or guest relations",
+			"Team support during onboarding"
+		],
+		"body": [
+			"The receptionist is often the first person a hotel guest meets. This role shapes the first impression through clear communication, friendly attitude, and organized service.",
+			"The position includes reservations, check-in, check-out, calls, messages, and coordination with other departments.",
+			"It is a good role for someone who enjoys communication and can keep information accurate during active working hours."
+		],
+		"highlights": [
+			"Manage check-in and check-out",
+			"Communicate with guests before and during stays",
+			"Coordinate reception with hotel departments"
+		]
+	},
+	{
+		"slug": "waiter",
+		"title": "Waiter",
+		"department": "Restaurant",
+		"summary": "A front-of-house service role focused on welcoming guests, taking orders, serving dishes, and keeping the table experience smooth.",
+		"location": "Kamianets-Podilskyi",
+		"employmentType": "Full-time / Part-time",
+		"schedule": "Shift schedule",
+		"salary": "Hourly pay plus tips",
+		"experience": "Experience preferred, training possible",
+		"level": "Junior / Middle",
+		"workFormat": "On-site",
+		"applyUrl": "/socials",
+		"applyLabel": "Contact hiring team",
+		"contactEmail": "hello@horeca.itkamianets.com",
+		"contactPhone": "+38 097 000 00 00",
+		"responsibilities": [
+			"Welcome guests and help them choose from the menu",
+			"Take food and drink orders accurately",
+			"Serve dishes and drinks according to service standards",
+			"Keep tables clean and ready for the next guests",
+			"Communicate guest requests to the kitchen and bar"
+		],
+		"requirements": [
+			"Friendly communication and neat appearance",
+			"Ability to work on feet during active shifts",
+			"Attention to orders, timing, and table details",
+			"Teamwork with kitchen, bar, and floor staff"
+		],
+		"benefits": [
+			"Tips and service experience",
+			"Flexible shift options may be available",
+			"Training for beginners",
+			"Growth into senior waiter or shift supervisor"
+		],
+		"body": [
+			"The waiter supports the main guest experience in the restaurant. Good service depends on timing, attention, polite communication, and teamwork.",
+			"This role is suitable for active people who enjoy working with guests and can stay organized during busy service.",
+			"Experience is helpful, but many businesses can train motivated candidates who are ready to learn service standards."
+		],
+		"highlights": [
+			"Serve guests during breakfast, lunch, or dinner",
+			"Take accurate food and drink orders",
+			"Work closely with kitchen and bar teams"
+		]
+	},
+	{
+		"slug": "bartender",
+		"title": "Bartender",
+		"department": "Bar",
+		"summary": "A bar role responsible for preparing drinks, keeping the bar organized, supporting service, and creating a friendly guest experience.",
+		"location": "Kamianets-Podilskyi",
+		"employmentType": "Full-time / Part-time",
+		"schedule": "Evening and weekend shifts",
+		"salary": "Hourly pay plus tips",
+		"experience": "1+ year preferred",
+		"level": "Middle",
+		"workFormat": "On-site",
+		"applyUrl": "/socials",
+		"applyLabel": "Contact hiring team",
+		"contactEmail": "hello@horeca.itkamianets.com",
+		"contactPhone": "+38 097 000 00 00",
+		"responsibilities": [
+			"Prepare alcoholic and non-alcoholic drinks",
+			"Keep the bar clean, stocked, and organized",
+			"Support waiters with drink orders",
+			"Control bar inventory and report missing items",
+			"Communicate with guests at the bar politely and professionally"
+		],
+		"requirements": [
+			"Knowledge of basic cocktails and bar service",
+			"Responsible attitude toward alcohol service",
+			"Accuracy, cleanliness, and speed",
+			"Ability to work evening and weekend shifts"
+		],
+		"benefits": [
+			"Tips and active service environment",
+			"Opportunity to develop cocktail and bar skills",
+			"Staff discounts may be available",
+			"Growth into head bartender or bar manager"
+		],
+		"body": [
+			"The bartender keeps the drink service fast, clean, and consistent. This role supports both guests at the bar and waiters working on the floor.",
+			"A strong bartender understands recipes, presentation, stock control, and responsible alcohol service.",
+			"The position works well for someone who enjoys active evening service and can stay focused when multiple orders arrive at once."
+		],
+		"highlights": [
+			"Prepare cocktails, wine, beer, and soft drinks",
+			"Keep the bar clean and stocked",
+			"Support restaurant service during busy hours"
+		]
+	},
+	{
+		"slug": "barista",
+		"title": "Barista",
+		"department": "Cafe",
+		"summary": "A coffee-focused role responsible for preparing espresso drinks, tea, simple desserts, and friendly cafe service.",
+		"location": "Kamianets-Podilskyi",
+		"employmentType": "Full-time / Part-time",
+		"schedule": "Morning and day shifts",
+		"salary": "Hourly pay plus tips",
+		"experience": "Experience preferred, training possible",
+		"level": "Junior / Middle",
+		"workFormat": "On-site",
+		"applyUrl": "/socials",
+		"applyLabel": "Contact hiring team",
+		"contactEmail": "hello@horeca.itkamianets.com",
+		"contactPhone": "+38 097 000 00 00",
+		"responsibilities": [
+			"Prepare espresso, cappuccino, latte, tea, and seasonal drinks",
+			"Serve desserts and simple cafe items",
+			"Keep the coffee station clean and organized",
+			"Support takeaway and dine-in coffee orders",
+			"Maintain friendly communication with guests"
+		],
+		"requirements": [
+			"Interest in coffee and guest service",
+			"Accuracy with recipes and drink presentation",
+			"Cleanliness and attention to station setup",
+			"Ability to work morning or daytime shifts"
+		],
+		"benefits": [
+			"Coffee training may be available",
+			"Tips and guest communication practice",
+			"Flexible shifts may be possible",
+			"Growth into senior barista or cafe supervisor"
+		],
+		"body": [
+			"The barista creates small daily moments for guests through coffee, tea, desserts, and friendly service.",
+			"This role requires attention to taste, presentation, cleanliness, and timing, especially during morning and afternoon rushes.",
+			"It is a good fit for someone who likes coffee culture and wants to grow in cafe or restaurant service."
+		],
+		"highlights": [
+			"Prepare coffee and seasonal drinks",
+			"Maintain clean coffee station",
+			"Support cafe and takeaway service"
+		]
+	},
+	{
+		"slug": "chef",
+		"title": "Chef",
+		"department": "Kitchen",
+		"summary": "A kitchen role focused on preparing dishes, organizing production, maintaining quality, and supporting daily service.",
+		"location": "Kamianets-Podilskyi",
+		"employmentType": "Full-time",
+		"schedule": "Shift schedule",
+		"salary": "Competitive monthly pay",
+		"experience": "2+ years in kitchen work",
+		"level": "Middle / Senior",
+		"workFormat": "On-site",
+		"applyUrl": "/socials",
+		"applyLabel": "Contact hiring team",
+		"contactEmail": "hello@horeca.itkamianets.com",
+		"contactPhone": "+38 097 000 00 00",
+		"responsibilities": [
+			"Prepare dishes according to recipes and service standards",
+			"Organize ingredients, prep work, and station readiness",
+			"Control taste, portioning, and presentation",
+			"Keep kitchen areas clean and safe",
+			"Support menu updates and seasonal specials"
+		],
+		"requirements": [
+			"Kitchen experience in restaurant, hotel, or catering",
+			"Understanding of food safety and cleanliness",
+			"Ability to work during active service",
+			"Consistency in taste, speed, and presentation"
+		],
+		"benefits": [
+			"Stable kitchen role",
+			"Opportunity to work with seasonal menus",
+			"Growth into sous chef or head chef",
+			"Team meals or staff discounts may be available"
+		],
+		"body": [
+			"The chef is responsible for consistent food quality during daily service. This includes preparation, cooking, plating, cleanliness, and timing.",
+			"The role suits candidates who can follow standards, work quickly, and stay focused while coordinating with the kitchen team.",
+			"A strong chef helps the restaurant keep the menu reliable and guests satisfied."
+		],
+		"highlights": [
+			"Prepare dishes for daily service",
+			"Keep taste and presentation consistent",
+			"Support seasonal menu updates"
+		]
+	},
+	{
+		"slug": "kitchen-assistant",
+		"title": "Kitchen assistant",
+		"department": "Kitchen",
+		"summary": "A support kitchen role focused on preparation, cleaning, simple tasks, and helping chefs during service.",
+		"location": "Kamianets-Podilskyi",
+		"employmentType": "Full-time / Part-time",
+		"schedule": "Shift schedule",
+		"salary": "Hourly or monthly pay",
+		"experience": "No experience required",
+		"level": "Entry level",
+		"workFormat": "On-site",
+		"applyUrl": "/socials",
+		"applyLabel": "Contact hiring team",
+		"contactEmail": "hello@horeca.itkamianets.com",
+		"contactPhone": "+38 097 000 00 00",
+		"responsibilities": [
+			"Help with washing, cutting, and basic food preparation",
+			"Keep kitchen tools and work areas clean",
+			"Support chefs during busy service",
+			"Organize ingredients and simple supplies",
+			"Follow hygiene and safety rules"
+		],
+		"requirements": [
+			"Willingness to learn kitchen work",
+			"Cleanliness and responsible attitude",
+			"Ability to follow instructions",
+			"Readiness for active physical work"
+		],
+		"benefits": [
+			"Good first role in HoReCa",
+			"Training on kitchen basics",
+			"Possible growth into cook or chef assistant",
+			"Flexible shifts may be available"
+		],
+		"body": [
+			"The kitchen assistant helps the kitchen run smoothly by handling preparation, cleaning, and simple support tasks.",
+			"This role is a good entry point for people who want to learn how restaurant kitchens work.",
+			"Reliability, cleanliness, and readiness to help are more important than previous experience."
+		],
+		"highlights": [
+			"Support chefs with preparation",
+			"Keep kitchen areas clean",
+			"Good entry point into restaurant work"
+		]
+	},
+	{
+		"slug": "housekeeper",
+		"title": "Housekeeper",
+		"department": "Hotel",
+		"summary": "A hotel cleanliness role focused on room preparation, guest comfort, laundry coordination, and public area care.",
+		"location": "Kamianets-Podilskyi",
+		"employmentType": "Full-time / Part-time",
+		"schedule": "Morning and day shifts",
+		"salary": "Hourly or monthly pay",
+		"experience": "Experience preferred, training possible",
+		"level": "Junior / Middle",
+		"workFormat": "On-site",
+		"applyUrl": "/socials",
+		"applyLabel": "Contact hiring team",
+		"contactEmail": "hello@horeca.itkamianets.com",
+		"contactPhone": "+38 097 000 00 00",
+		"responsibilities": [
+			"Clean and prepare hotel rooms for guest arrival",
+			"Change bed linen, towels, and room supplies",
+			"Report maintenance issues or missing items",
+			"Keep public hotel areas clean and tidy",
+			"Coordinate with reception about room readiness"
+		],
+		"requirements": [
+			"Attention to cleanliness and details",
+			"Responsible attitude toward guest property",
+			"Ability to follow room preparation standards",
+			"Readiness for active physical work"
+		],
+		"benefits": [
+			"Stable daytime work",
+			"Training on hotel standards",
+			"Team support and clear checklists",
+			"Growth into senior housekeeper or housekeeping supervisor"
+		],
+		"body": [
+			"The housekeeper plays a key role in hotel comfort. Clean rooms, fresh linen, and prepared guest spaces are essential for a good stay.",
+			"This role requires accuracy, responsibility, and attention to details that guests immediately notice.",
+			"Housekeeping works closely with reception to keep room availability clear and guest arrivals smooth."
+		],
+		"highlights": [
+			"Prepare rooms for guest arrival",
+			"Keep hotel spaces clean and comfortable",
+			"Coordinate room readiness with reception"
+		]
+	},
+	{
+		"slug": "dishwasher",
+		"title": "Dishwasher",
+		"department": "Kitchen",
+		"summary": "A support role responsible for clean dishes, kitchen tools, and basic hygiene flow during restaurant service.",
+		"location": "Kamianets-Podilskyi",
+		"employmentType": "Full-time / Part-time",
+		"schedule": "Shift schedule",
+		"salary": "Hourly pay",
+		"experience": "No experience required",
+		"level": "Entry level",
+		"workFormat": "On-site",
+		"applyUrl": "/socials",
+		"applyLabel": "Contact hiring team",
+		"contactEmail": "hello@horeca.itkamianets.com",
+		"contactPhone": "+38 097 000 00 00",
+		"responsibilities": [
+			"Wash dishes, glasses, cutlery, and kitchen tools",
+			"Keep dishwashing area clean and organized",
+			"Support kitchen and service teams with clean equipment",
+			"Sort waste and follow hygiene rules",
+			"Help with simple cleaning tasks when needed"
+		],
+		"requirements": [
+			"Responsible and punctual attitude",
+			"Readiness for active physical work",
+			"Cleanliness and attention to hygiene",
+			"Ability to work during busy service"
+		],
+		"benefits": [
+			"No experience required",
+			"Simple entry into HoReCa work",
+			"Flexible shifts may be available",
+			"Stable team environment"
+		],
+		"body": [
+			"The dishwasher keeps the service moving by making sure dishes, glasses, and kitchen tools are clean and ready.",
+			"This role is essential during busy restaurant hours because both kitchen and waiters depend on clean equipment.",
+			"It is a good starting position for people who want simple, stable work in hospitality."
+		],
+		"highlights": [
+			"Keep dishes and tools clean",
+			"Support kitchen and service teams",
+			"Entry-level hospitality role"
+		]
+	},
+	{
+		"slug": "event-coordinator",
+		"title": "Event coordinator",
+		"department": "Events",
+		"summary": "A coordination role focused on banquets, birthdays, weddings, group bookings, timing, and guest communication.",
+		"location": "Kamianets-Podilskyi",
+		"employmentType": "Full-time",
+		"schedule": "Flexible event schedule",
+		"salary": "Competitive monthly pay",
+		"experience": "1+ year in events or hospitality",
+		"level": "Middle",
+		"workFormat": "On-site",
+		"applyUrl": "/socials",
+		"applyLabel": "Contact hiring team",
+		"contactEmail": "hello@horeca.itkamianets.com",
+		"contactPhone": "+38 097 000 00 00",
+		"responsibilities": [
+			"Process event inquiries and prepare basic offers",
+			"Coordinate menus, timing, seating, and guest needs",
+			"Communicate with kitchen, service, and management teams",
+			"Support event setup and on-site coordination",
+			"Follow up with guests before and after events"
+		],
+		"requirements": [
+			"Strong communication and organization",
+			"Experience with guests, events, or hospitality service",
+			"Ability to manage details and timing",
+			"Calm attitude during active event preparation"
+		],
+		"benefits": [
+			"Creative and communication-focused role",
+			"Experience with weddings, banquets, and business events",
+			"Growth into event manager",
+			"Dynamic work with different guest formats"
+		],
+		"body": [
+			"The event coordinator helps guests turn an inquiry into a clear event plan. This includes communication, menu details, seating, timing, and coordination with the team.",
+			"The role is important for birthdays, banquets, weddings, conferences, and group dinners.",
+			"A strong coordinator keeps details organized so guests feel confident before the event begins."
+		],
+		"highlights": [
+			"Coordinate banquets and private events",
+			"Manage guest communication and details",
+			"Support smooth event preparation"
+		]
+	},
+	{
+		"slug": "spa-attendant",
+		"title": "Spa attendant",
+		"department": "Spa",
+		"summary": "A wellness area role focused on guest welcome, spa cleanliness, towels, time slots, and calm service flow.",
+		"location": "Kamianets-Podilskyi",
+		"employmentType": "Full-time / Part-time",
+		"schedule": "Shift schedule",
+		"salary": "Hourly or monthly pay",
+		"experience": "Experience preferred, training possible",
+		"level": "Junior / Middle",
+		"workFormat": "On-site",
+		"applyUrl": "/socials",
+		"applyLabel": "Contact hiring team",
+		"contactEmail": "hello@horeca.itkamianets.com",
+		"contactPhone": "+38 097 000 00 00",
+		"responsibilities": [
+			"Welcome spa guests and explain basic rules",
+			"Prepare towels, rest areas, and guest supplies",
+			"Monitor cleanliness and comfort in spa zones",
+			"Coordinate time slots and guest flow",
+			"Report technical or maintenance issues"
+		],
+		"requirements": [
+			"Polite and calm communication",
+			"Attention to cleanliness and safety",
+			"Responsible attitude toward guest comfort",
+			"Readiness to follow spa rules and procedures"
+		],
+		"benefits": [
+			"Calm wellness environment",
+			"Training on spa service standards",
+			"Flexible shifts may be available",
+			"Growth into spa administrator or supervisor"
+		],
+		"body": [
+			"The spa attendant keeps the wellness area clean, calm, and ready for guests.",
+			"This role includes guest welcome, towels, rest spaces, timing, and basic rule explanation.",
+			"It is a good fit for someone who enjoys quiet service, cleanliness, and organized guest support."
+		],
+		"highlights": [
+			"Support sauna, hammam, or relax zone guests",
+			"Keep spa areas clean and ready",
+			"Coordinate simple guest flow and time slots"
+		]
+	},
+	{
+		"slug": "maintenance-technician",
+		"title": "Maintenance technician",
+		"department": "Operations",
+		"summary": "A technical support role focused on repairs, equipment checks, lighting, plumbing, furniture, and daily property upkeep.",
+		"location": "Kamianets-Podilskyi",
+		"employmentType": "Full-time / Part-time",
+		"schedule": "Flexible schedule",
+		"salary": "Competitive pay",
+		"experience": "Technical experience required",
+		"level": "Middle",
+		"workFormat": "On-site",
+		"applyUrl": "/socials",
+		"applyLabel": "Contact hiring team",
+		"contactEmail": "hello@horeca.itkamianets.com",
+		"contactPhone": "+38 097 000 00 00",
+		"responsibilities": [
+			"Handle minor repairs around the property",
+			"Check lighting, plumbing, furniture, and equipment",
+			"Respond to urgent maintenance requests",
+			"Support safe operation of hotel, restaurant, and spa areas",
+			"Track repair needs and report larger issues"
+		],
+		"requirements": [
+			"Practical repair and technical skills",
+			"Responsible attitude toward safety",
+			"Ability to react quickly to issues",
+			"Experience with building maintenance is preferred"
+		],
+		"benefits": [
+			"Stable practical work",
+			"Varied daily tasks",
+			"Important role in guest comfort and safety",
+			"Flexible schedule may be available"
+		],
+		"body": [
+			"The maintenance technician helps the business stay safe, functional, and comfortable for guests and staff.",
+			"The role includes small repairs, equipment checks, urgent fixes, and regular property care.",
+			"Good maintenance prevents service interruptions and helps every department work smoothly."
+		],
+		"highlights": [
+			"Support daily property repairs",
+			"Keep guest areas safe and functional",
+			"React to urgent technical issues"
+		]
+	}
+]

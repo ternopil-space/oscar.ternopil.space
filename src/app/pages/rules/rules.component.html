@@ -1,0 +1,93 @@
+<main class="mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
+	@if (isLoading()) {
+		<section
+			class="rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center sm:px-6 sm:py-14"
+			aria-busy="true"
+			aria-live="polite"
+		>
+			<div
+				class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
+			>
+				<span class="material-symbols-outlined animate-pulse text-[28px]" aria-hidden="true">
+					rule
+				</span>
+			</div>
+
+			<p class="mt-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+				<span [translate]="'Rules'">{{ 'Rules' }}</span>
+			</p>
+			<p class="mt-2 text-sm text-[var(--c-text-muted)]">
+				<span [translate]="'Loading rules...'">{{ 'Loading rules...' }}</span>
+			</p>
+		</section>
+	} @else if (ruleGroups().length) {
+		<section
+			class="overflow-hidden rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
+		>
+			<div
+				class="border-b border-[var(--c-border)] bg-[linear-gradient(135deg,rgba(197,61,61,0.14),rgba(217,168,88,0.08))] px-4 py-5 sm:px-5"
+			>
+				<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+					<span [translate]="'Rules'">{{ 'Rules' }}</span>
+				</p>
+				<h1 class="mt-2 text-2xl font-semibold text-[var(--c-text-secondary)]">
+					<span [translate]="'House rules'">{{ 'House rules' }}</span>
+				</h1>
+				<p class="mt-2 max-w-[42rem] text-sm leading-6 text-[var(--c-text-muted)]">
+					<span
+						[translate]="'Simple rules that help every guest enjoy a safe and comfortable visit.'"
+					>
+						{{ 'Simple rules that help every guest enjoy a safe and comfortable visit.' }}
+					</span>
+				</p>
+			</div>
+
+			<div class="space-y-4 p-3 sm:p-4">
+				@for (group of ruleGroups(); track group.category) {
+					<section class="rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)]">
+						<div class="border-b border-[var(--c-border)] px-4 py-3">
+							<h2 class="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--c-secondary)]">
+								<span [translate]="group.category">{{ group.category }}</span>
+							</h2>
+						</div>
+
+						<div class="divide-y divide-[var(--c-border)]">
+							@for (rule of group.rules; track rule.title) {
+								<article class="px-4 py-4">
+									<h3 class="text-base font-semibold leading-6 text-[var(--c-text-secondary)]">
+										<span [translate]="rule.title">{{ rule.title }}</span>
+									</h3>
+									<p class="mt-2 text-sm leading-6 text-[var(--c-text-muted)]">
+										<span [translate]="rule.description">{{ rule.description }}</span>
+									</p>
+								</article>
+							}
+						</div>
+					</section>
+				}
+			</div>
+		</section>
+	} @else {
+		<section
+			class="rounded-[1.2rem] border border-dashed border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center sm:px-6 sm:py-14"
+		>
+			<div
+				class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
+			>
+				<span class="material-symbols-outlined text-[28px]" aria-hidden="true">rule</span>
+			</div>
+
+			<p class="mt-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+				<span [translate]="'Rules'">{{ 'Rules' }}</span>
+			</p>
+			<h1 class="mt-2 text-xl font-semibold text-[var(--c-text-secondary)]">
+				<span [translate]="'No rules available right now'">{{ 'No rules available right now' }}</span>
+			</h1>
+			<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]">
+				<span [translate]="'Check back later for updated house rules.'">
+					{{ 'Check back later for updated house rules.' }}
+				</span>
+			</p>
+		</section>
+	}
+</main>

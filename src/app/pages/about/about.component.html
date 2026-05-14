@@ -1,0 +1,101 @@
+<main class="about mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
+	<section class="about__hero">
+		<div class="about__heroGlow" aria-hidden="true"></div>
+
+		<div class="relative">
+			<p class="about__eyebrow">
+				<span [translate]="page.eyebrow">{{ page.eyebrow }}</span>
+			</p>
+
+			<h1 class="about__title">
+				<span [translate]="page.title">{{ page.title }}</span>
+			</h1>
+
+			<p class="about__description">
+				<span [translate]="page.description">{{ page.description }}</span>
+			</p>
+
+			<div class="about__tags" aria-label="Business highlights">
+				@for (tag of page.tags; track tag) {
+					<span class="about__tag">
+						<span [translate]="tag">{{ tag }}</span>
+					</span>
+				}
+			</div>
+		</div>
+	</section>
+
+	<section class="about__intro">
+		<div class="about__introText">
+			<p class="about__eyebrow">
+				<span [translate]="'Hospitality complex'">Hospitality complex</span>
+			</p>
+			<h2>
+				<span [translate]="page.intro.title">{{ page.intro.title }}</span>
+			</h2>
+			<p>
+				<span [translate]="page.intro.text">{{ page.intro.text }}</span>
+			</p>
+		</div>
+
+		<div class="about__media">
+			@if (page.intro.image && !imageUnavailable()) {
+				<img
+					class="about__image"
+					[ngSrc]="introImageSrc"
+					translate
+					[translate]="{ alt: page.intro.title }"
+					width="760"
+					height="520"
+					loading="lazy"
+					(error)="markIntroImageUnavailable()"
+				/>
+			} @else {
+				<div class="about__imageFallback">
+					<span class="material-symbols-outlined" aria-hidden="true">room_service</span>
+					<span [translate]="'Hospitality, events, and rest'">
+						Hospitality, events, and rest
+					</span>
+				</div>
+			}
+		</div>
+	</section>
+
+	<section class="about__sections" aria-label="Services">
+		@for (section of page.sections; track section.title) {
+			<article class="about__section">
+				<div class="about__sectionHeader">
+					<span class="material-symbols-outlined about__icon" aria-hidden="true">
+						{{ section.icon }}
+					</span>
+					<h2>
+						<span [translate]="section.title">{{ section.title }}</span>
+					</h2>
+				</div>
+
+				<ul>
+					@for (item of section.items; track item) {
+						<li>
+							<span class="material-symbols-outlined" aria-hidden="true">check_circle</span>
+							<span [translate]="item">{{ item }}</span>
+						</li>
+					}
+				</ul>
+			</article>
+		}
+	</section>
+
+	<section class="about__service">
+		<div>
+			<p class="about__eyebrow">
+				<span [translate]="'Guest care'">Guest care</span>
+			</p>
+			<h2>
+				<span [translate]="page.service.title">{{ page.service.title }}</span>
+			</h2>
+		</div>
+		<p>
+			<span [translate]="page.service.text">{{ page.service.text }}</span>
+		</p>
+	</section>
+</main>

@@ -1,0 +1,30 @@
+[
+	{
+		"slug": "homemade-syrnyky-with-sour-cream",
+		"categorySlug": "breakfasts",
+		"name": "Homemade syrnyky with sour cream",
+		"description": "Golden cottage cheese pancakes served with sour cream.",
+		"price": 140,
+		"labels": ["200 g"],
+		"fullDescription": "Golden cottage cheese pancakes served with sour cream. Ingredients: cottage cheese, eggs, flour, sugar, and sour cream.",
+		"suggested": ["cappuccino"],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 420,
+		"portion": "200 g",
+		"allergens": ["milk"]
+	},
+	{
+		"slug": "cappuccino",
+		"categorySlug": "coffee",
+		"name": "Cappuccino",
+		"description": "Espresso with steamed milk and foam.",
+		"price": 50,
+		"labels": ["350 ml"],
+		"fullDescription": "Espresso with steamed milk and foam. Ingredients: Espresso with steamed milk and foam..",
+		"suggested": ["homemade-syrnyky-with-sour-cream"],
+		"cookTimeMinutes": 5,
+		"caloriesKcal": 110,
+		"portion": "350 ml",
+		"allergens": ["milk"]
+	}
+]

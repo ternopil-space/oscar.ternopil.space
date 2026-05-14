@@ -1,0 +1,157 @@
+[
+	{
+		"slug": "little-chef-treasure-hunt",
+		"title": "Little chef treasure hunt",
+		"audience": "Kids",
+		"ageRange": "6-10 years",
+		"summary": "A playful kids quest with simple food clues, color tasks, and a small reward at the end.",
+		"duration": "25-35 minutes",
+		"format": "Kids in-venue quest",
+		"price": "From 8 EUR per child",
+		"difficulty": "Easy",
+		"groupSize": "2-12 children",
+		"ctaLabel": "Ask about hosting",
+		"ctaHref": "/socials",
+		"body": [
+			"Little chef treasure hunt helps children explore the venue through safe and simple tasks connected to food, colors, shapes, and table details.",
+			"The quest works well during family lunches, birthdays, hotel stays, or quiet daytime hours when children need a small activity.",
+			"Each step should be short and easy to understand, with adults or staff guiding the process when needed."
+		],
+		"steps": [
+			"Find three colors on the menu",
+			"Spot the hidden chef symbol",
+			"Guess the mystery ingredient",
+			"Complete the table card task",
+			"Receive a small sweet reward"
+		],
+		"highlights": [
+			"Designed for young children",
+			"Simple clues and safe movement",
+			"Good for birthdays and family visits"
+		]
+	},
+	{
+		"slug": "hotel-explorer-kids-mission",
+		"title": "Hotel explorer kids mission",
+		"audience": "Kids",
+		"ageRange": "7-12 years",
+		"summary": "A calm hotel quest where children discover guest areas, service clues, and travel-themed mini tasks.",
+		"duration": "30-45 minutes",
+		"format": "Hotel activity quest",
+		"price": "From 10 EUR per child",
+		"difficulty": "Easy",
+		"groupSize": "2-10 children",
+		"ctaLabel": "Ask about hosting",
+		"ctaHref": "/socials",
+		"body": [
+			"Hotel explorer kids mission turns a hotel stay into a small adventure without disturbing other guests.",
+			"Children follow a simple route through approved public areas, solve soft travel-themed clues, and learn how hotels welcome guests.",
+			"The quest is useful for family hotels, weekend stays, and birthday groups that need an activity before lunch or dinner."
+		],
+		"steps": [
+			"Find the welcome point",
+			"Match room icons with guest needs",
+			"Solve the luggage clue",
+			"Count travel symbols in the lobby",
+			"Get the explorer stamp"
+		],
+		"highlights": [
+			"Works for hotel public areas",
+			"Keeps children engaged during stays",
+			"Can end with a sticker or small prize"
+		]
+	},
+	{
+		"slug": "chef-market-trail",
+		"title": "Chef market trail",
+		"audience": "Adults",
+		"ageRange": "18+",
+		"summary": "A light interactive quest that guides guests through seasonal ingredients, menu clues, and a final tasting reward.",
+		"duration": "45-60 minutes",
+		"format": "In-venue quest",
+		"price": "From 18 EUR per guest",
+		"difficulty": "Medium",
+		"groupSize": "4-24 guests",
+		"ctaLabel": "Ask about hosting",
+		"ctaHref": "/socials",
+		"body": [
+			"Chef market trail turns a restaurant visit into a compact shared activity. Guests move through a sequence of easy food-focused prompts that work before dinner, during a private booking, or as part of a hosted brand evening.",
+			"The experience keeps the tone social rather than competitive. Each step connects back to the menu, the venue, or seasonal ingredients, so the quest feels native to the business instead of bolted onto it.",
+			"The final stop can lead into a tasting, a small gift, or a booking conversation depending on the format selected for the group."
+		],
+		"steps": [
+			"Decode the seasonal ingredient clue",
+			"Match dishes with local products",
+			"Find the chef’s recommendation",
+			"Choose a tasting direction",
+			"Finish with a tasting-led reward moment"
+		],
+		"highlights": [
+			"Simple clue path designed for mixed guest groups",
+			"Flexible fit for private dinners and hosted evenings",
+			"Finishes with a tasting-led reward moment"
+		]
+	},
+	{
+		"slug": "cocktail-code-evening",
+		"title": "Cocktail code evening",
+		"audience": "Adults",
+		"ageRange": "18+",
+		"summary": "An adult bar quest with flavor clues, aroma notes, and a final signature drink choice.",
+		"duration": "40-60 minutes",
+		"format": "Bar quest",
+		"price": "From 22 EUR per guest",
+		"difficulty": "Medium",
+		"groupSize": "4-16 guests",
+		"ctaLabel": "Ask about hosting",
+		"ctaHref": "/socials",
+		"body": [
+			"Cocktail code evening is designed for adult guests who want an easy social activity around the bar without turning the night into a formal workshop.",
+			"Guests solve flavor clues, compare aroma notes, and learn small details about signature drinks, mocktails, or house infusions.",
+			"The format can stay alcohol-free if needed, but it works best as an evening add-on for groups, private dinners, or hotel guests."
+		],
+		"steps": [
+			"Choose a flavor profile",
+			"Guess the aroma clue",
+			"Match garnish with drink style",
+			"Decode the bar card",
+			"Pick a signature drink or mocktail"
+		],
+		"highlights": [
+			"Good for evening groups",
+			"Can support alcoholic or alcohol-free format",
+			"Connects naturally with bar sales"
+		]
+	},
+	{
+		"slug": "family-menu-mystery",
+		"title": "Family menu mystery",
+		"audience": "Families",
+		"ageRange": "8+ with adults",
+		"summary": "A shared family quest where kids and adults solve menu clues together before a meal or celebration.",
+		"duration": "35-50 minutes",
+		"format": "Family table quest",
+		"price": "From 12 EUR per guest",
+		"difficulty": "Easy / Medium",
+		"groupSize": "3-20 guests",
+		"ctaLabel": "Ask about hosting",
+		"ctaHref": "/socials",
+		"body": [
+			"Family menu mystery is made for groups where children and adults want to play together without leaving the table for too long.",
+			"The tasks combine easy kid-friendly clues with small food, service, and venue questions that adults can enjoy too.",
+			"It works well before dinner, during birthdays, or as a light entertainment option for family hotel guests."
+		],
+		"steps": [
+			"Solve the menu riddle",
+			"Find the table clue",
+			"Match drink, dish, and dessert",
+			"Answer the family bonus question",
+			"Unlock the shared reward"
+		],
+		"highlights": [
+			"Good for families and mixed ages",
+			"Works at the table or around approved areas",
+			"Easy to connect with dessert or gift rewards"
+		]
+	}
+]

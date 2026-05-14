@@ -1,0 +1,68 @@
+[
+	{
+		"slug": "chef-table-seasonal-evening",
+		"title": "Chef table seasonal evening",
+		"summary": "A hosted dinner format for guests who want a slower evening built around a tasting menu, paired drinks, and direct attention from the kitchen team.",
+		"dateLabel": "June 20, 2026",
+		"timeLabel": "18:30",
+		"location": "Main dining hall",
+		"format": "Private dining",
+		"capacity": "Up to 24 guests",
+		"ctaLabel": "Ask about booking",
+		"ctaHref": "/socials",
+		"body": [
+			"This event is designed as a flexible HoReCa showcase that works for tastings, compact celebrations, and hosted private dinners. The service rhythm leaves enough time for conversation while keeping the menu structured and clear.",
+			"Guests receive a curated seasonal menu, a dedicated seating plan, and coordinated pacing between courses. The format can be adapted for small brand gatherings, birthdays, or hospitality presentations.",
+			"The team can discuss dietary notes, timing, and room layout before confirmation so the event page doubles as a useful starting point for real inquiries."
+		],
+		"highlights": [
+			"Curated multi-course seasonal menu",
+			"Dedicated service flow for private groups",
+			"Flexible setup for celebrations or brand hosting"
+		]
+	},
+	{
+		"slug": "family-brunch-weekend",
+		"title": "Family brunch weekend",
+		"summary": "A relaxed weekend brunch for families and friends with simple dishes, warm drinks, desserts, and comfortable seating.",
+		"dateLabel": "July 5, 2026",
+		"timeLabel": "11:00",
+		"location": "Restaurant terrace",
+		"format": "Family brunch",
+		"capacity": "Up to 40 guests",
+		"ctaLabel": "Reserve a table",
+		"ctaHref": "/socials",
+		"body": [
+			"This brunch format is made for guests who want an easy weekend visit without planning a formal celebration. The atmosphere stays relaxed, family-friendly, and practical for different ages.",
+			"The menu can include breakfast dishes, light mains, desserts, coffee, tea, and seasonal drinks. Seating can be arranged for couples, families, or small groups of friends.",
+			"The event works well as a repeatable horeca activity because it encourages daytime visits and gives regular guests a simple reason to return on weekends."
+		],
+		"highlights": [
+			"Comfortable weekend format for families",
+			"Coffee, desserts, and light dishes",
+			"Good for regular repeat visits"
+		]
+	},
+	{
+		"slug": "spa-relax-evening",
+		"title": "Spa relax evening",
+		"summary": "A calm evening focused on sauna, hammam, pool time, quiet rest, and light refreshments for small groups.",
+		"dateLabel": "August 14, 2026",
+		"timeLabel": "19:00",
+		"location": "Spa and relax zone",
+		"format": "Wellness evening",
+		"capacity": "Up to 12 guests",
+		"ctaLabel": "Ask about spa time",
+		"ctaHref": "/socials",
+		"body": [
+			"This event is designed for guests who want to slow down after a busy week and spend a quiet evening in the relax zone. It can work for friends, couples, or small private groups.",
+			"The format may include sauna or hammam time, access to rest areas, light drinks, and a calm service rhythm. The exact setup can be adjusted to the available facilities.",
+			"Before booking, guests can confirm time slots, guest capacity, spa rules, and optional refreshments with the team."
+		],
+		"highlights": [
+			"Quiet wellness format for small groups",
+			"Sauna, hammam, or pool options",
+			"Good for private evening relaxation"
+		]
+	}
+]

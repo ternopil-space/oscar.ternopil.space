@@ -1,0 +1,89 @@
+<main class="mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
+	<article class="overflow-hidden rounded-[1.5rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)]">
+		<header class="border-b border-[var(--c-border)] px-4 py-8 sm:px-6 lg:px-8">
+			<a class="ui-btn ui-btn-secondary mb-6 inline-flex" routerLink="/reviews">
+				<span [translate]="'Back to reviews'">{{ 'Back to reviews' }}</span>
+			</a>
+
+			<div class="flex flex-wrap items-center gap-3">
+				<p
+					class="inline-flex rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--c-secondary)]"
+				>
+					<span [translate]="'Review'">{{ 'Review' }}</span>
+				</p>
+				@if (review().date) {
+					<p class="text-xs uppercase tracking-[0.12em] text-[var(--c-text-muted)]">
+						<span [translate]="review().date">{{ review().date }}</span>
+					</p>
+				}
+			</div>
+
+			<h1 class="mt-5 max-w-[18ch] text-[2.25rem] font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-5xl">
+				<span [translate]="(review().title || review().author)">{{ review().title || review().author }}</span>
+			</h1>
+			<p class="mt-5 text-lg font-semibold text-[var(--c-text-secondary)]">
+				<span [translate]="review().author">{{ review().author }}</span>
+			</p>
+		</header>
+
+		<div class="grid gap-6 px-4 py-6 sm:px-6 lg:grid-cols-[minmax(0,1fr)_20rem] lg:px-8">
+			<div class="space-y-5">
+				<p class="text-[15px] leading-8 text-[var(--c-text-primary)]">
+					<span [translate]="review().body">{{ review().body }}</span>
+				</p>
+			</div>
+
+			<aside class="h-fit rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 sm:p-5">
+				<h2 class="text-lg font-semibold text-[var(--c-text-secondary)]">
+					<span [translate]="'Review details'">{{ 'Review details' }}</span>
+				</h2>
+
+				<div
+					class="mt-4 flex items-center gap-1 text-[var(--c-secondary)]"
+					translate
+					[translate]="{ ariaLabel: (review().rating + ' out of 5 stars') }"
+				>
+					@for (star of stars; track star) {
+						<span class="material-symbols-outlined text-[20px]" aria-hidden="true">
+							{{ star <= review().rating ? 'star' : 'star_outline' }}
+						</span>
+					}
+				</div>
+
+				<dl class="mt-5 space-y-4 text-sm">
+					@if (review().sourceLabel) {
+						<div>
+							<dt class="font-semibold text-[var(--c-text-secondary)]">
+								<span [translate]="'Source'">{{ 'Source' }}</span>
+							</dt>
+							<dd class="mt-1 text-[var(--c-text-primary)]">
+								<span [translate]="review().sourceLabel">{{ review().sourceLabel }}</span>
+							</dd>
+						</div>
+					}
+					@if (review().date) {
+						<div>
+							<dt class="font-semibold text-[var(--c-text-secondary)]">
+								<span [translate]="'Published'">{{ 'Published' }}</span>
+							</dt>
+							<dd class="mt-1 text-[var(--c-text-primary)]">
+								<span [translate]="review().date">{{ review().date }}</span>
+							</dd>
+						</div>
+					}
+				</dl>
+
+				@if (review().sourceUrl) {
+					<a
+						class="ui-btn ui-btn-primary mt-6 w-full justify-center"
+						[href]="review().sourceUrl"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<span [translate]="'Open source'">{{ 'Open source' }}</span>
+					</a>
+				}
+			</aside>
+		</div>
+	</article>
+</main>

@@ -1,0 +1,138 @@
+<main class="spa mx-auto max-w-[var(--container)] px-3 pb-10 pt-3 sm:px-4 sm:pb-12">
+	<section class="spa__hero">
+		<div class="relative">
+			<p class="spa__eyebrow">
+				<span [translate]="page.eyebrow">{{ page.eyebrow }}</span>
+			</p>
+
+			<h1 class="spa__title">
+				<span [translate]="page.title">{{ page.title }}</span>
+			</h1>
+
+			<p class="spa__description">
+				<span [translate]="page.description">{{ page.description }}</span>
+			</p>
+
+			<div class="spa__tags" aria-label="Wellness services">
+				@for (tag of page.tags; track tag) {
+					<span class="spa__tag">
+						<span class="material-symbols-outlined" aria-hidden="true">spa</span>
+						<span [translate]="tag">{{ tag }}</span>
+					</span>
+				}
+			</div>
+		</div>
+	</section>
+
+	<section class="spa__services" aria-label="Spa services">
+		@for (service of page.services; track service.slug) {
+			<article class="spa__service">
+				<div class="spa__serviceHeader">
+					<div>
+						<p class="spa__eyebrow">
+							<span [translate]="service.subtitle">{{ service.subtitle }}</span>
+						</p>
+						<h2>
+							<span [translate]="service.title">{{ service.title }}</span>
+						</h2>
+					</div>
+
+					<span class="material-symbols-outlined spa__serviceIcon" aria-hidden="true">
+						@if (service.slug === 'hammam') {
+							water_drop
+						} @else if (service.slug === 'dry-sauna') {
+							hot_tub
+						} @else {
+							pool
+						}
+					</span>
+				</div>
+
+				<div class="spa__serviceBody">
+					<div class="spa__copy">
+						<p class="spa__text">
+							<span [translate]="service.description">{{ service.description }}</span>
+						</p>
+
+						<ul class="spa__features">
+							@for (feature of service.features; track feature) {
+								<li>
+									<span class="material-symbols-outlined" aria-hidden="true">check_circle</span>
+									<span [translate]="feature">{{ feature }}</span>
+								</li>
+							}
+						</ul>
+					</div>
+
+					<div class="spa__schedule" aria-label="Schedule and prices">
+						@for (group of service.schedule; track group.days) {
+							<div class="spa__scheduleGroup">
+								<div class="spa__scheduleDays">
+									<span class="material-symbols-outlined" aria-hidden="true">schedule</span>
+									<span [translate]="group.days">{{ group.days }}</span>
+								</div>
+
+								<div class="spa__priceRows">
+									@for (item of group.items; track item.label + item.price) {
+										<div class="spa__priceRow">
+											<span [translate]="item.label">{{ item.label }}</span>
+											<strong [translate]="item.price">{{ item.price }}</strong>
+										</div>
+									}
+								</div>
+							</div>
+						}
+
+						<p class="spa__note">
+							<span [translate]="service.note">{{ service.note }}</span>
+						</p>
+					</div>
+				</div>
+
+				@if (service.images.length) {
+					<div class="spa__gallery">
+						@for (image of service.images; track image; let index = $index) {
+							<figure class="spa__imageFrame">
+								@if (!isImageUnavailable(image)) {
+									<img
+										class="spa__image"
+										[ngSrc]="imageSrc(image)"
+										translate
+										[translate]="{ alt: service.title }"
+										width="520"
+										height="360"
+										[loading]="index === 0 ? 'eager' : 'lazy'"
+										(error)="markImageUnavailable(image)"
+									/>
+								} @else {
+									<div class="spa__imageFallback" aria-hidden="true">
+										<span class="material-symbols-outlined">spa</span>
+									</div>
+								}
+							</figure>
+						}
+					</div>
+				}
+			</article>
+		}
+	</section>
+
+	<section class="spa__booking">
+		<div>
+			<p class="spa__eyebrow">
+				<span [translate]="'Wellness'">Wellness</span>
+			</p>
+			<h2>
+				<span [translate]="page.booking.title">{{ page.booking.title }}</span>
+			</h2>
+			<p>
+				<span [translate]="page.booking.text">{{ page.booking.text }}</span>
+			</p>
+		</div>
+
+		<a class="ui-btn ui-btn-primary spa__bookingButton" routerLink="/navigation">
+			<span class="material-symbols-outlined" aria-hidden="true">event_available</span>
+			<span [translate]="'Contact us'">Contact us</span>
+		</a>
+	</section>
+</main>

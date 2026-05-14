@@ -1,0 +1,279 @@
+[
+	{
+		"slug": "olena-koval",
+		"name": "Olena Koval",
+		"role": "Guest relations lead",
+		"department": "Guest experience",
+		"seniority": "8 years in hospitality",
+		"description": "Olena keeps guest communication clear from the first reservation request through the final service details.",
+		"image": "",
+		"publicRole": true,
+		"availableForGuestQuestions": true,
+		"specialties": [
+			"Reservations",
+			"Private dining",
+			"Celebration planning"
+		],
+		"languages": [
+			"Ukrainian",
+			"English"
+		],
+		"tips": "Her focus is calm coordination, thoughtful table planning, and making private visits feel well prepared.",
+		"body": [
+			"Olena works across reservations, guest follow-up, and event coordination so every visit has a clear point of contact before service begins.",
+			"She helps the team balance practical floor planning with personal hospitality, especially for celebrations, group dinners, and guests with timing or dietary notes.",
+			"Her profile reflects the business standard for warm communication that stays precise, responsive, and useful."
+		],
+		"highlights": [
+			"Coordinates reservations and guest requests",
+			"Supports private dining and celebration planning",
+			"Keeps front-of-house communication consistent"
+		]
+	},
+	{
+		"slug": "andrii-melnyk",
+		"name": "Andrii Melnyk",
+		"role": "Head waiter",
+		"department": "Restaurant service",
+		"seniority": "6 years in restaurant service",
+		"description": "Andrii guides the dining room service flow, helps guests choose dishes, and keeps table service smooth during busy hours.",
+		"image": "",
+		"publicRole": true,
+		"availableForGuestQuestions": true,
+		"specialties": [
+			"Table service",
+			"Menu recommendations",
+			"Group dinners"
+		],
+		"languages": [
+			"Ukrainian",
+			"English"
+		],
+		"tips": "Ask Andrii for dish timing, table setup, or simple menu pairing advice when planning a relaxed dinner.",
+		"body": [
+			"Andrii is the kind of waiter guests remember because he keeps service attentive without making it feel heavy.",
+			"He supports the team during breakfast, lunch, and dinner service, helps with table coordination, and makes sure guest requests reach the kitchen or bar clearly.",
+			"His public profile is useful for restaurants that want to show that service is not only about taking orders, but also about care, timing, and calm communication."
+		],
+		"highlights": [
+			"Helps guests choose from the menu",
+			"Supports table service for groups",
+			"Keeps restaurant floor communication clear"
+		]
+	},
+	{
+		"slug": "maksym-petrenko",
+		"name": "Maksym Petrenko",
+		"role": "Chef",
+		"department": "Kitchen",
+		"seniority": "10 years in professional kitchens",
+		"description": "Maksym prepares seasonal dishes and can personally explain ingredients, cooking ideas, and menu specials to guests.",
+		"image": "",
+		"publicRole": true,
+		"availableForGuestQuestions": true,
+		"specialties": [
+			"Seasonal menu",
+			"Local cuisine",
+			"Tasting dinners"
+		],
+		"languages": [
+			"Ukrainian"
+		],
+		"tips": "Ask Maksym about seasonal dishes, local products, or what to try if you want something simple but memorable.",
+		"body": [
+			"Maksym represents the kitchen in a public-facing way, especially when guests are curious about the story behind a dish.",
+			"He can support tasting evenings, private dinners, seasonal menu presentations, and short table conversations when the service format allows it.",
+			"This profile helps the business show that food has a real team behind it, not just a menu card."
+		],
+		"highlights": [
+			"Explains seasonal specials to guests",
+			"Supports tasting and private dinner formats",
+			"Connects local ingredients with simple presentation"
+		]
+	},
+	{
+		"slug": "sofia-hnatiuk",
+		"name": "Sofia Hnatiuk",
+		"role": "Barista",
+		"department": "Cafe",
+		"seniority": "4 years in coffee service",
+		"description": "Sofia prepares coffee, tea, and seasonal drinks while helping guests find the right drink for their mood.",
+		"image": "",
+		"publicRole": true,
+		"availableForGuestQuestions": true,
+		"specialties": [
+			"Espresso drinks",
+			"Seasonal coffee",
+			"Dessert pairing"
+		],
+		"languages": [
+			"Ukrainian",
+			"English"
+		],
+		"tips": "Ask Sofia what coffee works best with dessert or which seasonal drink is worth trying today.",
+		"body": [
+			"Sofia brings the cafe part of the business to life through coffee, small conversations, and drink recommendations.",
+			"Her role is public because many guests interact directly with the barista during quick visits, takeaway orders, or afternoon coffee breaks.",
+			"A barista profile works well for horeca templates because coffee is often a reason guests return even when they are not planning a full meal."
+		],
+		"highlights": [
+			"Prepares espresso, latte, cappuccino, and tea",
+			"Recommends coffee and dessert combinations",
+			"Supports takeaway and cafe service"
+		]
+	},
+	{
+		"slug": "roman-shevchenko",
+		"name": "Roman Shevchenko",
+		"role": "Bartender",
+		"department": "Bar",
+		"seniority": "7 years behind the bar",
+		"description": "Roman prepares classic and signature drinks, supports evening service, and helps guests choose cocktails, wine, or soft drinks.",
+		"image": "",
+		"publicRole": true,
+		"availableForGuestQuestions": true,
+		"specialties": [
+			"Cocktails",
+			"Signature drinks",
+			"Evening service"
+		],
+		"languages": [
+			"Ukrainian",
+			"English"
+		],
+		"tips": "Ask Roman for a drink recommendation based on your dinner, celebration format, or preferred flavor.",
+		"body": [
+			"Roman is a public-facing bar team member because guests often want direct recommendations for cocktails, wine, beer, or non-alcoholic drinks.",
+			"He helps the bar stay organized during dinner service, private events, and slower evenings when guests want a more personal drink experience.",
+			"His profile can be used to make the bar feel more human and to highlight signature drinks without turning the page into a full bar menu."
+		],
+		"highlights": [
+			"Prepares classic and signature drinks",
+			"Recommends drinks for dinner or events",
+			"Supports bar and restaurant service"
+		]
+	},
+	{
+		"slug": "iryna-moroz",
+		"name": "Iryna Moroz",
+		"role": "Front desk receptionist",
+		"department": "Hotel reception",
+		"seniority": "5 years in hotel service",
+		"description": "Iryna welcomes hotel guests, supports check-in and check-out, and helps visitors understand room, breakfast, and service details.",
+		"image": "",
+		"publicRole": true,
+		"availableForGuestQuestions": true,
+		"specialties": [
+			"Check-in",
+			"Room information",
+			"Guest support"
+		],
+		"languages": [
+			"Ukrainian",
+			"English",
+			"Polish"
+		],
+		"tips": "Ask Iryna about check-in time, breakfast, parking, family rooms, or available guest services.",
+		"body": [
+			"Iryna is the first point of contact for many hotel guests, so her role is naturally public-facing.",
+			"She helps guests understand practical details before and during their stay, including room readiness, breakfast options, parking, and extra services.",
+			"A receptionist profile is useful for hotel templates because it gives guests confidence that there is a real person supporting their stay."
+		],
+		"highlights": [
+			"Welcomes guests at reception",
+			"Helps with room and booking questions",
+			"Coordinates guest requests with hotel teams"
+		]
+	},
+	{
+		"slug": "daria-lysenko",
+		"name": "Daria Lysenko",
+		"role": "Event coordinator",
+		"department": "Events",
+		"seniority": "6 years in event hospitality",
+		"description": "Daria helps guests plan birthdays, banquets, group dinners, weddings, and business meetings with clear timing and service details.",
+		"image": "",
+		"publicRole": true,
+		"availableForGuestQuestions": true,
+		"specialties": [
+			"Banquets",
+			"Birthdays",
+			"Business meetings"
+		],
+		"languages": [
+			"Ukrainian",
+			"English"
+		],
+		"tips": "Ask Daria about guest count, menu options, seating, timing, decorations, and event flow.",
+		"body": [
+			"Daria turns event inquiries into clear plans that guests can understand before they confirm a date.",
+			"She coordinates with the kitchen, service team, bar, and management to keep birthdays, banquets, weddings, and group dinners organized.",
+			"Her public profile is useful because event guests often need a trusted person who can explain the process simply."
+		],
+		"highlights": [
+			"Plans banquets and private celebrations",
+			"Coordinates menu, seating, and timing",
+			"Supports guests from inquiry to event day"
+		]
+	},
+	{
+		"slug": "nazar-boyko",
+		"name": "Nazar Boyko",
+		"role": "Spa host",
+		"department": "Spa and wellness",
+		"seniority": "3 years in wellness service",
+		"description": "Nazar welcomes guests in the spa area, explains basic rules, coordinates time slots, and keeps the relax zone calm and comfortable.",
+		"image": "",
+		"publicRole": true,
+		"availableForGuestQuestions": true,
+		"specialties": [
+			"Spa guest support",
+			"Sauna rules",
+			"Relax zone timing"
+		],
+		"languages": [
+			"Ukrainian"
+		],
+		"tips": "Ask Nazar about available spa time, sauna rules, towels, rest areas, and guest capacity.",
+		"body": [
+			"Nazar is a public wellness team member because spa guests often need simple guidance before using sauna, hammam, pool, or rest areas.",
+			"He supports a calm guest flow, helps with towels and basic comfort, and keeps guests informed about timing and rules.",
+			"A spa host profile helps the business make wellness services feel more approachable and organized."
+		],
+		"highlights": [
+			"Welcomes guests in the spa zone",
+			"Explains sauna and relax area rules",
+			"Coordinates spa time slots and comfort"
+		]
+	},
+	{
+		"slug": "kateryna-rudenko",
+		"name": "Kateryna Rudenko",
+		"role": "Housekeeping lead",
+		"department": "Hotel housekeeping",
+		"seniority": "9 years in hotel housekeeping",
+		"description": "Kateryna leads room preparation standards and helps keep hotel spaces clean, calm, and ready for guest arrival.",
+		"image": "",
+		"publicRole": true,
+		"availableForGuestQuestions": false,
+		"specialties": [
+			"Room readiness",
+			"Cleanliness standards",
+			"Guest comfort"
+		],
+		"languages": [
+			"Ukrainian"
+		],
+		"tips": "Her work is mostly behind the scenes, but guests feel it through clean rooms, fresh linen, and prepared spaces.",
+		"body": [
+			"Kateryna is not usually part of long guest conversations, but her role is public enough to show because room comfort starts with housekeeping.",
+			"She helps maintain preparation standards for rooms, shared corridors, linen, and guest-ready spaces.",
+			"A housekeeping lead profile shows respect for the team members who make hotel stays feel clean, calm, and reliable."
+		],
+		"highlights": [
+			"Leads hotel room preparation standards",
+			"Supports clean and comfortable guest spaces",
+			"Coordinates room readiness with reception"
+		]
+	}
+]

@@ -1,0 +1,81 @@
+@let _dish = dish();
+
+<article
+	class="grid grid-cols-[minmax(0,1fr)_7.25rem] gap-3 px-3 py-3 sm:grid-cols-[minmax(0,1fr)_10rem]"
+>
+	<div class="min-w-0">
+		<div class="flex items-start justify-between gap-3">
+			<div class="min-w-0">
+				<h3
+					class="line-clamp-2 text-[1.05rem] font-semibold leading-5 text-[var(--c-text-secondary)]"
+				>
+					<span [translate]="_dish.name">{{ _dish.name }}</span>
+				</h3>
+				@if (_dish.soldOut) {
+					<span
+						class="mt-1 inline-flex rounded-full bg-[color:rgba(197,61,61,0.1)] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.08em] text-[var(--c-secondary)]"
+					>
+						<span [translate]="'Unavailable'">{{ 'Unavailable' }}</span>
+					</span>
+				}
+			</div>
+
+			<button
+				class="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-0 bg-transparent text-[var(--c-text-muted)] transition-colors duration-200 hover:text-[var(--c-secondary)]"
+				translate
+				[translate]="{
+					ariaLabel: isFavorite() ? 'Remove from favorites' : 'Add to favorites',
+				}"
+				(click)="dishService.togglerDishFavorite(_dish.slug)"
+				type="button"
+			>
+				<span
+					class="material-symbols-outlined"
+					[class.!text-[var(--c-secondary)]]="isFavorite()"
+					aria-hidden="true"
+				>
+					{{ isFavorite() ? 'favorite' : 'favorite_border' }}
+				</span>
+			</button>
+		</div>
+
+		<p class="mt-2 text-[1.2rem] font-semibold leading-none text-[var(--c-secondary)]">
+			@if (_dish.price === null) {
+				<span [translate]="'Ask for price'">{{ 'Ask for price' }}</span>
+			} @else {
+				{{ _dish.price }} ₴
+			}
+		</p>
+
+		@if (_dish.description) {
+			<p class="mt-2 line-clamp-3 text-[14px] leading-5 text-[var(--c-text-primary)]">
+				<span [translate]="_dish.description">{{ _dish.description }}</span>
+			</p>
+		}
+
+		@if (_dish.labels.length) {
+			<div
+				class="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-[12px] leading-4 text-[var(--c-text-muted)]"
+			>
+				@for (label of _dish.labels.slice(0, 3); track label) {
+					<span
+						><span [translate]="label">{{ label }}</span></span
+					>
+				}
+			</div>
+		}
+	</div>
+
+	<app-image
+		class="relative self-start overflow-hidden rounded-[0.75rem]"
+		imageClass="h-[5.9rem] w-full rounded-[0.75rem] object-cover sm:h-[7.25rem]"
+		mode="navigate"
+		[link]="['/dish', _dish.slug]"
+		[src]="_dish.image"
+		[width]="320"
+		[height]="232"
+		translate
+		[translate]="{ alt: _dish.imageAlt }"
+		loading="lazy"
+	/>
+</article>

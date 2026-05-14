@@ -1,0 +1,32 @@
+:host {
+	display: block;
+	background: var(--c-bg-primary);
+	color: var(--c-text-primary);
+}
+
+.jobs-card {
+	&__badges {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+
+	&__badge {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.35rem;
+		border-radius: 999px;
+		border: 1px solid color-mix(in srgb, var(--c-secondary) 32%, transparent);
+		background: color-mix(in srgb, var(--c-secondary) 9%, var(--c-bg-primary));
+		padding: 0.25rem 0.65rem;
+		color: var(--c-text-secondary);
+		font-size: 0.6875rem;
+		font-weight: 700;
+		line-height: 1.35;
+
+		span:first-child {
+			color: var(--c-secondary);
+			text-transform: uppercase;
+		}
+	}
+}

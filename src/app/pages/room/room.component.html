@@ -1,0 +1,99 @@
+<main class="mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
+	<section class="overflow-hidden rounded-[1.5rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)]">
+		<div class="grid gap-0 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)]">
+			<div class="relative min-h-[20rem] lg:min-h-[34rem]">
+				<img
+					class="object-cover"
+					[ngSrc]="room().image"
+					translate
+					[translate]="{ alt: room().imageAlt }"
+					fill
+					priority
+					sizes="(max-width: 1023px) 100vw, 56vw"
+				/>
+			</div>
+
+			<div class="flex flex-col justify-center px-4 py-6 sm:px-6 sm:py-8 lg:px-8 lg:py-10">
+				<a class="ui-btn ui-btn-secondary mb-6 self-start" routerLink="/rooms">
+					<span [translate]="'Back to rooms'">{{ 'Back to rooms' }}</span>
+				</a>
+
+				<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+					<span [translate]="'Room details'">{{ 'Room details' }}</span>
+				</p>
+				<h1 class="mt-3 text-[2rem] font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-[2.6rem]">
+					<span [translate]="room().name">{{ room().name }}</span>
+				</h1>
+				<p class="mt-4 text-sm leading-7 text-[var(--c-text-primary)]">
+					<span [translate]="room().description">{{ room().description }}</span>
+				</p>
+
+				@if (room().price) {
+					<p class="mt-5 text-lg font-semibold text-[var(--c-secondary)]">
+						<span [translate]="room().price">{{ room().price }}</span>
+					</p>
+				}
+
+				<div class="mt-6 flex flex-wrap gap-3">
+					<a class="ui-btn ui-btn-primary" href="tel:+380970000000">
+						<span [translate]="'Book now'">{{ 'Book now' }}</span>
+					</a>
+					<a class="ui-btn ui-btn-secondary" routerLink="/rooms">
+						<span [translate]="'Browse all rooms'">{{ 'Browse all rooms' }}</span>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="grid gap-5 border-t border-[var(--c-border)] px-4 py-6 sm:px-6 lg:grid-cols-[minmax(0,1fr)_22rem] lg:px-8">
+			<div class="space-y-5">
+				<article class="rounded-[1.25rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-5 sm:p-6">
+					<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">
+						<span [translate]="'About this room'">{{ 'About this room' }}</span>
+					</h2>
+					<div class="mt-4 space-y-4">
+						@for (paragraph of room().body; track paragraph) {
+							<p class="text-sm leading-7 text-[var(--c-text-primary)]">
+								<span [translate]="paragraph">{{ paragraph }}</span>
+							</p>
+						}
+					</div>
+				</article>
+
+				@if (facts().length) {
+					<article class="rounded-[1.25rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-5 sm:p-6">
+						<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">
+							<span [translate]="'Stay details'">{{ 'Stay details' }}</span>
+						</h2>
+						<div class="mt-4 grid gap-3 sm:grid-cols-2">
+							@for (fact of facts(); track fact.label) {
+								<div class="rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] p-4">
+									<p class="text-xs font-semibold uppercase tracking-[0.14em] text-[var(--c-text-muted)]">
+										<span [translate]="fact.label">{{ fact.label }}</span>
+									</p>
+									<p class="mt-2 text-sm leading-6 text-[var(--c-text-secondary)]">
+										<span [translate]="fact.value">{{ fact.value }}</span>
+									</p>
+								</div>
+							}
+						</div>
+					</article>
+				}
+			</div>
+
+			<aside class="h-fit rounded-[1.25rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-5 sm:p-6">
+				<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">
+					<span [translate]="'Included amenities'">{{ 'Included amenities' }}</span>
+				</h2>
+				<ul class="mt-4 space-y-3">
+					@for (amenity of room().amenities; track amenity) {
+						<li class="flex gap-3 text-sm leading-6 text-[var(--c-text-primary)]">
+							<span class="material-symbols-outlined mt-0.5 text-[18px] text-[var(--c-secondary)]" aria-hidden="true">check_circle</span>
+							<span [translate]="amenity">{{ amenity }}</span>
+						</li>
+					}
+				</ul>
+			</aside>
+		</div>
+	</section>
+</main>

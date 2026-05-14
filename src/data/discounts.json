@@ -1,0 +1,102 @@
+[
+	{
+		"slug": "weekday-lunch-discount",
+		"title": "Weekday lunch discount",
+		"summary": "Save on a relaxed lunch visit from Monday to Friday.",
+		"description": "Guests receive a discount on selected lunch dishes during weekday service.",
+		"badge": "Popular offer",
+		"period": "Monday-Friday, 12:00-16:00",
+		"terms": "Offer applies to dine-in lunch orders and cannot be combined with other promotions.",
+		"ctaLabel": "Reserve a table",
+		"ctaUrl": "/socials",
+		"body": [
+			"Plan an easy midday visit with a lower-priced lunch selection prepared for regular weekday service.",
+			"The offer is designed for guests who want a quicker meal while still choosing from the restaurant's core dishes."
+		],
+		"highlights": [
+			"Available every weekday during lunch hours",
+			"Applies to selected dine-in menu items",
+			"Simple terms guests can understand before ordering"
+		]
+	},
+	{
+		"slug": "family-dinner-offer",
+		"title": "Family dinner offer",
+		"summary": "Enjoy a comfortable evening meal with a special offer for family visits.",
+		"description": "Families can receive a discount on selected dinner sets, shared dishes, or children’s menu items.",
+		"badge": "Family friendly",
+		"period": "Sunday-Thursday, 17:00-21:00",
+		"terms": "Offer applies to dine-in orders for groups with children and may depend on menu availability.",
+		"ctaLabel": "Book family dinner",
+		"ctaUrl": "/socials",
+		"body": [
+			"A family dinner should feel easy, warm, and comfortable for guests of different ages.",
+			"This offer helps families plan an evening visit with shared dishes, simple choices, and a more relaxed final bill."
+		],
+		"highlights": [
+			"Good for parents visiting with children",
+			"Can apply to shared dishes or kids menu",
+			"Best for calm evening family meals"
+		]
+	},
+	{
+		"slug": "birthday-celebration-bonus",
+		"title": "Birthday celebration bonus",
+		"summary": "Make a birthday visit feel more special with a small bonus from the venue.",
+		"description": "Birthday guests may receive a complimentary dessert, drink, or discount when celebrating with a reservation.",
+		"badge": "Birthday bonus",
+		"period": "Available during birthday week",
+		"terms": "Guest may need to show proof of birthday. Offer applies with advance reservation and depends on venue rules.",
+		"ctaLabel": "Plan celebration",
+		"ctaUrl": "/socials",
+		"body": [
+			"A birthday does not always need a large banquet to feel memorable.",
+			"This bonus gives guests a simple reason to celebrate at the venue, whether they come for dinner, coffee, or a small gathering with friends."
+		],
+		"highlights": [
+			"Works for small and large celebrations",
+			"Can include dessert, drink, or discount",
+			"Advance reservation is recommended"
+		]
+	},
+	{
+		"slug": "hotel-guest-restaurant-discount",
+		"title": "Hotel guest restaurant discount",
+		"summary": "Hotel guests can enjoy special prices in the restaurant during their stay.",
+		"description": "Guests staying at the hotel may receive a discount on selected restaurant orders, breakfasts, or drinks.",
+		"badge": "For hotel guests",
+		"period": "During active hotel stay",
+		"terms": "Offer applies only to registered hotel guests and selected restaurant items.",
+		"ctaLabel": "Book a room",
+		"ctaUrl": "/rooms",
+		"body": [
+			"A hotel stay becomes more convenient when guests can enjoy food and drinks without leaving the property.",
+			"This discount connects accommodation and restaurant service, giving guests a simple benefit during their visit."
+		],
+		"highlights": [
+			"Available for registered hotel guests",
+			"Useful for breakfast, lunch, or dinner",
+			"Encourages guests to dine on-site"
+		]
+	},
+	{
+		"slug": "coffee-and-dessert-combo",
+		"title": "Coffee and dessert combo",
+		"summary": "Take a small break with a special price for coffee and dessert together.",
+		"description": "Guests can order selected coffee and dessert combinations at a better price during quieter hours.",
+		"badge": "Coffee time",
+		"period": "Daily, 14:00-17:00",
+		"terms": "Offer applies to selected coffee and dessert combinations while available.",
+		"ctaLabel": "See contacts",
+		"ctaUrl": "/socials",
+		"body": [
+			"Coffee time is a simple way to turn an ordinary afternoon into a pleasant pause.",
+			"This combo is designed for guests who want a warm drink, a small dessert, and a comfortable table without planning a full meal."
+		],
+		"highlights": [
+			"Perfect for afternoon visits",
+			"Combines selected coffee and desserts",
+			"Good for cafes, restaurants, and hotel lounges"
+		]
+	}
+]

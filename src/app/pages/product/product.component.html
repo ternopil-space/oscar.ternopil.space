@@ -1,0 +1,76 @@
+<main class="mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
+	<article class="overflow-hidden rounded-[1.5rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)]">
+		<header class="border-b border-[var(--c-border)] px-4 py-8 sm:px-6 lg:px-8">
+			<a class="ui-btn ui-btn-secondary mb-6 inline-flex" routerLink="/products">
+				<span [translate]="'Products'">{{ 'Products' }}</span>
+			</a>
+
+			<div class="flex flex-wrap items-center gap-3">
+				@if (product().category) {
+					<p
+						class="inline-flex rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--c-secondary)]"
+					>
+						<span [translate]="product().category">{{ product().category }}</span>
+					</p>
+				}
+				@if (product().badge) {
+					<p class="text-xs uppercase tracking-[0.12em] text-[var(--c-text-muted)]">
+						<span [translate]="product().badge">{{ product().badge }}</span>
+					</p>
+				}
+				@if (product().price) {
+					<p class="text-xs uppercase tracking-[0.12em] text-[var(--c-text-muted)]">
+						<span [translate]="product().price">{{ product().price }}</span>
+					</p>
+				}
+			</div>
+
+			<h1 class="mt-5 max-w-[18ch] text-[2.25rem] font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-5xl">
+				<span [translate]="product().title">{{ product().title }}</span>
+			</h1>
+			@if (product().summary) {
+				<p class="mt-5 max-w-[44rem] text-[15px] leading-7 text-[var(--c-text-primary)]">
+					<span [translate]="product().summary">{{ product().summary }}</span>
+				</p>
+			}
+		</header>
+
+		<div class="grid gap-6 px-4 py-6 sm:px-6 lg:grid-cols-[minmax(0,1fr)_20rem] lg:px-8">
+			<div class="space-y-5">
+				@for (paragraph of product().details; track paragraph) {
+					<p class="text-[15px] leading-8 text-[var(--c-text-primary)]">
+						<span [translate]="paragraph">{{ paragraph }}</span>
+					</p>
+				}
+			</div>
+
+			@if (product().highlights.length || product().ctaHref) {
+				<aside
+					class="h-fit rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 sm:p-5"
+				>
+					@if (product().highlights.length) {
+						<ul class="space-y-3">
+							@for (highlight of product().highlights; track highlight) {
+								<li class="flex gap-3 text-sm leading-6 text-[var(--c-text-primary)]">
+									<span class="material-symbols-outlined mt-0.5 text-[18px] text-[var(--c-secondary)]" aria-hidden="true">check_circle</span>
+									<span [translate]="highlight">{{ highlight }}</span>
+								</li>
+							}
+						</ul>
+					}
+
+					@if (product().ctaHref) {
+						<a
+							class="ui-btn ui-btn-primary mt-5 w-full"
+							[href]="product().ctaHref"
+							[target]="product().ctaHref.startsWith('http') ? '_blank' : null"
+							[rel]="product().ctaHref.startsWith('http') ? 'noreferrer' : null"
+						>
+							<span [translate]="(product().ctaLabel || 'Order now')">{{ (product().ctaLabel || 'Order now') }}</span>
+						</a>
+					}
+				</aside>
+			}
+		</div>
+	</article>
+</main>

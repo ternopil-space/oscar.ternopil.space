@@ -1,0 +1,72 @@
+<main class="mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
+	<article class="overflow-hidden rounded-[1.5rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)]">
+		<header class="border-b border-[var(--c-border)] px-4 py-8 sm:px-6 lg:px-8">
+			<a class="ui-btn ui-btn-secondary mb-6 inline-flex" routerLink="/quests">
+				<span [translate]="'Back to quests'">{{ 'Back to quests' }}</span>
+			</a>
+
+			<div class="flex flex-wrap items-center gap-3">
+				<p
+					class="inline-flex rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--c-secondary)]"
+				>
+					<span [translate]="(quest().format || 'Quest')">{{ (quest().format || 'Quest') }}</span>
+				</p>
+				@if (quest().duration) {
+					<p class="text-xs uppercase tracking-[0.12em] text-[var(--c-text-muted)]">
+						<span [translate]="quest().duration">{{ quest().duration }}</span>
+					</p>
+				}
+				@if (quest().price) {
+					<p class="text-xs uppercase tracking-[0.12em] text-[var(--c-text-muted)]">
+						<span [translate]="quest().price">{{ quest().price }}</span>
+					</p>
+				}
+			</div>
+
+			<h1 class="mt-5 max-w-[18ch] text-[2.25rem] font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-5xl">
+				<span [translate]="quest().title">{{ quest().title }}</span>
+			</h1>
+			<p class="mt-5 max-w-[44rem] text-[15px] leading-7 text-[var(--c-text-primary)]">
+				<span [translate]="quest().summary">{{ quest().summary }}</span>
+			</p>
+		</header>
+
+		<div class="grid gap-6 px-4 py-6 sm:px-6 lg:grid-cols-[minmax(0,1fr)_20rem] lg:px-8">
+			<div class="space-y-5">
+				@for (paragraph of quest().body; track paragraph) {
+					<p class="text-[15px] leading-8 text-[var(--c-text-primary)]">
+						<span [translate]="paragraph">{{ paragraph }}</span>
+					</p>
+				}
+			</div>
+
+			<aside class="h-fit rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 sm:p-5">
+				<h2 class="text-lg font-semibold text-[var(--c-text-secondary)]">
+					<span [translate]="'Quest highlights'">{{ 'Quest highlights' }}</span>
+				</h2>
+
+				@if (quest().highlights.length) {
+					<ul class="mt-4 space-y-3">
+						@for (highlight of quest().highlights; track highlight) {
+							<li class="flex gap-3 text-sm leading-6 text-[var(--c-text-primary)]">
+								<span class="material-symbols-outlined mt-0.5 text-[18px] text-[var(--c-secondary)]" aria-hidden="true">check_circle</span>
+								<span [translate]="highlight">{{ highlight }}</span>
+							</li>
+						}
+					</ul>
+				}
+
+				@if (quest().ctaHref) {
+					<a
+						class="ui-btn ui-btn-primary mt-6 w-full justify-center"
+						[href]="quest().ctaHref"
+						[attr.target]="quest().ctaHref.startsWith('http') ? '_blank' : null"
+						[attr.rel]="quest().ctaHref.startsWith('http') ? 'noreferrer' : null"
+					>
+						<span [translate]="(quest().ctaLabel || 'Contact us')">{{ (quest().ctaLabel || 'Contact us') }}</span>
+					</a>
+				}
+			</aside>
+		</div>
+	</article>
+</main>

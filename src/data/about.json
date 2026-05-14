@@ -1,0 +1,71 @@
+{
+	"eyebrow": "About us",
+	"title": "Hotel, restaurant, and cafe complex",
+	"description": "A comfortable place for stays, meals, meetings, and family celebrations with friendly service and practical guest facilities.",
+	"tags": [
+		"Family and friends rest",
+		"Weddings, banquets, and birthdays",
+		"Conferences and business meetings"
+	],
+	"intro": {
+		"title": "Everything guests need in one place",
+		"text": "Our complex combines hospitality, food, events, and relaxation in one convenient location. Guests can come for a quiet meal, book a room, celebrate an important date, or organize a business meeting with support from our team.",
+		"image": "assets/images/about/intro.jpg"
+	},
+	"sections": [
+		{
+			"icon": "hotel",
+			"title": "Hotel",
+			"items": [
+				"Comfortable rooms for short and long stays",
+				"Wi-Fi, air conditioning, and essential room facilities",
+				"Secure parking for guests",
+				"Easy check-in and guest support"
+			]
+		},
+		{
+			"icon": "restaurant",
+			"title": "Restaurant",
+			"items": [
+				"Daily service for breakfast, lunch, and dinner",
+				"Local and European-style cuisine",
+				"Seasonal dishes and drinks",
+				"Room service may be available for hotel guests"
+			]
+		},
+		{
+			"icon": "celebration",
+			"title": "Banquet halls",
+			"items": [
+				"Spaces for weddings, birthdays, and family events",
+				"Group menu and banquet options",
+				"Support with seating plan and timing",
+				"Atmosphere suitable for private celebrations"
+			]
+		},
+		{
+			"icon": "groups",
+			"title": "Events and conferences",
+			"items": [
+				"Space for business meetings and presentations",
+				"Coffee breaks, lunches, and dinners on request",
+				"Equipment options may be available",
+				"Flexible format for small and medium groups"
+			]
+		},
+		{
+			"icon": "spa",
+			"title": "Relax zone",
+			"items": [
+				"Relaxation areas for guests",
+				"Sauna, pool, terrace, or outdoor spaces may be available",
+				"Suitable for quiet rest after work or travel",
+				"Family-friendly leisure options"
+			]
+		}
+	],
+	"service": {
+		"title": "Our service",
+		"text": "Our team helps guests plan their stay, meal, celebration, or meeting with attention to comfort, timing, and important details."
+	}
+}

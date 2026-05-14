@@ -1,0 +1,145 @@
+<main class="mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
+	<section
+		class="overflow-hidden rounded-[1.5rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
+	>
+		<div class="grid gap-6 p-4 sm:p-6 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.82fr)] lg:items-center lg:p-8">
+			<div class="space-y-5">
+				<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+					<span [translate]="'HoReCa website overview'">{{ 'HoReCa website overview' }}</span>
+				</p>
+				<h1 class="max-w-[13ch] text-4xl font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-5xl">
+					{{ company.name }}
+				</h1>
+				<p class="max-w-2xl text-sm leading-7 text-[var(--c-text-primary)] sm:text-[15px]">
+					<span [translate]="'A practical hospitality landing page that brings together menus, venue pages, gallery content, guest feedback, events, products, jobs, and contact details.'">
+						{{ 'A practical hospitality landing page that brings together menus, venue pages, gallery content, guest feedback, events, products, jobs, and contact details.' }}
+					</span>
+				</p>
+				<div class="flex flex-wrap gap-3">
+					<a class="ui-btn ui-btn-primary" routerLink="/menu">
+						<span [translate]="'View menu'">{{ 'View menu' }}</span>
+					</a>
+					<a class="ui-btn ui-btn-secondary" routerLink="/navigation">
+						<span [translate]="'Browse all pages'">{{ 'Browse all pages' }}</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
+				<img
+					class="h-52 w-full rounded-[1.2rem] border border-[var(--c-border)] object-cover sm:h-60 lg:h-56"
+					ngSrc="/gallery/demo-1.webp"
+					translate
+					[translate]="{ alt: 'Hospitality venue preview' }"
+					width="900"
+					height="600"
+					priority
+				/>
+				<div class="rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4">
+					<p class="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--c-text-muted)]">
+						<span [translate]="'Quick facts'">{{ 'Quick facts' }}</span>
+					</p>
+					<div class="mt-3 space-y-3 text-sm leading-6 text-[var(--c-text-primary)]">
+						<p>
+							<span class="font-semibold text-[var(--c-text-secondary)]" [translate]="'Phone'">{{ 'Phone' }}</span>
+							<span class="ml-2">{{ company.phone }}</span>
+						</p>
+						<p>
+							<span class="font-semibold text-[var(--c-text-secondary)]" [translate]="'Email'">{{ 'Email' }}</span>
+							<span class="ml-2 break-all">{{ company.email }}</span>
+						</p>
+						<p>
+							<span class="font-semibold text-[var(--c-text-secondary)]" [translate]="'Address'">{{ 'Address' }}</span>
+							<span class="ml-2">{{ company.address }}</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="mt-4 rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] p-4 sm:p-6">
+		<div class="flex flex-col gap-3 border-b border-[var(--c-border)] pb-5 sm:flex-row sm:items-end sm:justify-between">
+			<div>
+				<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+					<span [translate]="'Featured sections'">{{ 'Featured sections' }}</span>
+				</p>
+				<h2 class="mt-3 text-2xl font-semibold leading-tight text-[var(--c-text-secondary)]">
+					<span [translate]="'Open one document, or jump into the full collection'">
+						{{ 'Open one document, or jump into the full collection' }}
+					</span>
+				</h2>
+			</div>
+			<a class="ui-btn ui-btn-secondary self-start sm:self-auto" routerLink="/navigation">
+				<span [translate]="'Browse all pages'">{{ 'Browse all pages' }}</span>
+			</a>
+		</div>
+
+		<div class="mt-5 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+			@for (section of featurePreviews(); track section.itemRoute) {
+				<article class="flex min-h-[21rem] flex-col rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 sm:p-5">
+					<a
+						class="group flex flex-1 flex-col focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--c-secondary)]"
+						[routerLink]="section.itemRoute"
+					>
+						@if (section.imageSrc) {
+							<img
+								class="mb-4 h-44 w-full rounded-[1rem] border border-[var(--c-border)] object-cover"
+								[ngSrc]="section.imageSrc"
+								translate
+								[translate]="{ alt: section.imageAlt ?? section.title }"
+								width="640"
+								height="420"
+							/>
+						}
+
+						<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+							<span [translate]="section.eyebrow">{{ section.eyebrow }}</span>
+						</p>
+
+						<h3 class="mt-3 text-xl font-semibold leading-tight text-[var(--c-text-secondary)] transition-colors duration-200 group-hover:text-[var(--c-secondary)]">
+							<span [translate]="section.title">{{ section.title }}</span>
+						</h3>
+
+						<p class="mt-3 line-clamp-4 text-sm leading-7 text-[var(--c-text-primary)]">
+							<span [translate]="section.summary">{{ section.summary }}</span>
+						</p>
+
+						@if (section.meta) {
+							<p class="mt-auto pt-4 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--c-text-muted)]">
+								<span [translate]="section.meta">{{ section.meta }}</span>
+							</p>
+						}
+					</a>
+
+					<a class="mt-4 text-sm font-semibold text-[var(--c-secondary)] transition-opacity hover:opacity-80" [routerLink]="section.allRoute">
+						<span [translate]="section.seeAllLabel">{{ section.seeAllLabel }}</span>
+					</a>
+				</article>
+			}
+		</div>
+	</section>
+
+	<section class="mt-4 rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] p-4 sm:p-6">
+		<div class="grid gap-5 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1fr)] lg:items-start">
+			<div>
+				<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+					<span [translate]="'Built for HoReCa'">{{ 'Built for HoReCa' }}</span>
+				</p>
+				<h2 class="mt-3 text-2xl font-semibold leading-tight text-[var(--c-text-secondary)]">
+					<span [translate]="'Generic hospitality content, organized for real visitors'">
+						{{ 'Generic hospitality content, organized for real visitors' }}
+					</span>
+				</h2>
+			</div>
+
+			<div class="grid gap-3">
+				@for (highlight of horecaHighlights; track highlight) {
+					<p class="rounded-[1rem] bg-[var(--c-bg-primary)] p-4 text-sm leading-7 text-[var(--c-text-primary)]">
+						<span [translate]="highlight">{{ highlight }}</span>
+					</p>
+				}
+			</div>
+		</div>
+	</section>
+</main>

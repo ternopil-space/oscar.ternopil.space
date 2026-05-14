@@ -1,0 +1,122 @@
+[
+	{
+		"question": "Where are you located?",
+		"answer": "You can find our address, map link, and contact details on the contact page."
+	},
+	{
+		"question": "What are your opening hours?",
+		"answer": "Opening hours may change by season, holidays, or private events, so please check the latest schedule before visiting."
+	},
+	{
+		"question": "Do I need to make a reservation?",
+		"answer": "Reservations are recommended for evenings, weekends, holidays, and groups. Walk-ins are welcome when space is available."
+	},
+	{
+		"question": "How can I make a reservation?",
+		"answer": "You can reserve by phone, through the website, social media, or by visiting us directly."
+	},
+	{
+		"question": "Can I change or cancel my reservation?",
+		"answer": "Yes. Please contact us as early as possible so we can update your booking and free the table or room for other guests."
+	},
+	{
+		"question": "Do you accept card payments?",
+		"answer": "Card payments are usually accepted. Cash payment may also be available depending on the location and service."
+	},
+	{
+		"question": "Do you offer takeout?",
+		"answer": "Selected dishes and drinks may be available for takeout. Please contact us to confirm availability and preparation time."
+	},
+	{
+		"question": "Do you offer delivery?",
+		"answer": "Delivery depends on the area, order size, and current workload. Contact us to check available delivery options."
+	},
+	{
+		"question": "Do you have vegetarian options?",
+		"answer": "Yes, the menu may include vegetarian dishes. Our team can recommend the best current options."
+	},
+	{
+		"question": "Do you have vegan options?",
+		"answer": "Some dishes may be vegan or adapted on request. Please tell us your preferences before ordering."
+	},
+	{
+		"question": "Can you adapt dishes for allergies?",
+		"answer": "Please inform our team about allergies before ordering. We will explain ingredients and possible preparation limits."
+	},
+	{
+		"question": "Do you have a children's menu?",
+		"answer": "Some dishes may be suitable for children or served in smaller portions. Please ask our team for options."
+	},
+	{
+		"question": "Is your place family-friendly?",
+		"answer": "Yes, families are welcome. Children’s chairs, play areas, or special facilities may depend on the venue."
+	},
+	{
+		"question": "Can I visit with pets?",
+		"answer": "Pet policy depends on the area, season, and local rules. Please contact us before visiting with a pet."
+	},
+	{
+		"question": "Do you have parking?",
+		"answer": "Parking availability depends on the location. Check the contact page or ask our team for nearby parking options."
+	},
+	{
+		"question": "Is Wi-Fi available?",
+		"answer": "Wi-Fi may be available for guests. Please ask our team for access details during your visit."
+	},
+	{
+		"question": "Can I organize a birthday or private event?",
+		"answer": "Yes, we can host birthdays, family celebrations, business meetings, and private events depending on availability."
+	},
+	{
+		"question": "Do you offer banquet or group menus?",
+		"answer": "Group and banquet menu options may be available. We can prepare an offer based on guest count and event format."
+	},
+	{
+		"question": "How far in advance should I book an event?",
+		"answer": "We recommend booking as early as possible, especially for weekends, holidays, and high season dates."
+	},
+	{
+		"question": "Can you decorate the space for an event?",
+		"answer": "Decoration options depend on the event type and venue rules. Please discuss your ideas with our team in advance."
+	},
+	{
+		"question": "Can I bring my own cake?",
+		"answer": "This depends on our current policy and event format. Please contact us in advance to confirm."
+	},
+	{
+		"question": "Do you provide catering?",
+		"answer": "Catering may be available for private events, offices, and special occasions. Contact us to discuss menu and timing."
+	},
+	{
+		"question": "Do you have hotel rooms?",
+		"answer": "If accommodation is available, room details, prices, and booking options are listed on the rooms or booking page."
+	},
+	{
+		"question": "What time is check-in and check-out?",
+		"answer": "Standard check-in and check-out times may vary. Please check your booking details or contact us before arrival."
+	},
+	{
+		"question": "Can I request early check-in or late check-out?",
+		"answer": "Early check-in and late check-out depend on room availability. Contact us in advance and we will try to help."
+	},
+	{
+		"question": "Is breakfast included?",
+		"answer": "Breakfast depends on the room rate or booking option. Please check your reservation details or ask our team."
+	},
+	{
+		"question": "Do you have rooms for families?",
+		"answer": "Family rooms or extra beds may be available depending on the property. Contact us to choose the best option."
+	},
+	{
+		"question": "Do you allow smoking?",
+		"answer": "Smoking rules depend on the area and local regulations. Please ask our team about designated smoking areas."
+	},
+	{
+		"question": "Do you offer gift certificates?",
+		"answer": "Gift certificates may be available for meals, stays, or services. Contact us to check available formats."
+	},
+	{
+		"question": "How can I contact you quickly?",
+		"answer": "The fastest way is usually by phone or direct message through the contact options listed on our website."
+	}
+]

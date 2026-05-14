@@ -1,0 +1,55 @@
+@if (isNavigation()) {
+	<a
+		[class]="triggerClass()"
+		[routerLink]="link()"
+		translate
+		[translate]="{ ariaLabel: openAriaLabel() }"
+	>
+		<img
+			[class]="thumbnailClass()"
+			translate
+			[translate]="{ alt: alt() }"
+			[ngSrc]="src()"
+			[width]="width()"
+			[height]="height()"
+			[loading]="loading()"
+		/>
+	</a>
+} @else {
+	<button
+		[class]="triggerClass()"
+		translate
+		[translate]="{ ariaLabel: openAriaLabel() }"
+		(click)="open()"
+		type="button"
+	>
+		<img
+			[class]="thumbnailClass()"
+			translate
+			[translate]="{ alt: alt() }"
+			[ngSrc]="src()"
+			[width]="width()"
+			[height]="height()"
+			[loading]="loading()"
+		/>
+	</button>
+}
+
+@if (isFullscreen()) {
+	<button
+		class="fullscreen-backdrop fixed inset-0 z-50 flex cursor-zoom-out items-center justify-center bg-black/88 p-4"
+		translate
+		[translate]="{ ariaLabel: closeLabel() }"
+		(click)="close()"
+		type="button"
+	>
+		<img
+			[class]="expandedImageClass()"
+			translate
+			[translate]="{ alt: alt() }"
+			[ngSrc]="src()"
+			[width]="width()"
+			[height]="height()"
+		/>
+	</button>
+}

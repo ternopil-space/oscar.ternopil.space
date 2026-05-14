@@ -1,0 +1,111 @@
+<main class="mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
+	@if (isLoading()) {
+		<section
+			class="rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center sm:px-6 sm:py-14"
+			aria-busy="true"
+			aria-live="polite"
+		>
+			<div
+				class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
+			>
+				<span class="material-symbols-outlined animate-pulse text-[28px]" aria-hidden="true">
+					event_upcoming
+				</span>
+			</div>
+
+			<p class="mt-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+				<span [translate]="'Events'">{{ 'Events' }}</span>
+			</p>
+			<p class="mt-2 text-sm text-[var(--c-text-muted)]"><span [translate]="'Loading events...'">{{ 'Loading events...' }}</span></p>
+		</section>
+	} @else if (events().length) {
+		<section
+			class="overflow-hidden rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
+		>
+			<div
+				class="border-b border-[var(--c-border)] bg-[linear-gradient(135deg,rgba(197,61,61,0.14),rgba(217,168,88,0.08))] px-4 py-5 sm:px-5"
+			>
+				<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+					<span [translate]="'Events'">{{ 'Events' }}</span>
+				</p>
+				<h1 class="mt-2 text-2xl font-semibold text-[var(--c-text-secondary)]">
+					<span [translate]="'Events and private formats'">{{ 'Events and private formats' }}</span>
+				</h1>
+			</div>
+
+			<div class="grid gap-3 p-3 sm:grid-cols-2 sm:p-4 xl:grid-cols-3">
+				@for (event of events(); track event.slug) {
+					<a
+						class="flex h-full flex-col rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-4 transition-colors duration-200 hover:border-[var(--c-secondary)]/60 hover:bg-[var(--c-bg-secondary)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--c-secondary)]"
+						[routerLink]="['/event', event.slug]"
+						translate [translate]="{ ariaLabel: 'Open event details' }"
+					>
+						<div class="space-y-3">
+							<div class="flex flex-col gap-3">
+								<h2 class="text-lg font-semibold text-[var(--c-text-secondary)]">
+									<span [translate]="event.title">{{ event.title }}</span>
+								</h2>
+								<span
+									class="w-fit rounded-full border border-[var(--c-border)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-[var(--c-secondary)]"
+								>
+									<span [translate]="(event.format || 'Event')">{{ (event.format || 'Event') }}</span>
+								</span>
+							</div>
+
+							@if (event.summary) {
+								<p class="text-sm leading-6 text-[var(--c-text-muted)]">
+									<span [translate]="event.summary">{{ event.summary }}</span>
+								</p>
+							}
+
+							<div class="flex flex-wrap gap-2 text-xs font-medium text-[var(--c-text-muted)]">
+								@if (event.dateLabel) {
+									<span class="rounded-full border border-[var(--c-border)] px-3 py-1">
+										<span [translate]="event.dateLabel">{{ event.dateLabel }}</span>
+									</span>
+								}
+								@if (event.timeLabel) {
+									<span class="rounded-full border border-[var(--c-border)] px-3 py-1">
+										<span [translate]="event.timeLabel">{{ event.timeLabel }}</span>
+									</span>
+								}
+								@if (event.location) {
+									<span class="rounded-full border border-[var(--c-border)] px-3 py-1">
+										<span [translate]="event.location">{{ event.location }}</span>
+									</span>
+								}
+								@if (event.capacity) {
+									<span class="rounded-full border border-[var(--c-border)] px-3 py-1">
+										<span [translate]="event.capacity">{{ event.capacity }}</span>
+									</span>
+								}
+							</div>
+						</div>
+
+					</a>
+				}
+			</div>
+		</section>
+	} @else {
+		<section
+			class="rounded-[1.2rem] border border-dashed border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center sm:px-6 sm:py-14"
+		>
+			<div
+				class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
+			>
+				<span class="material-symbols-outlined text-[28px]" aria-hidden="true">event</span>
+			</div>
+
+			<p class="mt-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+				<span [translate]="'Events'">{{ 'Events' }}</span>
+			</p>
+
+			<h1 class="mt-2 text-xl font-semibold text-[var(--c-text-secondary)]">
+				<span [translate]="'No events at the moment'">{{ 'No events at the moment' }}</span>
+			</h1>
+			<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]">
+				<span [translate]="'New events are on the way'">{{ 'New events are on the way' }}</span>
+			</p>
+		</section>
+	}
+</main>
